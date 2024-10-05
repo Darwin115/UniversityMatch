@@ -1,0 +1,244 @@
+[
+      {
+        "nombre": "Ingeniería en Sistemas Computacionales",
+        "descripcion": "Forma profesionales en el desarrollo, implementación y administración de sistemas computacionales. Incluye diseño de software, redes y sistemas de información."
+      },
+      {
+        "nombre": "Ingeniería Electrónica",
+        "descripcion": "Enfocada en la creación y mantenimiento de dispositivos electrónicos, incluyendo circuitos, sistemas embebidos y comunicaciones electrónicas."
+      },
+      {
+        "nombre": "Ingeniería Industrial",
+        "descripcion": "Optimiza procesos y recursos en empresas. Incluye logística, administración de operaciones y mejora de procesos."
+      },
+      {
+        "nombre": "Ingeniería Mecánica",
+        "descripcion": "Prepara para el diseño y fabricación de maquinaria y equipos mecánicos, incluyendo termodinámica, mecánica de fluidos y diseño mecánico."
+      },
+      {
+        "nombre": "Ingeniería Química",
+        "descripcion": "Aborda la transformación de materias primas en productos químicos, estudiando procesos químicos, reacciones y seguridad en el manejo de sustancias."
+      },
+      {
+        "nombre": "Licenciatura en Administración Industrial",
+        "descripcion": "Gestiona y administra recursos industriales, cubriendo administración de la producción, calidad y logística."
+      },
+      {
+        "nombre": "Ingeniería en Tecnologías de la Información y Comunicaciones",
+        "descripcion": "Enfocada en la integración de tecnologías de información y comunicación para el desarrollo de soluciones tecnológicas eficientes en diversos sectores."
+      },
+      {
+        "nombre": "Licenciatura en Ingeniería de Audio",
+        "descripcion": "Especializada en la captura, edición y producción de sonido para medios de comunicación, espectáculos y entornos virtuales."
+      },
+      {
+        "nombre": "Licenciatura en Contaduría Pública",
+        "descripcion": "Forma expertos en gestión financiera y contable, incluyendo contabilidad financiera, auditoría y fiscalidad."
+      },
+      {
+        "nombre": "Licenciatura en Diseño Gráfico",
+        "descripcion": "Prepara para crear contenido visual en diversos medios, incluyendo diseño digital, teoría del color y comunicación visual."
+      },
+      {
+        "nombre": "Licenciatura en Mercadotecnia",
+        "descripcion": "Estudia mercados y estrategias de promoción de productos y servicios, incluyendo investigación de mercado, publicidad y ventas."
+      },
+      {
+        "nombre": "Licenciatura en Relaciones Internacionales",
+        "descripcion": "Estudia relaciones entre países y organizaciones internacionales, incluyendo política exterior, comercio internacional y derechos humanos."
+      },
+      {
+        "nombre": "Ingeniería en Energías Renovables",
+        "descripcion": "Especializada en el desarrollo y gestión de tecnologías para la generación de energía a partir de fuentes renovables, como solar y eólica."
+      },
+      {
+        "nombre": "Ingeniería en Logística y Transporte",
+        "descripcion": "Enfocada en la gestión y optimización de procesos logísticos y de transporte, incluyendo cadenas de suministro y distribución."
+      },
+      {
+        "nombre": "Licenciatura en Educación",
+        "descripcion": "Forma profesionales en el ámbito educativo, cubriendo pedagogía, didáctica y administración educativa."
+      },
+      {
+        "nombre": "Licenciatura en Psicología",
+        "descripcion": "Estudia el comportamiento humano y los procesos mentales, incluyendo terapia psicológica y evaluación psicológica."
+      },
+      {
+        "nombre": "Licenciatura en Derecho",
+        "descripcion": "Forma profesionales en la aplicación y estudio del derecho, incluyendo legislación, jurisprudencia y ética legal."
+      },
+      {
+        "nombre": "Ingeniería en Telecomunicaciones",
+        "descripcion": "Especializada en el diseño, implementación y gestión de sistemas de telecomunicaciones, incluyendo redes y sistemas de comunicación."
+      },
+      {
+        "nombre": "Licenciatura en Arquitectura",
+        "descripcion": "Prepara para el diseño y planificación de edificios y espacios urbanos, incluyendo técnicas de construcción y estética arquitectónica."
+      },
+      {
+        "nombre": "Licenciatura en Ciencias de la Computación",
+        "descripcion": "Enfocada en el estudio de algoritmos, estructuras de datos y programación, preparando para el desarrollo de software y sistemas informáticos."
+      },
+      {
+        "nombre": "Licenciatura en Comunicación",
+        "descripcion": "Estudia los medios de comunicación y las técnicas de transmisión de mensajes, incluyendo periodismo, producción audiovisual y relaciones públicas."
+      },
+      {
+        "nombre": "Ingeniería en Diseño Industrial",
+        "descripcion": "Especializada en el diseño y desarrollo de productos industriales, combinando aspectos funcionales, estéticos y ergonómicos."
+      },
+      {
+        "nombre": "Ingeniería en Gestión Empresarial",
+        "descripcion": "Forma profesionales en la administración y gestión eficiente de empresas, con énfasis en estrategia, innovación y liderazgo."
+      },
+      {
+        "nombre": "Ingeniería en Robótica",
+        "descripcion": "Especializada en el diseño, construcción y programación de robots y sistemas automatizados para diversas aplicaciones industriales y de servicio."
+      },
+      {
+        "nombre": "Ingeniería en Bioquímica",
+        "descripcion": "Estudia las aplicaciones de la química en procesos biológicos, incluyendo biotecnología, farmacología y análisis bioquímicos."
+      },
+      {
+        "nombre": "Licenciatura en Biotecnología",
+        "descripcion": "Se enfoca en la aplicación de principios biológicos y químicos para desarrollar tecnologías y productos innovadores en áreas como salud y agricultura."
+      },
+      {
+        "nombre": "Licenciatura en Ciencias Políticas",
+        "descripcion": "Estudia las estructuras y procesos políticos, la teoría política y la administración pública, preparando a los estudiantes para roles en gobierno y organizaciones internacionales."
+      },
+      {
+        "nombre": "Licenciatura en Sociología",
+        "descripcion": "Explora las estructuras sociales, el comportamiento humano y las instituciones sociales, enfocándose en el análisis y la investigación social."
+      },
+      {
+        "nombre": "Licenciatura en Historia",
+        "descripcion": "Forma historiadores que estudian y analizan eventos históricos, procesos y contextos para comprender el desarrollo de las sociedades humanas."
+      },
+      {
+        "nombre": "Licenciatura en Filosofía",
+        "descripcion": "Estudia las cuestiones fundamentales sobre la existencia, el conocimiento, la moral y el pensamiento crítico, preparando a los estudiantes para el análisis filosófico."
+      },
+      {
+        "nombre": "Licenciatura en Artes Visuales",
+        "descripcion": "Enfocada en la creación y apreciación del arte visual, incluyendo técnicas de pintura, escultura, fotografía y medios digitales."
+      },
+      {
+        "nombre": "Licenciatura en Música",
+        "descripcion": "Prepara a los estudiantes en la teoría musical, la composición y la interpretación, cubriendo diferentes géneros y estilos musicales."
+      },
+      {
+        "nombre": "Licenciatura en Gastronomía",
+        "descripcion": "Forma profesionales en la cocina y la gestión de restaurantes, incluyendo técnicas culinarias, nutrición y administración gastronómica."
+      },
+      {
+        "nombre": "Licenciatura en Turismo",
+        "descripcion": "Estudia la gestión y promoción de destinos turísticos, así como la planificación y organización de servicios turísticos."
+      },
+      {
+        "nombre": "Licenciatura en Administración Pública",
+        "descripcion": "Prepara para gestionar y administrar recursos y servicios públicos, incluyendo políticas gubernamentales y administración de programas públicos."
+      },
+      {
+        "nombre": "Licenciatura en Ingeniería en Software",
+        "descripcion": "Enfocada en el desarrollo de aplicaciones y sistemas de software, incluyendo programación avanzada y metodologías de desarrollo de software."
+      },
+      {
+        "nombre": "Licenciatura en Diseño de Interiores",
+        "descripcion": "Especializada en el diseño y planificación de espacios interiores, enfocándose en la funcionalidad, estética y ergonomía de los entornos habitables."
+      },
+      {
+        "nombre": "Licenciatura en Marketing Digital",
+        "descripcion": "Estudia estrategias de marketing en plataformas digitales, incluyendo SEO, SEM, redes sociales y análisis de datos para campañas digitales."
+      },
+      {
+        "nombre": "Licenciatura en Ingeniería en Computación",
+        "descripcion": "Prepara para el desarrollo y mantenimiento de sistemas computacionales, incluyendo hardware, software y redes."
+      },
+      {
+        "nombre": "Licenciatura en Ciencias Ambientales",
+        "descripcion": "Estudia la protección y gestión del medio ambiente, incluyendo evaluación de impacto ambiental, sostenibilidad y conservación de recursos naturales."
+      },
+      {
+        "nombre": "Licenciatura en Matemáticas Aplicadas",
+        "descripcion": "Enfocada en el uso de técnicas matemáticas para resolver problemas en áreas como ingeniería, finanzas y ciencias naturales."
+      },
+      {
+        "nombre": "Licenciatura en Estadística",
+        "descripcion": "Estudia la recolección, análisis e interpretación de datos, aplicando métodos estadísticos para la toma de decisiones en diversos campos."
+      },
+      {
+        "nombre": "Licenciatura en Educación Física",
+        "descripcion": "Prepara a los estudiantes para promover la salud y el bienestar físico a través de la enseñanza y la gestión de actividades físicas y deportivas."
+      },
+      {
+        "nombre": "Licenciatura en Terapia Física",
+        "descripcion": "Forma profesionales en la rehabilitación y tratamiento de lesiones físicas, utilizando técnicas de terapia física y ejercicios de rehabilitación."
+      },
+      {
+        "nombre": "Licenciatura en Nutrición",
+        "descripcion": "Enfocada en el estudio de la alimentación y la salud, incluyendo dietética, nutrición clínica y planificación de dietas equilibradas."
+      },
+      {
+        "nombre": "Licenciatura en Ciencias de la Salud",
+        "descripcion": "Prepara profesionales para el cuidado y la promoción de la salud, cubriendo áreas como salud pública, prevención de enfermedades y gestión de servicios de salud."
+      },
+      {
+        "nombre": "Licenciatura en Odontología",
+        "descripcion": "Forma dentistas que se especializan en el diagnóstico, tratamiento y prevención de enfermedades dentales y orales."
+      },
+      {
+        "nombre": "Licenciatura en Medicina",
+        "descripcion": "Prepara a los estudiantes para la práctica médica, incluyendo diagnóstico, tratamiento y prevención de enfermedades, así como atención médica integral."
+      },
+      {
+        "nombre": "Licenciatura en Arquitectura de Interiores",
+        "descripcion": "Estudia el diseño y la mejora de espacios interiores con un enfoque en la funcionalidad, estética y confort de los ambientes."
+      },
+      {
+        "nombre": "Licenciatura en Diseño de Moda",
+        "descripcion": "Enfocada en la creación y diseño de prendas de vestir, incluyendo tendencias de moda, patrones y técnicas de confección."
+      },
+      {
+        "nombre": "Licenciatura en Ciencias de la Comunicación",
+        "descripcion": "Explora los procesos de comunicación en medios de comunicación y organizaciones, cubriendo periodismo, producción y medios digitales."
+      },
+      {
+        "nombre": "Licenciatura en Ciencias Actuariales",
+        "descripcion": "Estudia la evaluación y gestión de riesgos financieros y de seguros mediante el uso de matemáticas y estadísticas actuariales."
+      },
+      {
+        "nombre": "Licenciatura en Finanzas",
+        "descripcion": "Enfocada en la gestión de recursos financieros, incluyendo inversiones, análisis financiero y planificación financiera."
+      },
+      {
+        "nombre": "Licenciatura en Relaciones Laborales",
+        "descripcion": "Estudia la administración de recursos humanos y relaciones laborales en las organizaciones, incluyendo negociación y gestión de conflictos."
+      },
+      {
+        "nombre": "Licenciatura en Administración de Empresas Turísticas",
+        "descripcion": "Forma profesionales en la gestión de empresas y servicios en la industria del turismo, incluyendo planificación y administración de destinos turísticos."
+      },
+      {
+        "nombre": "Licenciatura en Ciencias de la Educación",
+        "descripcion": "Estudia teorías educativas, metodologías de enseñanza y gestión escolar, preparando a los estudiantes para roles en el sistema educativo."
+      },
+      {
+        "nombre": "Licenciatura en Trabajo Social",
+        "descripcion": "Forma profesionales en la intervención y apoyo a individuos y comunidades en situación de vulnerabilidad, incluyendo planificación y gestión de servicios sociales."
+      },
+      {
+        "nombre": "Licenciatura en Administración de Empresas",
+        "descripcion": "Enfocada en la gestión y operación de empresas, cubriendo áreas como finanzas, marketing y estrategia empresarial."
+      },
+      {
+        "nombre": "Licenciatura en Biología",
+        "descripcion": "Estudia los seres vivos y sus procesos vitales, incluyendo ecología, genética y biología celular."
+      },
+      {
+        "nombre": "Licenciatura en Ingeniería en Telecomunicaciones y Redes",
+        "descripcion": "Prepara en el diseño y gestión de redes de comunicación y sistemas de telecomunicaciones, incluyendo infraestructura y protocolos de red."
+      }
+]
+  
+  
