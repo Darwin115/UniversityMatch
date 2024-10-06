@@ -1,3 +1,4 @@
+
 <?php
 $base_path = '';
 if (strpos($_SERVER['REQUEST_URI'], 'Formularios') !== false) {
@@ -54,7 +55,10 @@ if (strpos($_SERVER['REQUEST_URI'], 'Formularios') !== false) {
     $base_path = '../../';
 } elseif (strpos($_SERVER['REQUEST_URI'], 'LA') !== false) {
     $base_path = '../../';
-}
+} elseif (strpos($_SERVER['REQUEST_URI'], 'Registro') !== false) {
+    $base_path = '../';
+} 
+
 ?>
 
 <section id="header">
@@ -70,6 +74,7 @@ if (strpos($_SERVER['REQUEST_URI'], 'Formularios') !== false) {
       <li><a href="<?php echo $base_path; ?>Rec_Catalogo/Catalogo.php" title="Universidades">Universidades</a></li>
       <li><a href="<?php echo $base_path; ?>Carreras/Carreras.php" title="Universidades">Carreras</a></li>
       <li><a href="<?php echo $base_path; ?>Donaciones/Donaciones.php" title="Universidades">Donaciones</a></li>
+      <li><a href="<?php echo $base_path; ?>Registro/registro.php" title="Universidades">Registro</a></li>
     </ul>
   </ul>
 </section>
