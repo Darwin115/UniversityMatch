@@ -7,9 +7,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>UP || UniversityMatch</title>
   <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
-  <link rel="stylesheet" type="text/css" href="../Estilos/style.css">
-  <link rel="stylesheet" type="text/css" href="../Estilos/stylevistaproductos.css">
-  <link rel="stylesheet" type="text/css" href="../Estilos/FooterStyle.css">
+  <link rel="stylesheet" type="text/css" href="../../Estilos/style.css">
+  <link rel="stylesheet" type="text/css" href="../../Estilos/stylevistaproductos.css">
+  <link rel="stylesheet" type="text/css" href="../../Estilos/FooterStyle.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-GDWlJng9xEwG1eYTTvWe4H9fA1Idb51fbrYw5YK51m6JzCj5lCR4gI6Rbmu1nCrXOjW1QrR7TjDXXESmtv5D5Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <!-- Google tag (gtag.js) -->
@@ -28,34 +28,24 @@
 </head>
 
 <body onload="iniciarLectura()">
-  <!--Este es el encabezado de la página. Mostramos el logo y la barra de navegación-->
-  <section id="header">
-    <a href="../index.html"><img src="../img/Logo2.jpg" class="sin-borde" alt=" logo" title="Logo" width="250"></a>
-
-    <ul id="navbar">
-      <li><a href="../index.html" title="Landing-Page">Inicio</a></li>
-      <li><a href="../Formularios/Test.html" title="Test Vocacional">Test Vocacional</a></li>
-      <li><a class="active" href="../Rec_Catalogo/Catalogo.html" title="Universidades">Universidades</a></li>
-  </ul>
-    </div>
-  </section>
+  <?php include '../../Header.php'; ?>
 
   <!--Agregamos la imagen principal del producto y la información-->
   <section id="prodetails">
     <div class="single-pro-image">
-      <img src="../img/uniPics/UP/UPL.jpg" id="ImgPrinc" alt="Dell_7480" title="Dell 7480">
+      <img src="../../img/uniPics/UP/UPL.jpg" id="ImgPrinc" alt="Dell_7480" title="Dell 7480">
       <div class="small-img-group">
         <div class="small-img-col">
-          <img src="../img/uniPics/UP/UP1.jpg" width="100" alt="Dell_7480" title="Dell 7480">
+          <img src="../../img/uniPics/UP/UP1.jpg" width="100" alt="Dell_7480" title="Dell 7480">
         </div>
         <div class="small-img-col">
-          <img src="../img/uniPics/UP/UP2.jpg" width="100" alt="Dell_7480" title="Dell 7480">
+          <img src="../../img/uniPics/UP/UP2.jpg" width="100" alt="Dell_7480" title="Dell 7480">
         </div>
         <div class="small-img-col">
-          <img src="../img/uniPics/UP/UP3.jpg" width="100" alt="Dell_7480" title="Dell 7480">
+          <img src="../../img/uniPics/UP/UP3.jpg" width="100" alt="Dell_7480" title="Dell 7480">
         </div>
         <div class="small-img-col">
-          <img src="../img/uniPics/UP/UPL.jpg" width="100" alt="Dell_7480" title="Dell 7480">
+          <img src="../../img/uniPics/UP/UPL.jpg" width="100" alt="Dell_7480" title="Dell 7480">
         </div>
       </div>
       <div style="text-align:center; margin-top:20px;">
@@ -126,9 +116,9 @@
       <div class="footer-column">
         <h4>Enlaces</h4>
         <ul>
-          <li><a href="../index.html">Inicio</a></li>
-          <li><a href="../Formularios/Test.html">Test Vocacional</a></li>
-          <li><a href="../Rec_Catalogo/Catalogo.html">Universidades</a></li>
+          <li><a href="../../index.html">Inicio</a></li>
+          <li><a href="../../Formularios/Test.html">Test Vocacional</a></li>
+          <li><a href="../../Rec_Catalogo/Catalogo.html">Universidades</a></li>
         </ul>
       </div>
       <div class="footer-column">

@@ -8,7 +8,7 @@
       "material": "Plástico ABS",
       "color": "Negro",
       "foto": "imgDonaciones/Mouse.jpeg",
-      "url": "BuscarFormulario.html",
+      "url": "BuscarFormulario.php",
       "descripcion": "El Mouse Óptico Inalámbrico de Logitech ofrece precisión y comodidad sin cables. Su diseño ergonómico se adapta perfectamente a la mano."
     },
 
@@ -21,7 +21,7 @@
       "material": "Aluminio y Plástico",
       "color": "Negro con retroiluminación RGB",
       "foto": "imgDonaciones/Teclado.jpg",
-      "url": "BuscarFormulario.html",
+      "url": "BuscarFormulario.php",
       "descripcion": "El Teclado Mecánico Retroiluminado de Corsair combina un diseño robusto en aluminio con teclas mecánicas de alto rendimiento."
     },
 
@@ -34,7 +34,7 @@
       "material": "Plástico y Silicona",
       "color": "Azul oscuro",
       "foto": "imgDonaciones/Audifonos.jpeg",
-      "url": "BuscarFormulario.html",
+      "url": "BuscarFormulario.php",
       "descripcion": "Los Audífonos In-Ear Bluetooth de Sony ofrecen una experiencia auditiva excepcional con la comodidad y libertad de la tecnología inalámbrica. Estos audífonos siguen proporcionando un sonido claro y potente. "
     },
 
@@ -47,7 +47,7 @@
       "material": "Plástico",
       "color": "Negro",
       "foto": "imgDonaciones/Calculadora.jpg",
-      "url": "BuscarFormulario.html",
+      "url": "BuscarFormulario.php",
       "descripcion": "La Calculadora Científica FX-991EX de Casio está diseñada para cálculos complejos con facilidad. Equipado con una pantalla de alta resolución y una amplia gama de funciones matemáticas."
     },
 
@@ -60,7 +60,7 @@
       "material": "Papel y Tapa dura",
       "color": "Azul (tapa)",
       "foto": "imgDonaciones/Manual.jpg",
-      "url": "BuscarFormulario.html",
+      "url": "BuscarFormulario.php",
       "descripcion": "El 'Manual de Medicina Interna' de Elsevier es una referencia esencial para profesionales de la salud. Con una tapa dura resistente y páginas de alta calidad."
     },
 
@@ -73,7 +73,7 @@
       "material": "Algodón y Poliéster",
       "color": "Blanco",
       "foto": "imgDonaciones/Bata.jpg",
-      "url": "BuscarFormulario.html",
+      "url": "BuscarFormulario.php",
       "descripcion": "La Bata Blanca de Laboratorio de Medline está confeccionada en una mezcla de algodón y poliéster, combinando comodidad y durabilidad."
     },
 
@@ -86,7 +86,7 @@
       "material": "Acero inoxidable y Plástico",
       "color": "Amarillo y negro",
       "foto": "imgDonaciones/Cinta.jpg",
-      "url": "BuscarFormulario.html",
+      "url": "BuscarFormulario.php",
       "descripcion": "La Cinta Métrica Retráctil de Stanley ofrece una longitud de 5 metros con una carcasa resistente de plástico y una cinta de acero inoxidable. "
     },
 
@@ -99,7 +99,7 @@
       "material": "Acero inoxidable y PVC",
       "color": "Negro",
       "foto": "imgDonaciones/Estetoscopio.png",
-      "url": "BuscarFormulario.html",
+      "url": "BuscarFormulario.php",
       "descripcion": "El Estetoscopio Clínico Classic III de Littmann proporciona una acústica superior para la auscultación precisa."
     },
 
@@ -112,7 +112,7 @@
       "material": "Acero inoxidable y Caucho",
       "color": "Gris con pantalla negra",
       "foto": "imgDonaciones/Reloj.jpeg",
-      "url": "BuscarFormulario.html",
+      "url": "BuscarFormulario.php",
       "descripcion": "El Reloj Analógico Deportivo de Garmin combina un diseño elegante con funcionalidad avanzada."
     },
 
@@ -125,7 +125,7 @@
       "material": "Plástico y Metal",
       "color": "Blanco",
       "foto": "imgDonaciones/Proyector.jpg",
-      "url": "BuscarFormulario.html",
+      "url": "BuscarFormulario.php",
       "descripcion": "El Proyector Full HD de Epson ofrece imágenes nítidas y colores vibrantes en una resolución de alta definición."
     }
   ]

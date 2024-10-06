@@ -27,33 +27,12 @@
 </head>
 
 <body onload="iniciarLectura()">
-  <!--Este es el encabezado de la página. Mostramos el logo y la barra de navegación-->
-  <section id="header">
-    <a href="../index.html"><img src="../img/Logo2.jpg" class="sin-borde" alt=" logo" title="Logo" width="250"></a>
-
-    <ul id="navbar">
-      <li><a href="../index.html" title="Landing-Page">Inicio</a></li>
-      <li><a href="../Formularios/Test.html" title="Test Vocacional">Test Vocacional</a></li>
-      <li><a class="active" href="../Rec_Catalogo/Catalogo.html" title="Universidades">Universidades</a></li>
-    </ul>
-  </section>
-
-  <section id="header2">
-    <ul id="navbar2">
-        <li><a href="../vistas/Vista_ITA.html" title="Landing-Page">ITA</a></li>
-        <li><a href="../vistas/Info_ITA.HTML" title="Landing-Page">Información General</a></li>
-        <li><a href="../vistas/PlanITA.html" title="Test Vocacional">Plan de Estudios</a></li>
-        <li><a href="../vistas/MatriculaITA.html" title="Matrícula">Matrícula</a></li>
-        <li><a class="active" href="../vistas/IMGS_ITA.html" title="Universidades">Galería de Imagenes</a></li>
-        <button class="buttonLec" onclick="toggleSpeech()"><i class="fas fa-stop"></i> </button>
-        <button class="buttonLec" onclick="reiniciarLectura()"><i class="fas fa-play"></i> </button>
-    </ul>
-  </section>
-  
+  <?php include '../Header.php'; ?>
+  <?php include '../vistas/ITA/HeaderITA.php'; ?>    
 
   <!--Agregamos la información de la universidad-->
   <section id="inRetiImg">
-    <div class="infoRetiImg", style="text-align: center;"><img src="../img/uniPics/ITA/Carreras/IMECA.png" alt=""></div>
+    <div class="infoRetiImg", style="text-align: center;"><img src="../img/uniPics/ITA/Carreras/IELECTRI.png" alt=""></div>
   </section>
   <h2>PERFIL DE INGRESO</h2>
   <section id="prodetails">
@@ -72,21 +51,20 @@
   <section id="prodetails">
     <div class="infoReti">
         <ul>
-            <li>Habilidad para identificar, formular y resolver problemas complejos de ingeniería aplicando principios de ingeniería, ciencias, y matemáticas.</li>
-            <li>Habilidad para aplicar diseño de ingeniería para producir soluciones que cumplan con necesidades específicas con restricciones de salud pública, seguridad, bienestar, así como factores globales, culturales, sociales, medioambientales, y económico.</li>
-            <li>Habilidad para comunicarse efectivamente en diversas audiencias.</li>
-            <li>Habilidad para reconocer ética y profesionalmente responsabilidades en situaciones ingenieriles y hacer juicios fundamentados, que deben considerar el impacto de la ingeniería.</li>
-            <li>Habilidad para trabajar efectivamente en equipo cuyos miembros provean, crean un ambiente colaborativo incluyente, establezcan objetivos, planeen tareas, y logren los objetivos.</li>
-            <li>Habilidad para desarrollar y conducir experimentos apropiadamente, analizar e interpretar datos, y usar juicio de ingeniería para obtener conclusiones.</li>
-            <li>Habilidad para adquirir y aplicar nuevos conocimientos según se requiera, utilizando estrategias de aprendizaje apropiadas.</li>
+            <li>Planear, diseñar, instalar y operar sistemas eléctricos de potencia; saber utilizar sistemas de energía eléctrica; así como sistemas de control y automatización, utilizando tecnología de punta.</li>
+            <li>Diagnosticar y presentar soluciones a problemas relacionados con la calidad de la energía eléctrica.</li>
+            <li>Promover y aplicar las acciones necesarias relacionadas con el desarrollo sustentable de manera responsable, legal y ética.</li>
+            <li>Promover y realizar proyectos de investigación y desarrollo tecnológico.</li>
+            <li>Adaptar nuevas tecnologías en la mejora de los procesos industriales, equipos y obras eléctricas.</li>
+            <li>Utilizar las nuevas tecnologías de la información y comunicación.</li>
+            <li>Poseer una visión emprendedora realizando actividades de consultoría estableciendo su propia empresa para coadyuvar en el desarrollo de su entorno.</li>
         </ul>
     </div>
   </section>
   
   <h2>RETÍCULA</h2>
   <section id="inRetiImg">
-      <div class="infoRetiImg", style="text-align: center;"><img src="../img/uniPics/ITA/Reticulas/RetiIMECA1.jpg" alt=""></div>
-      <div class="infoRetiImg", style="text-align: center;"><img src="../img/uniPics/ITA/Reticulas/RetiIMECA2.jpg" alt=""></div>
+      <div class="infoRetiImg", style="text-align: center;"><img src="../img/uniPics/ITA/Reticulas/RetiIELECTRI.jpg" alt=""></div>
   </section>
 
   <!--Pie de la página. Aquí mostramos información básica de la empresa-->
@@ -122,7 +100,7 @@
 
   <script>
     var speechSynthesisInstance;
-    var textoUniversidad = "La carrera de Ingeniería Mecánica es una disciplina fundamental en el ámbito de la ingeniería que se enfoca en el diseño, análisis y aplicación de sistemas mecánicos para resolver problemas en una amplia variedad de industrias y sectores.";
+    var textoUniversidad = "La carrera de Ingeniería Eléctrica es una disciplina fundamental en el ámbito de la ingeniería que se centra en el estudio, diseño y aplicación de sistemas eléctricos y electrónicos. En el ITA, esta carrera ofrece a los estudiantes una formación integral que abarca desde los principios fundamentales de la electricidad hasta las tecnologías más avanzadas en el campo de la energía y la electrónica.";
 
     function iniciarLectura() {
       if ('speechSynthesis' in window) {

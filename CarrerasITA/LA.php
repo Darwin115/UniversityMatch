@@ -27,30 +27,9 @@
 </head>
 
 <body onload="iniciarLectura()">
-  <!--Este es el encabezado de la página. Mostramos el logo y la barra de navegación-->
-  <section id="header">
-    <a href="../index.html"><img src="../img/Logo2.jpg" class="sin-borde" alt=" logo" title="Logo" width="250"></a>
-
-    <ul id="navbar">
-      <li><a href="../index.html" title="Landing-Page">Inicio</a></li>
-      <li><a href="../Formularios/Test.html" title="Test Vocacional">Test Vocacional</a></li>
-      <li><a class="active" href="../Rec_Catalogo/Catalogo.html" title="Universidades">Universidades</a></li>
-    </ul>
-  </section>
-
-  <section id="header2">
-    <ul id="navbar2">
-        <li><a href="../vistas/Vista_ITA.html" title="Landing-Page">ITA</a></li>
-        <li><a href="../vistas/Info_ITA.HTML" title="Landing-Page">Información General</a></li>
-        <li><a href="../vistas/PlanITA.html" title="Test Vocacional">Plan de Estudios</a></li>
-        <li><a href="../vistas/MatriculaITA.html" title="Matrícula">Matrícula</a></li>
-        <li><a class="active" href="../vistas/IMGS_ITA.html" title="Universidades">Galería de Imagenes</a></li>
-        <button class="buttonLec" onclick="toggleSpeech()"><i class="fas fa-stop"></i> </button>
-        <button class="buttonLec" onclick="reiniciarLectura()"><i class="fas fa-play"></i> </button>
-    </ul>
-  </section>
+  <?php include '../Header.php'; ?>
+  <?php include '../vistas/ITA/HeaderITA.php'; ?>  
   
-
   <!--Agregamos la información de la universidad-->
   <section id="inRetiImg">
     <div class="infoRetiImg", style="text-align: center;"><img src="../img/uniPics/ITA/Carreras/LA.png" alt=""></div>

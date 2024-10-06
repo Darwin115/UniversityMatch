@@ -27,37 +27,27 @@
 </head>
 
 <body onload="iniciarLectura()">
-  <!--Este es el encabezado de la página. Mostramos el logo y la barra de navegación-->
-  <section id="header">
-    <a href="../index.html"><img src="../img/Logo2.jpg" class="sin-borde" alt=" logo" title="Logo" width="250"></a>
-
-    <ul id="navbar">
-      <li><a href="../index.html" title="Landing-Page">Inicio</a></li>
-      <li><a href="../Formularios/Test.html" title="Test Vocacional">Test Vocacional</a></li>
-      <li><a class="active" href="../Rec_Catalogo/Catalogo.html" title="Universidades">Universidades</a></li>
-    </ul>
-  </section>
-
-  <section id="header2">
-    <ul id="navbar2">
-        <li><a href="../vistas/Vista_ITA.html" title="Landing-Page">ITA</a></li>
-        <li><a href="../vistas/Info_ITA.HTML" title="Landing-Page">Información General</a></li>
-        <li><a href="../vistas/PlanITA.html" title="Test Vocacional">Plan de Estudios</a></li>
-        <li><a href="../vistas/MatriculaITA.html" title="Matrícula">Matrícula</a></li>
-        <li><a class="active" href="../vistas/IMGS_ITA.html" title="Universidades">Galería de Imagenes</a></li>
-        <button class="buttonLec" onclick="toggleSpeech()"><i class="fas fa-stop"></i> </button>
-        <button class="buttonLec" onclick="reiniciarLectura()"><i class="fas fa-play"></i> </button>
-    </ul>
-  </section>
-  
+  <?php include '../Header.php'; ?>
+  <?php include '../vistas/ITA/HeaderITA.php'; ?>    
 
   <!--Agregamos la información de la universidad-->
   <section id="inRetiImg">
-    <div class="infoRetiImg", style="text-align: center;"><img src="../img/uniPics/ITA/Carreras/IQ.png" alt=""></div>
+    <div class="infoRetiImg", style="text-align: center;"><img src="../img/uniPics/ITA/Carreras/IELECTRO.png" alt=""></div>
   </section>
   <h2>PERFIL DE INGRESO</h2>
   <section id="prodetails">
     <div class="infoReti">
+        <p>La Ingeniería Electrónica integra y transfiere tecnología electrónica existente y emergente en proyectos interdisciplinarios, a nivel nacional e internacional para resolver problemas atendiendo las necesidades del sector electrónico con desarrollo sustentable.</p>
+        <p>Si quieres saber si la carrera de Ingeniería en Electrónica es para ti, pregúntate si tienes:</p>
+        <ul>
+            <li>Capacidad creativa, analítica y emprendedora.</li>
+            <li>Liderazgo y capacidad de trabajo en equipo.</li>
+            <li>Gusto por el diseño y la innovación en la tecnología.</li>
+            <li>Conciencia ética y social.</li>
+            <li>Compromiso con el desarrollo sustentable.</li>
+            <li>Gusto o interés por la funcionalidad electrónica en toda clase de equipos.</li>
+        </ul>
+        <p>Si crees tener tres de algunas de estas cualidades, entonces ¡¡Eres candidato para estudiar Ingeniería en Electrónica!!</p>
         <p>Los aspirantes a ingresar en las Ingenierías ofrecidas por el Instituto Tecnológico de Aguascalientes deberán tener:</p>
         <ul>
             <li>Capacidad de análisis y síntesis.</li>
@@ -72,24 +62,29 @@
   <section id="prodetails">
     <div class="infoReti">
         <ul>
-            <li>Diseñar,  seleccionar, operar, optimizar y controlar procesos en industrias químicas y de servicios con base en el desarrollo tecnológico de acuerdo a las normas de higiene y seguridad, de manera sustentable.</li>
-            <li>Colaborar en equipos interdisciplinarios y multiculturales en su ámbito laboral, con actitud innovadora, espíritu crítico, disposición al cambio y apego a la ética profesional.</li>
-            <li>Planear e implementar sistemas de gestión de calidad, ambiental e higiene y seguridad en los diferentes sectores, conforme a las normas nacionales e internacionales.</li>
-            <li>Utilizar las tecnologías de la información y comunicación como herramientas en la construcción de soluciones a problemas de ingeniería y difundir el conocimiento científico y tecnológico.</li>
-            <li>Realizar innovación y adaptación de tecnología en procesos aplicando la metodología científica, con respeto a la propiedad intelectual.</li>
-            <li>Utilizar un segundo idioma en su ámbito laboral según los requerimientos del entorno.</li>
-            <li>Comunicarse en forma oral y escrita en el ámbito laboral de manera expedita y concisa.</li>
-            <li>Poseer actitud creativa, emprendedora y de liderazgo para impulsar y crear empresas que contribuyan al progreso nacional.</li>
-            <li>Administrar recursos humanos, materiales y financieros para los sectores público y privado, acorde  a modelos administrativos vigentes.</li>
-            <li>Poseer actitudes de superación continua para lograr metas personales y profesionales con pertinencia y competitividad.</li>
-            <li>Dar seguimiento a programas de mantenimiento a equipos e instalaciones, control de producción y productividad.</li>
+            <li>Diseñar, analizar, adaptar, operar y construir sistemas analógicos y digitales.
+            <li>Crear, innovar, adaptar y transferir tecnología en el ámbito de ingeniería electrónica mediante la aplicación de métodos y procedimientos, tomando en cuenta el desarrollo sustentable de su entorno.</li>
+            <li>Planear, organizar, dirigir y controlar actividades de instalación, operación y mantenimiento de sistemas y equipo electrónico.</li>
+            <li>Desarrollar, dirigir y participar en proyectos de investigación y desarrollo tecnológico en el área de ingeniería electrónica.</li>
+            <li>Dirigir y participar en equipos de trabajo interdisciplinarios y multidisciplinarios.</li>
+            <li>Capacitar y actualizar al personal en las diversas disciplinas de ingeniería electrónica.</li>
+            <li>Asumir el compromiso de su formación integral permanente y de su actualización profesional continua de manera autónoma.</li>
+            <li>Ejercer la profesión de una manera responsable, legal y ética.</li>
+            <li>Poseer los conocimientos básicos de las ciencias exactas, sociales y de humanidades que le permitan aplicar profesionalmente la ingeniería electrónica.</li>
+            <li>Comunicarse con efectividad en su ámbito profesional tanto en su idioma como en un idioma extranjero.</li>  
+            <li>Administrar proyectos relacionados con su área de manera eficaz y eficiente.</li>   
+            <li>Ejercer actitudes emprendedoras, de liderazgo y desarrollar habilidades para la toma de decisiones en su ámbito profesional.</li>
+            <li>Comprender su entorno político, económico, social y cultural.</li>
+            <li>Utilizar la tecnología de la información y comunicación.</li>
+            <li>Promover y participar en programas de mejora continua aplicando normas de calidad.</li>
         </ul>
     </div>
   </section>
   
   <h2>RETÍCULA</h2>
   <section id="inRetiImg">
-      <div class="infoRetiImg", style="text-align: center;"><img src="../img/uniPics/ITA/Reticulas/RetiIQ.jpg" alt=""></div>
+      <div class="infoRetiImg", style="text-align: center;"><img src="../img/uniPics/ITA/Reticulas/RetiIELECTRO1.jpg" alt=""></div>
+      <div class="infoRetiImg", style="text-align: center;"><img src="../img/uniPics/ITA/Reticulas/RetiIELECTRO2.jpg" alt=""></div>
   </section>
 
   <!--Pie de la página. Aquí mostramos información básica de la empresa-->
@@ -125,7 +120,7 @@
 
   <script>
     var speechSynthesisInstance;
-    var textoUniversidad = "La carrera de Ingeniería Química es una disciplina que combina los principios de la ingeniería con los fundamentos de la química para desarrollar procesos y productos que impactan en diversos sectores industriales, como la petroquímica, la alimentaria, la farmacéutica y la ambiental.";
+    var textoUniversidad = "La carrera de Ingeniería Electrónica es una disciplina apasionante que se enfoca en el diseño, análisis y aplicación de sistemas electrónicos en una amplia gama de industrias y sectores. En el ITA, esta carrera ofrece a los estudiantes una formación integral que combina sólidos fundamentos teóricos con habilidades prácticas y experiencia en el uso de tecnologías de vanguardia.";
 
     function iniciarLectura() {
       if ('speechSynthesis' in window) {

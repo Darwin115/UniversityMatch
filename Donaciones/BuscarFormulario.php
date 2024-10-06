@@ -27,90 +27,37 @@
 </head>
 
 <body onload="iniciarLectura()">
-  <!--Este es el encabezado de la página. Mostramos el logo y la barra de navegación-->
-  <section id="header">
-    <a href="../index.html"><img src="../img/Logo2.jpg" class="sin-borde" alt=" logo" title="Logo" width="250"></a>
-
-    <ul id="navbar">
-      <span>&nbsp;&nbsp;&nbsp;</span>
-        <li><a class="active" href="../index.html" title="Inicio">Inicio</a></li>
-        <li><a href="../Formularios/Test.html" title="Test Vocacional">Test Vocacional</a></li>
-        <li><a href=".." title="Universidades">Cursos</a></li>
-        <li><a href="../Rec_Catalogo/Catalogo.html" title="Universidades">Universidades</a></li>
-        <li><a href="../Carreras/Carreras.html" title="Universidades">Carreras</a></li>
-        <li><a href="../Donaciones/Donaciones.html" title="Universidades">Donaciones</a></li>
-      </ul>
-  </section>
+  <?php include '../header.php'; ?>
   
 
   <!--Agregamos el formulario-->
   <section id="main-content">
-    <h2>Formulario de Donación de Artículos</h2>
+    <h2>Formulario de Solicitud de Donación</h2>
     <div class="form-container">
       <form id="formulario-inscripcion">
-        <!-- Información Personal -->
-        <fieldset>
-          <legend>Información Personal</legend>
-          
-          <label for="nombre">Nombre:</label>
-          <input type="text" id="nombre" name="nombre" required placeholder="Nombre completo">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
 
-          <label for="apellido-paterno">Apellido Paterno:</label>
-          <input type="text" id="apellido-paterno" name="apellido-paterno" required placeholder="Apellido Paterno">
+        <label for="apellido-paterno">Apellido Paterno:</label>
+        <input type="text" id="apellido-paterno" name="apellido-paterno" required>
 
-          <label for="apellido-materno">Apellido Materno:</label>
-          <input type="text" id="apellido-materno" name="apellido-materno" required placeholder="Apellido Materno">
+        <label for="apellido-materno">Apellido Materno:</label>
+        <input type="text" id="apellido-materno" name="apellido-materno" required>
 
-          <label for="correo-electronico">Correo Electrónico:</label>
-          <input type="email" id="correo-electronico" name="correo-electronico" required placeholder="Correo Electrónico">
+        <label for="fecha-nacimiento">Fecha de Nacimiento:</label>
+        <input type="date" id="fecha-nacimiento" name="fecha-nacimiento" required>
 
-          <label for="telefono">Teléfono:</label>
-          <input type="tel" id="telefono" name="telefono" pattern="[0-9]{10}" required placeholder="Teléfono">
-        </fieldset>
+        <label for="telefono">Teléfono:</label>
+        <input type="tel" id="telefono" name="telefono" pattern="[0-9]{10}" required>
 
-        <span>&nbsp;&nbsp;&nbsp;</span>
-        <!-- Información del Artículo -->
-        <fieldset>
-          <legend>Información del Artículo</legend>
-          
-          <label for="nombre-articulo">Nombre del Artículo:</label>
-          <input type="text" id="nombre-articulo" name="nombre-articulo" required placeholder="Nombre del Artículo">
+        <label for="correo-electronico">Correo Electrónico:</label>
+        <input type="email" id="correo-electronico" name="correo-electronico" required>
 
-          <label for="estado">Estado:</label>
-          <input type="text" id="estado" name="estado" required placeholder="Estado del Artículo">
-
-          <label for="tipo-articulo">Tipo de Articulo:</label>
-          <select id="tipo-articulo" name="tipo-articulo" required>
-            <option value="">Seleccione una opción</option>
-            <option value="ropa">Ropa</option>
-            <option value="muebles">Muebles</option>
-            <option value="electronicos">Electrónicos</option>
-            <option value="juguetes">Juguetes</option>
-            <option value="libros">Libros</option>
-            <option value="alimentos">Alimentos no perecederos</option>
-            <option value="otros">Otros (especificar)</option>
-          </select>
-
-          <label for="otros-especificar">Especificar (si eligió "Otros"):</label>
-          <input type="text" id="otros-especificar" name="otros-especificar" placeholder="Especificar">
-
-          <label for="descripcion">Descripción:</label>
-          <textarea id="descripcion" name="descripcion" rows="4" required placeholder="Descripción del Artículo"></textarea>
-        
-          <span>&nbsp;&nbsp;&nbsp;</span>
-
-          <label for="foto-articulo">Foto del Artículo:</label>
-          <input type="file" id="foto-articulo" name="foto-articulo" accept="image/*" required>
-        
-        </fieldset>
-
-
-        <!-- Aceptación de Aviso de Privacidad -->
         <div class="checkbox-container">
           <input type="checkbox" id="aviso-privacidad" class="checkbox-pequena" required>
-          <label for="aviso-privacidad">Acepta nuestro&nbsp;<a href="AVISO DE PRIVACIDAD.pdf" target="_blank" style="color: blue;">Aviso de privacidad</a>&nbsp;para poder enviar la solicitud</label>
+          <label for="aviso-privacidad">Acepta nuestro&nbsp;<a href="AVISO DE PRIVACIDAD.pdf" target="_blank" style="color: blue;"> Aviso de privacidad </a>&nbsp;para poder enviar la solicitud</label>
         </div>
-
+      
         <br>
 
         <input type="submit" value="Enviar">

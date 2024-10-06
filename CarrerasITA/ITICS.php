@@ -27,47 +27,33 @@
 </head>
 
 <body onload="iniciarLectura()">
-  <!--Este es el encabezado de la página. Mostramos el logo y la barra de navegación-->
-  <section id="header">
-    <a href="../index.html"><img src="../img/Logo2.jpg" class="sin-borde" alt=" logo" title="Logo" width="250"></a>
-
-    <ul id="navbar">
-
-      <span>&nbsp;&nbsp;&nbsp;</span>
-      <li><a class="active" href="../index.html" title="Inicio">Inicio</a></li>
-      <li><a href="./Formularios/Test.html" title="Test Vocacional">Test Vocacional</a></li>
-      <li><a href="." title="Universidades">Cursos</a></li>
-      <li><a href="./Rec_Catalogo/Catalogo.html" title="Universidades">Universidades</a></li>
-      <li><a href="." title="Universidades">Carreras</a></li>
-      <li><a href="." title="Universidades">Donaciones</a></li>
-    </ul>
-  </section>
-
-  <section id="header2">
-    <ul id="navbar2">
-        <li><a href="../vistas/Vista_ITA.html" title="Landing-Page">ITA</a></li>
-        <li><a href="../vistas/Info_ITA.HTML" title="Landing-Page">Información General</a></li>
-        <li><a href="../vistas/PlanITA.html" title="Test Vocacional">Plan de Estudios</a></li>
-        <li><a href="../vistas/MatriculaITA.html" title="Matrícula">Matrícula</a></li>
-        <li><a class="active" href="../vistas/IMGS_ITA.html" title="Universidades">Galería de Imagenes</a></li>
-        <button class="buttonLec" onclick="toggleSpeech()"><i class="fas fa-stop"></i> </button>
-        <button class="buttonLec" onclick="reiniciarLectura()"><i class="fas fa-play"></i> </button>
-    </ul>
-  </section>
-  
+  <?php include '../Header.php'; ?>
+  <?php include '../vistas/ITA/HeaderITA.php'; ?>  
 
   <!--Agregamos la información de la universidad-->
   <section id="inRetiImg">
-    <div class="infoRetiImg", style="text-align: center;"><img src="../img/uniPics/ITA/Carreras/IG.png" alt=""></div>
+    <div class="infoRetiImg", style="text-align: center;"><img src="../img/uniPics/ITA/Carreras/ITICS.png" alt=""></div>
   </section>
   <h2>PERFIL DE INGRESO</h2>
   <section id="prodetails">
     <div class="infoReti">
+        <p>La ingeniería en Tecnologías de la Información y Comunicaciones está conformada por el conjunto de recursos necesarios para el procesamiento de la información, así como la administración o gestión de las comunicaciones. Crea, diseña, implementa y administra sistemas de cómputo relacionados con las Tecnologías de Información y las Comunicaciones, así como de redes de cómputo, bases de datos para la toma de decisiones y dispositivos con software empotrado.
+        <br>Si quieres saber si la carrera de Ingeniería en Tecnologías de la Información y Comunicaciones es para ti, pregúntate si tienes:</p>
+        <ul>
+            <li>Interés por las redes de computadoras y en aprender a desarrollar aplicaciones para dispositivos móviles.</li>
+            <li>Gusto o habilidad para las ciencias exactas (Matemáticas, Cálculo diferencial e Integral, etc).</li>
+            <li>Capacidad intelectual y habilidades de razonamiento lógico utilizando sistemas de cómputo.</li>
+            <li>Sentido de responsabilidad, compromiso con el estudio e interés por las tecnologías.</li>
+            <li>Inquietud por conocer el funcionamiento de las comunicaciones y telecomunicaciones.</li>
+            <li>Habilidad en programación empleando un lenguaje computacional.</li>
+        </ul>
+        <p>Si crees tener tres de algunas de estas cualidades, entonces ¡¡Eres candidato para estudiar Ingeniería en Tecnologías de la Información y Comunicaciones!!</p>
         <p>Los aspirantes a ingresar en las Ingenierías ofrecidas por el Instituto Tecnológico de Aguascalientes deberán tener:</p>
         <ul>
             <li>Capacidad de análisis y síntesis.</li>
             <li>Pensamiento matemático.</li>
-            <li>Comprensión lectora con capacidad para identificar y aplicar elementos de la lengua.</li>
+            <li>Comprensión lectora con capacidad para</li>
+            <li>identificar y aplicar elementos de la lengua.</li>
             <li>Habilidad para resolver problemas en las áreas de matemáticas y física.</li>
             <li>Actitud crítica.</li>
         </ul>
@@ -77,29 +63,25 @@
   <section id="prodetails">
     <div class="infoReti">
         <ul>
-            <li>Desarrollar y aplicar habilidades directivas y la ingeniería en el diseño, creación, gestión, desarrollo, fortalecimiento e innovación de las organizaciones, con una orientación sistémica y sustentable para la toma de decisiones en forma efectiva.</li>
-            <li>Diseñar e innovar estructuras administrativas y procesos, con base en las necesidades de las organizaciones para competir eficientemente en mercados globales.</li>
-            <li>Gestionar eficientemente los recursos de la organización con visión compartida, con el fin de suministrar bienes y servicios de calidad.</li>
-            <li>Aplicar métodos cuantitativos y cualitativos para el análisis e interpretación de datos y modelado de sistemas, en los procesos organizacionales para la mejora continua, atendiendo estándares de calidad mundial.</li>
-            <li>Diseñar, evaluar y emprender nuevos negocios y proyectos empresariales, que promuevan el desarrollo sustentable y la responsabilidad social, en un mercado competitivo.</li>
-            <li>Diseñar e implementar estrategias de mercadotecnia basadas en información recopilada de fuentes primarias y secundarias del consumidor o usuario de algún producto, de acuerdo a oportunidades y amenazas del mercado.</li>
-            <li>Establecer programas para el fortalecimiento de la seguridad e higiene en las organizaciones.</li>
-            <li>Gestionar sistemas integrales de calidad, ejerciendo un liderazgo efectivo y un compromiso ético, aplicando las herramientas básicas de la ingeniería.</li>
-            <li>Interpretar y aplicar normas legales que incidan en la creación y desarrollo de las organizaciones.</li>
-            <li>Integrar, dirigir y desarrollar equipos de trabajo para la mejora continua y el crecimiento integral de las organizaciones.</li>
-            <li>Analizar e interpretar la información financiera para detectar oportunidades de mejora e inversión en un mundo global, que incidan en la rentabilidad del negocio.</li>
-            <li>Utilizar las nuevas tecnologías de información en la organización, para optimizar los procesos de comunicación y eficientar la toma de decisiones.</li>
-            <li>Propiciar el desarrollo del capital humano, para la realización de los objetivos organizacionales, dentro de un marco ético y un contexto multicultural.</li>
-            <li>Aplicar métodos de investigación para desarrollar e innovar sistemas, procesos y productos en las diferentes dimensiones de la organización. </li>
-            <li>Gestionar la cadena de suministros de las organizaciones con un enfoque orientado a procesos.</li>
-            <li>Analizar e interpretar la economía global para facilitar la toma de decisiones en la organización.</li>
+            <li>Diseñar, implementar y administrar redes de cómputo y comunicaciones, bajomodelos y estándares internacionales, para satisfacer las necesidades de información de los sistemas sociales, garantizando aspectos de seguridad y calidad.</li>
+            <li>Diseñar, desarrollar y mantener sistemas de bases de datos asegurando la integridad, disponibilidad y confidencialidad de la información almacenada.</li>
+            <li>Integrar las diferentes arquitecturas de hardware y administrar plataformas de software para incrementar la productividad en las organizaciones.</li>
+            <li>Implementar sistemas de seguridad bajo políticas internas de las organizaciones y estándares aceptados.</li>
+            <li>Observar los aspectos legales del uso y explotación de las Tecnologías de la Información y Comunicaciones.</li>
+            <li>Desarrollar e implementar sistemas de información para el control y la toma de decisiones utilizando metodologías basadas en estándares internacionales.</li>
+            <li>Analizar, diseñar y programar dispositivos con software empotrado.</li>
+            <li>Utilizar tecnologías y herramientas actuales y emergentes acordes a las necesidades del entorno.</li>
+            <li>Integrar soluciones basadas en sistemas de comunicaciones que involucren tecnologías actuales y emergentes.</li>
+            <li>Desempeñar funciones de consultoría y auditoría en el campo de las Tecnologías de la Información y Comunicaciones.</li>
+            <li>Crear empresas en el ámbito de las Tecnologías de la Información y Comunicaciones.</li>
+            <li>Administrar proyectos que involucren Tecnologías de la Información y Comunicaciones en las organizaciones conforme a requerimientos establecidos.</li>
         </ul>
     </div>
   </section>
   
   <h2>RETÍCULA</h2>
   <section id="inRetiImg">
-      <div class="infoRetiImg", style="text-align: center;"><img src="../img/uniPics/ITA/Reticulas/RetiIG.jpeg" alt=""></div>
+      <div class="infoRetiImg", style="text-align: center;"><img src="../img/uniPics/ITA/Reticulas/RetiITICS.jpeg" alt=""></div>
   </section>
 
   <!--Pie de la página. Aquí mostramos información básica de la empresa-->
@@ -135,7 +117,7 @@
 
   <script>
     var speechSynthesisInstance;
-    var textoUniversidad = "La carrera de Ingeniería en Gestión Empresarial es una disciplina multidisciplinaria que combina conocimientos de ingeniería, administración y economía para formar profesionales capaces de dirigir y optimizar procesos empresariales en un entorno globalizado y competitivo.";
+    var textoUniversidad = "La carrera de Ingeniería en Tecnologías de la Información y Comunicaciones, se enfoca en la gestión y desarrollo de tecnologías de la información y comunicación (TIC). Los estudiantes aprenden sobre redes de computadoras, seguridad informática, sistemas distribuidos, administración de servidores y desarrollo de software, preparándolos para trabajar en áreas como la gestión de infraestructuras tecnológicas y el desarrollo de soluciones digitales.";
 
     function iniciarLectura() {
       if ('speechSynthesis' in window) {

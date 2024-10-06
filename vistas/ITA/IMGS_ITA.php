@@ -6,9 +6,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>ITA || UniversityMatch</title>
   <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
-  <link rel="stylesheet" type="text/css" href="../Estilos/style.css">
-  <link rel="stylesheet" type="text/css" href="../Estilos/stylevistaproductos.css">
-  <link rel="stylesheet" type="text/css" href="../Estilos/FooterStyle.css">
+  <link rel="stylesheet" type="text/css" href="../../Estilos/style.css">
+  <link rel="stylesheet" type="text/css" href="../../Estilos/stylevistaproductos.css">
+  <link rel="stylesheet" type="text/css" href="../../Estilos/FooterStyle.css">
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css"/>
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css"/>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-GDWlJng9xEwG1eYTTvWe4H9fA1Idb51fbrYw5YK51m6JzCj5lCR4gI6Rbmu1nCrXOjW1QrR7TjDXXESmtv5D5Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -51,114 +51,87 @@
 
 </head>
 <body onload="iniciarLectura()">
-    <!--Este es el encabezado de la página. Mostramos el logo y la barra de navegación-->
-    <section id="header">
-      <a href="../index.html"><img src="../img/Logo2.jpg" class="sin-borde" alt=" logo" title="Logo" width="250"></a>
-  
-      <ul id="navbar">
-        <span>&nbsp;&nbsp;&nbsp;</span>
-        <li><a class="active" href="../index.html" title="Inicio">Inicio</a></li>
-        <li><a href="../Formularios/Test.html" title="Test Vocacional">Test Vocacional</a></li>
-        <li><a href=".." title="Universidades">Cursos</a></li>
-        <li><a href="../Rec_Catalogo/Catalogo.html" title="Universidades">Universidades</a></li>
-        <li><a href="../Carreras/Carreras.html" title="Universidades">Carreras</a></li>
-        <li><a href="../Donaciones/Donaciones.html" title="Universidades">Donaciones</a></li>
-      </ul>
-    </section>
-  
-    <section id="header2">
-      <ul id="navbar2">
-          <li><a href="Vista_ITA.html" title="Landing-Page">ITA</a></li>
-          <li><a href="Info_ITA.HTML" title="Landing-Page">Información General</a></li>
-          <li><a href="PlanITA.html" title="Test Vocacional">Plan de Estudios</a></li>
-          <li><a href="MatriculaITA.html" title="Matrícula">Matrícula</a></li>
-          <li><a class="active" href="IMGS_ITA.html" title="Universidades">Galería de Imágenes</a></li>
-          <li><a class="active" href="AplicarITA.html" title="Aplicar">¡Aplica ahora!</a></li>
-          <li><a href="https://ceneval.edu.mx/examenes-ingreso-exani_ii/" target="_blank">EXANII-II</a></li>
-          <button class="buttonLec" onclick="toggleSpeech()"><i class="fas fa-stop"></i> </button>
-          <button class="buttonLec" onclick="reiniciarLectura()"><i class="fas fa-play"></i> </button>   
-          <li><a href="https://aguascalientes.tecnm.mx/" target="_blank" class="btn-ir-pagina">Ir a la Página</a></li>
-      </ul>
-    </section>
+  <?php include '../../Header.php'; ?>
+  <?php include 'HeaderITA.php'; ?>
     
   
 <section class="carrusel" id="aulas">
     <h2>Edificios</h2>
     <div class="slick-slider">
-        <div><img src="../img/uniPics/ITA/Galeria/Ext2.webp" alt="Edificio 2"></div>
-        <div><img src="../img/uniPics/ITA/Galeria/Ext3.jpg" alt="Edificio 3"></div>
-        <div><img src="../img/uniPics/ITA/Galeria/Ext4.jpg" alt="Edificio 4"></div>
-        <div><img src="../img/uniPics/ITA/Galeria/Ext5.jpg" alt="Edificio 5"></div>
-        <div><img src="../img/uniPics/ITA/Galeria/Ext6.jpg" alt="Edificio 6"></div>
-        <div><img src="../img/uniPics/ITA/Galeria/Ext7.jpg" alt="Edificio 7"></div>
-        <div><img src="../img/uniPics/ITA/Galeria/Ext8.jpg" alt="Edificio 8"></div>
-        <div><img src="../img/uniPics/ITA/Galeria/Ext9.jpg" alt="Edificio 9"></div>
-        <div><img src="../img/uniPics/ITA/Galeria/Ext11.jpg" alt="Edificio 10"></div>
-        <div><img src="../img/uniPics/ITA/Galeria/Ext12.jpg" alt="Edificio 11"></div>
-        <div><img src="../img/uniPics/ITA/Galeria/Ext13.jpg" alt="Edificio 12"></div>
-        <div><img src="../img/uniPics/ITA/Galeria/Ext14.jpg" alt="Edificio 13"></div>
-        <div><img src="../img/uniPics/ITA/Galeria/Ext15.jpg" alt="Edificio 14"></div>
-        <div><img src="../img/uniPics/ITA/Galeria/Ext16.jpg" alt="Edificio 15"></div>
-        <div><img src="../img/uniPics/ITA/Galeria/Ext17.jpg" alt="Edificio 16"></div>
+        <div><img src="../../img/uniPics/ITA/Galeria/Ext2.webp" alt="Edificio 2"></div>
+        <div><img src="../../img/uniPics/ITA/Galeria/Ext3.jpg" alt="Edificio 3"></div>
+        <div><img src="../../img/uniPics/ITA/Galeria/Ext4.jpg" alt="Edificio 4"></div>
+        <div><img src="../../img/uniPics/ITA/Galeria/Ext5.jpg" alt="Edificio 5"></div>
+        <div><img src="../../img/uniPics/ITA/Galeria/Ext6.jpg" alt="Edificio 6"></div>
+        <div><img src="../../img/uniPics/ITA/Galeria/Ext7.jpg" alt="Edificio 7"></div>
+        <div><img src="../../img/uniPics/ITA/Galeria/Ext8.jpg" alt="Edificio 8"></div>
+        <div><img src="../../img/uniPics/ITA/Galeria/Ext9.jpg" alt="Edificio 9"></div>
+        <div><img src="../../img/uniPics/ITA/Galeria/Ext11.jpg" alt="Edificio 10"></div>
+        <div><img src="../../img/uniPics/ITA/Galeria/Ext12.jpg" alt="Edificio 11"></div>
+        <div><img src="../../img/uniPics/ITA/Galeria/Ext13.jpg" alt="Edificio 12"></div>
+        <div><img src="../../img/uniPics/ITA/Galeria/Ext14.jpg" alt="Edificio 13"></div>
+        <div><img src="../../img/uniPics/ITA/Galeria/Ext15.jpg" alt="Edificio 14"></div>
+        <div><img src="../../img/uniPics/ITA/Galeria/Ext16.jpg" alt="Edificio 15"></div>
+        <div><img src="../../img/uniPics/ITA/Galeria/Ext17.jpg" alt="Edificio 16"></div>
     </div>
 </section>
 
 <section class="carrusel" id="laboratorios">
     <h2>Laboratorios</h2>
     <div class="slick-slider">
-        <div><img src="../img/uniPics/ITA/Galeria/Laboratorios1.jpg" alt="Laboratorio 1"></div>
-        <div><img src="../img/uniPics/ITA/Galeria/Laboratorios2.jpg" alt="Laboratorio 2"></div>
-        <div><img src="../img/uniPics/ITA/Galeria/Laboratorios4.jpg" alt="Laboratorio 4"></div>
-        <div><img src="../img/uniPics/ITA/Galeria/Laboratorios5.jpg" alt="Laboratorio 5"></div>
-        <div><img src="../img/uniPics/ITA/Galeria/Laboratorios6.jpg" alt="Laboratorio 6"></div>
+        <div><img src="../../img/uniPics/ITA/Galeria/Laboratorios1.jpg" alt="Laboratorio 1"></div>
+        <div><img src="../../img/uniPics/ITA/Galeria/Laboratorios2.jpg" alt="Laboratorio 2"></div>
+        <div><img src="../../img/uniPics/ITA/Galeria/Laboratorios4.jpg" alt="Laboratorio 4"></div>
+        <div><img src="../../img/uniPics/ITA/Galeria/Laboratorios5.jpg" alt="Laboratorio 5"></div>
+        <div><img src="../../img/uniPics/ITA/Galeria/Laboratorios6.jpg" alt="Laboratorio 6"></div>
     </div>
 </section>
 
 <section class="carrusel" id="auditorio">
     <h2>Auditorio</h2>
     <div class="slick-slider">
-        <div><img src="../img/uniPics/ITA/Galeria/Auditorio1.jpg" alt="Auditorio 1"></div>
-        <div><img src="../img/uniPics/ITA/Galeria/Auditorio2.jpg" alt="Auditorio 2"></div>
-        <div><img src="../img/uniPics/ITA/Galeria/Auditorio3.jpg" alt="Auditorio 3"></div>
+        <div><img src="../../img/uniPics/ITA/Galeria/Auditorio1.jpg" alt="Auditorio 1"></div>
+        <div><img src="../../img/uniPics/ITA/Galeria/Auditorio2.jpg" alt="Auditorio 2"></div>
+        <div><img src="../../img/uniPics/ITA/Galeria/Auditorio3.jpg" alt="Auditorio 3"></div>
     </div>
 </section>
 
 <section class="carrusel" id="premios">
     <h2>Premios</h2>
     <div class="slick-slider">
-        <div><img src="../img/uniPics/ITA/Galeria/Premios1.jpg" alt="Premio 1"></div>
-        <div><img src="../img/uniPics/ITA/Galeria/Premios2.jpg" alt="Premio 2"></div>
-        <div><img src="../img/uniPics/ITA/Galeria/Premios3.jpg" alt="Premio 3"></div>
-        <div><img src="../img/uniPics/ITA/Galeria/Premios4.jpg" alt="Premio 4"></div>
+        <div><img src="../../img/uniPics/ITA/Galeria/Premios1.jpg" alt="Premio 1"></div>
+        <div><img src="../../img/uniPics/ITA/Galeria/Premios2.jpg" alt="Premio 2"></div>
+        <div><img src="../../img/uniPics/ITA/Galeria/Premios3.jpg" alt="Premio 3"></div>
+        <div><img src="../../img/uniPics/ITA/Galeria/Premios4.jpg" alt="Premio 4"></div>
     </div>
 </section>
 
 <section class="carrusel" id="areas-deportivas">
     <h2>Áreas Deportivas</h2>
     <div class="slick-slider">
-        <div><img src="../img/uniPics/ITA/Galeria/Adepo1.jpg" alt="Área Deportiva 1"></div>
-        <div><img src="../img/uniPics/ITA/Galeria/Adepo2.jpg" alt="Área Deportiva 2"></div>
-        <div><img src="../img/uniPics/ITA/Galeria/Adepo3.jpg" alt="Área Deportiva 3"></div>
-        <div><img src="../img/uniPics/ITA/Galeria/Adepo4.jpg" alt="Área Deportiva 4"></div>
-        <div><img src="../img/uniPics/ITA/Galeria/Adepo5.jpg" alt="Área Deportiva 5"></div>
-        <div><img src="../img/uniPics/ITA/Galeria/Adepo6.jpg" alt="Área Deportiva 6"></div>
-        <div><img src="../img/uniPics/ITA/Galeria/Adepo7.jpg" alt="Área Deportiva 7"></div>
-        <div><img src="../img/uniPics/ITA/Galeria/Adepo8.jpg" alt="Área Deportiva 8"></div>
+        <div><img src="../../img/uniPics/ITA/Galeria/Adepo1.jpg" alt="Área Deportiva 1"></div>
+        <div><img src="../../img/uniPics/ITA/Galeria/Adepo2.jpg" alt="Área Deportiva 2"></div>
+        <div><img src="../../img/uniPics/ITA/Galeria/Adepo3.jpg" alt="Área Deportiva 3"></div>
+        <div><img src="../../img/uniPics/ITA/Galeria/Adepo4.jpg" alt="Área Deportiva 4"></div>
+        <div><img src="../../img/uniPics/ITA/Galeria/Adepo5.jpg" alt="Área Deportiva 5"></div>
+        <div><img src="../../img/uniPics/ITA/Galeria/Adepo6.jpg" alt="Área Deportiva 6"></div>
+        <div><img src="../../img/uniPics/ITA/Galeria/Adepo7.jpg" alt="Área Deportiva 7"></div>
+        <div><img src="../../img/uniPics/ITA/Galeria/Adepo8.jpg" alt="Área Deportiva 8"></div>
     </div>
 </section>
 
 <section class="carrusel" id="areas-verdes">
     <h2>Áreas Verdes</h2>
     <div class="slick-slider">
-        <div><img src="../img/uniPics/ITA/Galeria/AreasV1.webp" alt="Área Verde 1"></div>
-        <div><img src="../img/uniPics/ITA/Galeria/AreasV2.jpg" alt="Área Verde 2"></div>
-        <div><img src="../img/uniPics/ITA/Galeria/AreasV3.jpg" alt="Área Verde 3"></div>
-        <div><img src="../img/uniPics/ITA/Galeria/AreasV4.webp" alt="Área Verde 4"></div>
-        <div><img src="../img/uniPics/ITA/Galeria/AreasV5.jpg" alt="Área Verde 5"></div>
-        <div><img src="../img/uniPics/ITA/Galeria/AreasV6.jpg" alt="Área Verde 6"></div>
-        <div><img src="../img/uniPics/ITA/Galeria/AreasV7.jpg" alt="Área Verde 7"></div>
-        <div><img src="../img/uniPics/ITA/Galeria/AreasV8.jpg" alt="Área Verde 8"></div>
-        <div><img src="../img/uniPics/ITA/Galeria/AreasV9.jpg" alt="Área Verde 9"></div>
+        <div><img src="../../img/uniPics/ITA/Galeria/AreasV1.webp" alt="Área Verde 1"></div>
+        <div><img src="../../img/uniPics/ITA/Galeria/AreasV2.jpg" alt="Área Verde 2"></div>
+        <div><img src="../../img/uniPics/ITA/Galeria/AreasV3.jpg" alt="Área Verde 3"></div>
+        <div><img src="../../img/uniPics/ITA/Galeria/AreasV4.webp" alt="Área Verde 4"></div>
+        <div><img src="../../img/uniPics/ITA/Galeria/AreasV5.jpg" alt="Área Verde 5"></div>
+        <div><img src="../../img/uniPics/ITA/Galeria/AreasV6.jpg" alt="Área Verde 6"></div>
+        <div><img src="../../img/uniPics/ITA/Galeria/AreasV7.jpg" alt="Área Verde 7"></div>
+        <div><img src="../../img/uniPics/ITA/Galeria/AreasV8.jpg" alt="Área Verde 8"></div>
+        <div><img src="../../img/uniPics/ITA/Galeria/AreasV9.jpg" alt="Área Verde 9"></div>
     </div>
 </section>
 
@@ -174,9 +147,9 @@
           <div class="footer-column">
             <h4>Enlaces</h4>
             <ul>
-              <li><a href="../index.html">Inicio</a></li>
-              <li><a href="../Formularios/Test.html">Test Vocacional</a></li>
-              <li><a href="../Rec_Catalogo/Catalogo.html">Universidades</a></li>
+              <li><a href="../../index.html">Inicio</a></li>
+              <li><a href="../../Formularios/Test.html">Test Vocacional</a></li>
+              <li><a href="../../Rec_Catalogo/Catalogo.html">Universidades</a></li>
             </ul>
           </div>
           <div class="footer-column">

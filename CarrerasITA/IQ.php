@@ -27,77 +27,48 @@
 </head>
 
 <body onload="iniciarLectura()">
-  <!--Este es el encabezado de la página. Mostramos el logo y la barra de navegación-->
-  <section id="header">
-    <a href="../index.html"><img src="../img/Logo2.jpg" class="sin-borde" alt=" logo" title="Logo" width="250"></a>
+  <?php include '../Header.php'; ?>
+  <?php include '../vistas/ITA/HeaderITA.php'; ?>  
 
-    <ul id="navbar">
-      <span>&nbsp;&nbsp;&nbsp;</span>
-        <li><a class="active" href="../index.html" title="Inicio">Inicio</a></li>
-        <li><a href="../Formularios/Test.html" title="Test Vocacional">Test Vocacional</a></li>
-        <li><a href=".." title="Universidades">Cursos</a></li>
-        <li><a href="../Rec_Catalogo/Catalogo.html" title="Universidades">Universidades</a></li>
-        <li><a href="../Carreras/Carreras.html" title="Universidades">Carreras</a></li>
-        <li><a href="../Donaciones/Donaciones.html" title="Universidades">Donaciones</a></li>
-      </ul>
+  <!--Agregamos la información de la universidad-->
+  <section id="inRetiImg">
+    <div class="infoRetiImg", style="text-align: center;"><img src="../img/uniPics/ITA/Carreras/IQ.png" alt=""></div>
   </section>
-
-  <section id="header2">
-    <ul id="navbar2">
-        <li><a href="Vista_ITA.html" title="Landing-Page">ITA</a></li>
-        <li><a href="Info_ITA.HTML" title="Landing-Page">Información General</a></li>
-        <li><a href="PlanITA.html" title="Test Vocacional">Plan de Estudios</a></li>
-        <li><a href="MatriculaITA.html" title="Matrícula">Matrícula</a></li>
-        <li><a class="active" href="IMGS_ITA.html" title="Universidades">Galería de Imágenes</a></li>
-        <li><a class="active" href="AplicarITA.html" title="Aplicar">¡Aplica ahora!</a></li>
-        <li><a href="https://ceneval.edu.mx/examenes-ingreso-exani_ii/" target="_blank">EXANII-II</a></li>
-        <button class="buttonLec" onclick="toggleSpeech()"><i class="fas fa-stop"></i> </button>
-        <button class="buttonLec" onclick="reiniciarLectura()"><i class="fas fa-play"></i> </button>   
-        <li><a href="https://aguascalientes.tecnm.mx/" target="_blank" class="btn-ir-pagina">Ir a la Página</a></li>
-    </ul>
+  <h2>PERFIL DE INGRESO</h2>
+  <section id="prodetails">
+    <div class="infoReti">
+        <p>Los aspirantes a ingresar en las Ingenierías ofrecidas por el Instituto Tecnológico de Aguascalientes deberán tener:</p>
+        <ul>
+            <li>Capacidad de análisis y síntesis.</li>
+            <li>Pensamiento matemático.</li>
+            <li>Comprensión lectora con capacidad para identificar y aplicar elementos de la lengua.</li>
+            <li>Habilidad para resolver problemas en las áreas de matemáticas y física.</li>
+            <li>Actitud crítica.</li>
+        </ul>
+    </div>
+  </section>
+  <h2>PERFIL DE EGRESO</h2>
+  <section id="prodetails">
+    <div class="infoReti">
+        <ul>
+            <li>Diseñar,  seleccionar, operar, optimizar y controlar procesos en industrias químicas y de servicios con base en el desarrollo tecnológico de acuerdo a las normas de higiene y seguridad, de manera sustentable.</li>
+            <li>Colaborar en equipos interdisciplinarios y multiculturales en su ámbito laboral, con actitud innovadora, espíritu crítico, disposición al cambio y apego a la ética profesional.</li>
+            <li>Planear e implementar sistemas de gestión de calidad, ambiental e higiene y seguridad en los diferentes sectores, conforme a las normas nacionales e internacionales.</li>
+            <li>Utilizar las tecnologías de la información y comunicación como herramientas en la construcción de soluciones a problemas de ingeniería y difundir el conocimiento científico y tecnológico.</li>
+            <li>Realizar innovación y adaptación de tecnología en procesos aplicando la metodología científica, con respeto a la propiedad intelectual.</li>
+            <li>Utilizar un segundo idioma en su ámbito laboral según los requerimientos del entorno.</li>
+            <li>Comunicarse en forma oral y escrita en el ámbito laboral de manera expedita y concisa.</li>
+            <li>Poseer actitud creativa, emprendedora y de liderazgo para impulsar y crear empresas que contribuyan al progreso nacional.</li>
+            <li>Administrar recursos humanos, materiales y financieros para los sectores público y privado, acorde  a modelos administrativos vigentes.</li>
+            <li>Poseer actitudes de superación continua para lograr metas personales y profesionales con pertinencia y competitividad.</li>
+            <li>Dar seguimiento a programas de mantenimiento a equipos e instalaciones, control de producción y productividad.</li>
+        </ul>
+    </div>
   </section>
   
-  <!--Agregamos la información de la universidad-->
-  <section id="inPlan">
-    <h2>Ingenierías y Licenciaturas</h2>
-    <section id="inPlanImg">
-        <div class="infoPlan">
-            <a href="../CarrerasITA/ITICS.html"><img src="../img/uniPics/ITA/Carreras/ITICS.png" alt></a>
-        </div>
-        <div class="infoPlan">
-          <a href="../CarrerasITA/IG.html"><img src="../img/uniPics/ITA/Carreras/IG.png" alt></a>
-        </div>
-        <div class="infoPlan">
-            <a href="../CarrerasITA/IQ.html"><img src="../img/uniPics/ITA/Carreras/IQ.png" alt></a>
-        </div>
-    </section>
-    <section id="inPlanImg">
-      <div class="infoPlan">
-          <a href="../CarrerasITA/IELECTRI.html"><img src="../img/uniPics/ITA/Carreras/IELECTRI.png" alt></a>
-      </div>
-      <div class="infoPlan">
-        <a href="../CarrerasITA/IELECTRO.html"><img src="../img/uniPics/ITA/Carreras/IELECTRO.png" alt></a>
-      </div>
-      <div class="infoPlan">
-          <a href="../CarrerasITA/II.html"><img src="../img/uniPics/ITA/Carreras/II.png" alt></a>
-      </div>
-    </section>
-    <section id="inPlanImg">
-      <div class="infoPlan">
-          <a href="../CarrerasITA/IMATE.html"><img src="../img/uniPics/ITA/Carreras/IMATE.png" alt></a>
-      </div>
-      <div class="infoPlan">
-        <a href="../CarrerasITA/IMECA.html"><img src="../img/uniPics/ITA/Carreras/IMECA.png" alt></a>
-      </div>
-      <div class="infoPlan">
-          <a href="../CarrerasITA/IS.html"><img src="../img/uniPics/ITA/Carreras/IS.png" alt></a>
-      </div>
-    </section>
-    <section id="inPlanImg">
-      <div class="infoPlan">
-          <a href="../CarrerasITA/LA.html"><img src="../img/uniPics/ITA/Carreras/LA.png" alt></a>
-      </div>
-    </section>
+  <h2>RETÍCULA</h2>
+  <section id="inRetiImg">
+      <div class="infoRetiImg", style="text-align: center;"><img src="../img/uniPics/ITA/Reticulas/RetiIQ.jpg" alt=""></div>
   </section>
 
   <!--Pie de la página. Aquí mostramos información básica de la empresa-->
@@ -133,7 +104,7 @@
 
   <script>
     var speechSynthesisInstance;
-    var textoUniversidad = "El plan de estudios del ITA se caracteriza por su actualización constante, adaptándose a las demandas del mercado laboral y a los avances tecnológicos. Además, promueve el desarrollo de habilidades como el trabajo en equipo, el liderazgo, la innovación y la ética profesional, preparando a los estudiantes para enfrentar los retos del mundo laboral con éxito. Este plan de estudios incluye asignaturas fundamentales en áreas como matemáticas, ciencias básicas, ingeniería y tecnología, así como materias optativas que permiten a los estudiantes personalizar su formación de acuerdo con sus intereses y aspiraciones profesionales. Asimismo, el ITA ofrece programas de movilidad estudiantil y convenios de colaboración con instituciones nacionales e internacionales, brindando a los estudiantes la oportunidad de enriquecer su experiencia académica y cultural.";
+    var textoUniversidad = "La carrera de Ingeniería Química es una disciplina que combina los principios de la ingeniería con los fundamentos de la química para desarrollar procesos y productos que impactan en diversos sectores industriales, como la petroquímica, la alimentaria, la farmacéutica y la ambiental.";
 
     function iniciarLectura() {
       if ('speechSynthesis' in window) {
