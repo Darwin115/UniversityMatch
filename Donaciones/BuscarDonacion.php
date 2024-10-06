@@ -16,18 +16,7 @@
 </head>
 
 <body onload="iniciarLectura() , abrirAcce()">
-  <section id="header">
-    <a href="../index.html"><img src="../img/Logo2.jpg" class="sin-borde" alt=" logo" title="Logo" width="250"></a>
-    <ul id="navbar">
-      <span>&nbsp;&nbsp;&nbsp;</span>
-        <li><a class="active" href="../index.html" title="Inicio">Inicio</a></li>
-        <li><a href="../Formularios/Test.html" title="Test Vocacional">Test Vocacional</a></li>
-        <li><a href=".." title="Universidades">Cursos</a></li>
-        <li><a href="../Rec_Catalogo/Catalogo.html" title="Universidades">Universidades</a></li>
-        <li><a href="../Carreras/Carreras.html" title="Universidades">Carreras</a></li>
-        <li><a href="../Donaciones/Donaciones.html" title="Universidades">Donaciones</a></li>
-      </ul>
-  </section>
+  <?php include '../header.php'; ?>
 
   <div class="productos">
     <div class="filters-container">

@@ -7,9 +7,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>ITA || UniversityMatch</title>
   <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
-  <link rel="stylesheet" type="text/css" href="../Estilos/style.css">
-  <link rel="stylesheet" type="text/css" href="../Estilos/stylevistaproductos.css">
-  <link rel="stylesheet" type="text/css" href="../Estilos/FooterStyle.css">
+  <link rel="stylesheet" type="text/css" href="../../Estilos/style.css">
+  <link rel="stylesheet" type="text/css" href="../../Estilos/stylevistaproductos.css">
+  <link rel="stylesheet" type="text/css" href="../../Estilos/FooterStyle.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-GDWlJng9xEwG1eYTTvWe4H9fA1Idb51fbrYw5YK51m6JzCj5lCR4gI6Rbmu1nCrXOjW1QrR7TjDXXESmtv5D5Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <!-- Google tag (gtag.js) -->
@@ -27,36 +27,9 @@
 </head>
 
 <body onload="iniciarLectura()">
-  <!--Este es el encabezado de la página. Mostramos el logo y la barra de navegación-->
-  <section id="header">
-    <a href="../index.html"><img src="../img/Logo2.jpg" class="sin-borde" alt=" logo" title="Logo" width="250"></a>
-    <ul id="navbar">
-      <span>&nbsp;&nbsp;&nbsp;</span>
-        <li><a class="active" href="../index.html" title="Inicio">Inicio</a></li>
-        <li><a href="../Formularios/Test.html" title="Test Vocacional">Test Vocacional</a></li>
-        <li><a href=".." title="Universidades">Cursos</a></li>
-        <li><a href="../Rec_Catalogo/Catalogo.html" title="Universidades">Universidades</a></li>
-        <li><a href="../Carreras/Carreras.html" title="Universidades">Carreras</a></li>
-        <li><a href="../Donaciones/Donaciones.html" title="Universidades">Donaciones</a></li>
-      </ul>
-  </section>
-
-  <section id="header2">
-    <ul id="navbar2">
-        <li><a href="Vista_ITA.html" title="Landing-Page">ITA</a></li>
-        <li><a href="Info_ITA.HTML" title="Landing-Page">Información General</a></li>
-        <li><a href="PlanITA.html" title="Test Vocacional">Plan de Estudios</a></li>
-        <li><a href="MatriculaITA.html" title="Matrícula">Matrícula</a></li>
-        <li><a class="active" href="IMGS_ITA.html" title="Universidades">Galería de Imágenes</a></li>
-        <li><a class="active" href="AplicarITA.html" title="Aplicar">¡Aplica ahora!</a></li>
-        <li><a href="https://ceneval.edu.mx/examenes-ingreso-exani_ii/" target="_blank">EXANII-II</a></li>
-        <button class="buttonLec" onclick="toggleSpeech()"><i class="fas fa-stop"></i> </button>
-        <button class="buttonLec" onclick="reiniciarLectura()"><i class="fas fa-play"></i> </button>   
-        <li><a href="https://aguascalientes.tecnm.mx/" target="_blank" class="btn-ir-pagina">Ir a la Página</a></li>
-    </ul>
-  </section>
+  <?php include '../../Header.php'; ?>
+  <?php include 'HeaderITA.php'; ?>
   
-
   <!--Agregamos la información de la universidad-->
   <section id="prodetails">
     <div class="info">
@@ -73,10 +46,10 @@
     <h2>Mapa del Instituto Tecnológico de Aguascalientes</h2>
     <section id="inMapaImg">
         <div class="infoMapa">
-            <img src="../img/uniPics/ITA/PLANO.jpeg" alt="">
+            <img src="../../img/uniPics/ITA/PLANO.jpeg" alt="">
         </div>
         <div class="infoMapa">
-            <img src="../img/uniPics/ITA/INFORMACION.jpeg" alt="">
+            <img src="../../img/uniPics/ITA/INFORMACION.jpeg" alt="">
         </div>
     </section>
   </section>
@@ -89,7 +62,7 @@
         <br><br>Al paso de los años, el Instituto Tecnológico de Aguascalientes ha mantenido el espíritu de su mascota, el águila real, que hace alusión al águila del escudo nacional mexicano y símbolo que fortalece el sentido de pertenencia de la actitud y espíritu de estudiantes, maestros y personal de apoyo a la educación del Instituto Tecnológico de Aguascalientes.</p>
      </div>
     <div class="infoMascota">
-        <img src="../img/uniPics/ITA/Mascota.jpg" id="ImgPrinc" alt="Dell_7480" title="Dell 7480">
+        <img src="../../img/uniPics/ITA/Mascota.jpg" id="ImgPrinc" alt="Dell_7480" title="Dell 7480">
     </div>
   </section>
 
@@ -105,9 +78,9 @@
       <div class="footer-column">
         <h4>Enlaces</h4>
         <ul>
-          <li><a href="../index.html">Inicio</a></li>
-          <li><a href="../Formularios/Test.html">Test Vocacional</a></li>
-          <li><a href="../Rec_Catalogo/Catalogo.html">Universidades</a></li>
+          <li><a href="../../index.html">Inicio</a></li>
+          <li><a href="../../Formularios/Test.html">Test Vocacional</a></li>
+          <li><a href="../../Rec_Catalogo/Catalogo.html">Universidades</a></li>
         </ul>
       </div>
       <div class="footer-column">

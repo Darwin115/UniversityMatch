@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <title>IMGS_UNID || UniMatch</title>
-    <link rel="stylesheet" type="text/css" href="../Estilos/style.css">
-    <link rel="stylesheet" type="text/css" href="../Estilos/stylevistaproductos.css">
-    <link rel="stylesheet" type="text/css" href="../Estilos/FooterStyle.css">
+    <link rel="stylesheet" type="text/css" href="../../Estilos/style.css">
+    <link rel="stylesheet" type="text/css" href="../../Estilos/stylevistaproductos.css">
+    <link rel="stylesheet" type="text/css" href="../../Estilos/FooterStyle.css">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css"/>
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css"/>
     <style>
@@ -30,42 +30,32 @@
     </style>
 </head>
 <body>
-
-    <section id="header">
-        <a href="../index.html"><img src="../img/Logo2.jpg" class="sin-borde" alt=" logo" title="Logo" width="250"></a>
-    
-        <ul id="navbar">
-          <li><a href="../index.html" title="Landing-Page">Inicio</a></li>
-          <li><a href="../Formularios/Test.html" title="Test Vocacional">Test Vocacional</a></li>
-          <li><a class="active" href="../Rec_Catalogo/Catalogo.html" title="Universidades">Universidades</a></li>
-      </ul>
-        </div>
-      </section>
+    <?php include '../../Header.php'; ?>
 
 <section class="carrusel" id="aulas">
     <h2>Aulas</h2>
     <div class="slick-slider">
-        <div><img src="../img/uniPics/UNID/UNID2.jpg" alt="Aula 1"></div>
-        <div><img src="../img/uniPics/UNID/UNID3.jpg" alt="Aula 2"></div>
-        <div><img src="../img/uniPics/UNID/UNID1.jpg" alt="Aula 3"></div>
+        <div><img src="../../img/uniPics/UNID/UNID2.jpg" alt="Aula 1"></div>
+        <div><img src="../../img/uniPics/UNID/UNID3.jpg" alt="Aula 2"></div>
+        <div><img src="../../img/uniPics/UNID/UNID1.jpg" alt="Aula 3"></div>
     </div>
 </section>
 
 <section class="carrusel" id="laboratorios">
     <h2>Laboratorios</h2>
     <div class="slick-slider">
-        <div><img src="../img/uniPics/UNID/UNID1.jpg" alt="Laboratorio 1"></div>
-        <div><img src="../img/uniPics/UNID/UNID2.jpg" alt="Laboratorio 2"></div>
-        <div><img src="../img/uniPics/UNID/UNID3.jpg" alt="Laboratorio 3"></div>
+        <div><img src="../../img/uniPics/UNID/UNID1.jpg" alt="Laboratorio 1"></div>
+        <div><img src="../../img/uniPics/UNID/UNID2.jpg" alt="Laboratorio 2"></div>
+        <div><img src="../../img/uniPics/UNID/UNID3.jpg" alt="Laboratorio 3"></div>
     </div>
 </section>
 
 <section class="carrusel" id="areas-deportivas">
     <h2>Áreas Deportivas</h2>
     <div class="slick-slider">
-        <div><img src="../img/uniPics/UNID/UNID3.jpg" alt="Área Deportiva 1"></div>
-        <div><img src="../img/uniPics/UNID/UNID1.jpg" alt="Área Deportiva 2"></div>
-        <div><img src="../img/uniPics/UNID/UNID2.jpg" alt="Área Deportiva 3"></div>
+        <div><img src="../../img/uniPics/UNID/UNID3.jpg" alt="Área Deportiva 1"></div>
+        <div><img src="../../img/uniPics/UNID/UNID1.jpg" alt="Área Deportiva 2"></div>
+        <div><img src="../../img/uniPics/UNID/UNID2.jpg" alt="Área Deportiva 3"></div>
     </div>
 </section>
 
@@ -81,9 +71,9 @@
           <div class="footer-column">
             <h4>Enlaces</h4>
             <ul>
-              <li><a href="../index.html">Inicio</a></li>
-              <li><a href="../Formularios/Test.html">Test Vocacional</a></li>
-              <li><a href="../Rec_Catalogo/Catalogo.html">Universidades</a></li>
+              <li><a href="../../index.html">Inicio</a></li>
+              <li><a href="../../Formularios/Test.html">Test Vocacional</a></li>
+              <li><a href="../../Rec_Catalogo/Catalogo.html">Universidades</a></li>
             </ul>
           </div>
           <div class="footer-column">

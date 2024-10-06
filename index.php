@@ -44,23 +44,7 @@
 </head>
 
 <body onload="iniciarLectura(), abrirAcce()">
-  <!--Este es el encabezado de la página. Mostramos el logo y la barra de navegación-->
-  <section id="header">
-    <a href="index.html"><img src="./img/Logo2.jpg" class="sin-borde" alt=" logo" title="Logo" width="250"></a>
-
-    <ul id="navbar">
-
-      <span>&nbsp;&nbsp;&nbsp;</span>
-      <li><a class="active" href="../index.html" title="Inicio">Inicio</a></li>
-      <li><a href="./Formularios/Test.html" title="Test Vocacional">Test Vocacional</a></li>
-      <li><a href="." title="Universidades">Cursos</a></li>
-      <li><a href="./Rec_Catalogo/Catalogo.html" title="Universidades">Universidades</a></li>
-      <li><a href="./Carreras/Carreras.html" title="Universidades">Carreras</a></li>
-      <li><a href="./Donaciones/Donaciones.html" title="Universidades">Donaciones</a></li>
-    </ul>
-
-    </div>
-  </section>
+<?php include 'Header.php'; ?>
 
   <!--Banners-->
   <section id="container-slider">
@@ -141,33 +125,9 @@
     </div>
   </section>
 
-  <!--<Pie de la página. Aquí mostramos información básica de la empresa-->
-  <section id="footer">
-    <div class="footer-container">
-      <div class="footer-column">
-        <h4>Contacto</h4>
-        <p><strong>Dirección:</strong> Av. Adolfo López Mateos Ote. 1801, Bona Gens, 20256 Aguascalientes, Ags.</p>
-        <p><strong>Teléfono:</strong> 449 960 9129</p>
-        <p><strong>Horario de Atención:</strong> 9:00 - 20:00, Lunes - Domingo</p>
-      </div>
-      <div class="footer-column">
-        <h4>Enlaces</h4>
-        <ul>
-          <li><a href="../index.html">Inicio</a></li>
-          <li><a href="../Formularios/Test.html">Test Vocacional</a></li>
-          <li><a href="../Rec_Catalogo/Catalogo.html">Universidades</a></li>
-        </ul>
-      </div>
-      <div class="footer-column">
-        <h4>Síguenos</h4>
-        <ul class="social-icons">
-          <a href="#" class="fab fa-facebook-f"></a>
-          <a href="#" class="fab fa-twitter"></a>
-          <a href="#" class="fab fa-instagram"></a>
-        </ul>
-      </div>
-    </div>
-  </section>
+  <!--<Pie de la página.-->
+  <?php include 'Footer.php'; ?>
+  <!--Fin pie de la página.-->
 
   <div class="accessibility" title="Accesibilidad" id="accessibility" onclick="abrirAcce()">
     <img src="img/utileria/accessibility.png" alt="">

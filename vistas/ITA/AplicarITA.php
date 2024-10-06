@@ -7,9 +7,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>ITA || UniversityMatch</title>
   <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
-  <link rel="stylesheet" type="text/css" href="../Estilos/style.css">
-  <link rel="stylesheet" type="text/css" href="../Estilos/stylevistaproductos.css">
-  <link rel="stylesheet" type="text/css" href="../Estilos/FooterStyle.css">
+  <link rel="stylesheet" type="text/css" href="../../Estilos/style.css">
+  <link rel="stylesheet" type="text/css" href="../../Estilos/stylevistaproductos.css">
+  <link rel="stylesheet" type="text/css" href="../../Estilos/FooterStyle.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-GDWlJng9xEwG1eYTTvWe4H9fA1Idb51fbrYw5YK51m6JzCj5lCR4gI6Rbmu1nCrXOjW1QrR7TjDXXESmtv5D5Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <!-- Google tag (gtag.js) -->
@@ -27,25 +27,12 @@
 </head>
 
 <body onload="iniciarLectura()">
-  <!--Este es el encabezado de la página. Mostramos el logo y la barra de navegación-->
-  <section id="header">
-    <a href="../index.html"><img src="../img/Logo2.jpg" class="sin-borde" alt=" logo" title="Logo" width="250"></a>
-
-    <ul id="navbar">
-      <span>&nbsp;&nbsp;&nbsp;</span>
-        <li><a class="active" href="../index.html" title="Inicio">Inicio</a></li>
-        <li><a href="../Formularios/Test.html" title="Test Vocacional">Test Vocacional</a></li>
-        <li><a href=".." title="Universidades">Cursos</a></li>
-        <li><a href="../Rec_Catalogo/Catalogo.html" title="Universidades">Universidades</a></li>
-        <li><a href="../Carreras/Carreras.html" title="Universidades">Carreras</a></li>
-        <li><a href="../Donaciones/Donaciones.html" title="Universidades">Donaciones</a></li>
-      </ul>
-  </section>
-  
+  <?php include '../../Header.php'; ?>
+  <?php include 'HeaderITA.php'; ?>  
 
   <!--Agregamos el formulario-->
   <section id="main-content">
-    <h2>Formulario de Solicitud de Donación</h2>
+    <h2>Formulario de Aplicación</h2>
     <div class="form-container">
       <form id="formulario-inscripcion">
         <label for="nombre">Nombre:</label>
@@ -66,10 +53,26 @@
         <label for="correo-electronico">Correo Electrónico:</label>
         <input type="email" id="correo-electronico" name="correo-electronico" required>
 
+        <label for="carrera">Carrera Deseada:</label>
+        <select id="carrera" name="carrera" required>
+          <option value="">Seleccione una carrera</option>
+          <option value="Ingeniería en Tecnologías de la Información y Comunicaciones">Ingeniería en Tecnologías de la Información y Comunicaciones</option>
+          <option value="Ingeniería en Gestión Empresarial">Ingeniería en Gestión Empresarial</option>
+          <option value="Ingeniería Química">Ingeniería Química</option>
+          <option value="Ingeniería Eléctrica">Ingeniería Eléctrica</option>
+          <option value="Ingeniería Electrónica">Ingeniería Electrónica</option>
+          <option value="Ingeniería Industrial">Ingeniería Industrial</option>
+          <option value="Ingeniería en Materiales">Ingeniería en Materiales</option>
+          <option value="Ingeniería Mecánica">Ingeniería Mecánica</option>
+          <option value="Ingeniería en Semiconductores">Ingeniería en Semiconductores</option>
+          <option value="Licenciatura en Administración">Licenciatura en Administración</option>
+        </select>
+
         <div class="checkbox-container">
           <input type="checkbox" id="aviso-privacidad" class="checkbox-pequena" required>
           <label for="aviso-privacidad">Acepta nuestro&nbsp;<a href="AVISO DE PRIVACIDAD.pdf" target="_blank" style="color: blue;"> Aviso de privacidad </a>&nbsp;para poder enviar la solicitud</label>
-        </div>
+      </div>
+      
       
         <br>
 
@@ -77,6 +80,8 @@
       </form>
     </div>
   </section>
+
+
 
   <!--Pie de la página. Aquí mostramos información básica de la empresa-->
   <section id="footer">
@@ -90,9 +95,9 @@
       <div class="footer-column">
         <h4>Enlaces</h4>
         <ul>
-          <li><a href="../index.html">Inicio</a></li>
-          <li><a href="../Formularios/Test.html">Test Vocacional</a></li>
-          <li><a href="../Rec_Catalogo/Catalogo.html">Universidades</a></li>
+          <li><a href="../../index.html">Inicio</a></li>
+          <li><a href="../../Formularios/Test.html">Test Vocacional</a></li>
+          <li><a href="../../Rec_Catalogo/Catalogo.html">Universidades</a></li>
         </ul>
       </div>
       <div class="footer-column">
