@@ -57,6 +57,8 @@ if (strpos($_SERVER['REQUEST_URI'], 'Formularios') !== false) {
     $base_path = '../../';
 } elseif (strpos($_SERVER['REQUEST_URI'], 'Registro') !== false) {
     $base_path = '../';
+} elseif (strpos($_SERVER['REQUEST_URI'], 'Cursos') !== false) {
+    $base_path = '../';
 } 
 
 ?>
