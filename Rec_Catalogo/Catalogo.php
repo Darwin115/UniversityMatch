@@ -12,7 +12,6 @@
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.css" />
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick-theme.css" />
     <script src="./scriptnav.js"></script>
-    
 </head>
 
 <body onload="iniciarLectura() , abrirAcce()">
@@ -38,17 +37,18 @@
   <?php include '../Footer.php'; ?>
   <!--Fin pie de la página.-->
 
-  <div class="accessibility" title="Accesibilidad" id="accessibility" onclick="abrirAcce()">
-    <img src="/img/utileria/accessibility.png" alt="">
-
-  </div>
-  <div class="BoxAccesibility" id="BoxAccesibility">
+  <!--<Accesibilidad-->
+  <div class="accessibility" title="Accesibilidad" id="accessibility">
+    <img src="../img/utileria/accessibility.png" alt="">
+</div>
+<div class="BoxAccesibility hidden" id="BoxAccesibility">
     <p>Lector de texto</p>
     <div class="centrado">
-      <button class="buttonLec" onclick="reiniciarLectura()"><i class="fas fa-play"></i> </button>
-      <button class="buttonLec" onclick="toggleSpeech()"><i class="fas fa-stop"></i> </button>
+        <button class="buttonLec" onclick="reiniciarLectura()"><i class="fas fa-play"></i></button>
+        <button class="buttonLec" onclick="toggleSpeech()"><i class="fas fa-stop"></i></button>
     </div>
-  </div>
+</div>
+  <!--<Fin accesibilidad-->
     
   <script src="/script.js"></script>
   <script src="catalogo.js"></script>
@@ -86,13 +86,22 @@
         }
       }
   
-      function toggleSpeech() {
-        if (speechSynthesisInstance && window.speechSynthesis.speaking) {
-          pausarLectura();
-        } else {
-          continuarLectura();
-        }
+      function abrirAcce() {
+      const boxAccesibility = document.getElementById("BoxAccesibility");
+      const accessibilityButton = document.getElementById("accessibility");
+
+      boxAccesibility.classList.toggle("hidden");
+    
+      if (boxAccesibility.classList.contains("hidden")) {
+        boxAccesibility.style.display = "none";
+        accessibilityButton.classList.add("moved"); // Añade clase para mover el botón
+      } else {
+        boxAccesibility.style.display = "block";
+        accessibilityButton.classList.remove("moved"); // Remueve clase para volver a la posición original
       }
+    }
+</script>
+
     </script>
 
   </body>
