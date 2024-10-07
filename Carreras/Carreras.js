@@ -11,7 +11,6 @@ traerDatos();
 function traerDatos() {
     const xhttp = new XMLHttpRequest();
     xhttp.open('GET', 'Carreras.json', true);
-
     xhttp.send();
 
     xhttp.onreadystatechange = function () {
@@ -28,7 +27,6 @@ function traerDatos() {
             }
         }
     };
-    
 }
 
 function mostrarProductos(productos) {
@@ -37,23 +35,52 @@ function mostrarProductos(productos) {
 
     for (let producto of productos) {
         if (producto.nombre) {
-            res.innerHTML += `
-            <div class="col-md-4 text-center producto">
+            const card = document.createElement('div');
+            card.className = 'col-md-4 text-center producto';
+            card.innerHTML = `
                 <div class="card">
                     <div class="card-content">
-                        <h3 class="nombre">
-                            ${producto.nombre}
-                        </h3>
-                        <p class="descripcion"> 
-                            ${producto.descripcion}
-                        </p>
+                        <h3 class="nombre">${producto.nombre}</h3>
                     </div>
                 </div>
-            </div>
             `;
+            card.addEventListener('click', () => mostrarModal(producto));
+            res.appendChild(card);
         }
     }
 }
+
+function mostrarModal(producto) {
+    const { nombre, descripcion, imagen } = producto;
+
+    // Asignar el contenido del modal
+    document.getElementById('modalNombre').innerText = nombre;
+    document.getElementById('modalDescripcion').innerText = descripcion;
+    document.getElementById('modalImagen').src = imagen;
+
+    // Mostrar el modal
+    document.getElementById('myModal').style.display = 'block';
+
+    // Desactivar scroll en el body
+    document.body.style.overflow = 'hidden';
+}
+
+document.querySelector('.close').addEventListener('click', () => {
+    document.getElementById('myModal').style.display = 'none';
+
+    // Reactivar scroll en el body
+    document.body.style.overflow = 'auto';
+});
+
+window.addEventListener('click', (event) => {
+    const modal = document.getElementById('myModal');
+    if (event.target === modal) {
+        modal.style.display = 'none';
+
+        // Reactivar scroll en el body
+        document.body.style.overflow = 'auto';
+    }
+});
 
 function buscarProductos(filtro) {
     const productosFiltrados = datos.filter(producto =>
