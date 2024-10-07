@@ -82,8 +82,8 @@ if (strpos($_SERVER['REQUEST_URI'], 'Formularios') !== false) {
         <div class="footer-column">
             <h4>Síguenos</h4>
             <ul class="social-icons">
-                <a href="https://www.facebook.com/profile.php?id=61558332730310&mibextid=ZbWKwL" class="fab fa-facebook-f"></a>
-                <a href="https://www.instagram.com/universitymatch_mx?igsh=bjg1YjJydGoxbnQ1" class="fab fa-instagram"></a>
+                <a href="https://www.facebook.com/profile.php?id=61558332730310&mibextid=ZbWKwL" target="_blank"  class="fab fa-facebook-f"></a>
+                <a href="https://www.instagram.com/universitymatch_mx?igsh=bjg1YjJydGoxbnQ1" target="_blank"  class="fab fa-instagram"></a>
             </ul>
         </div>
     </div>
