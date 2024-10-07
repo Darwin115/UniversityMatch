@@ -140,10 +140,12 @@ body {
   padding-bottom: 10px;
   transition: opacity 0.5s ease;
   transition: transform 0.5s ease;
+  display: none;
 }
 
 .BoxAccesibility.hidden{
   transform: translateX(100%);
+  display: none;
 }
 .BoxAccesibility p{
   color: white;

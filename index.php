@@ -16,7 +16,6 @@
     href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
   <script src="./scriptnav.js"></script>
 
-
   <style>
     .buttonLec {
       background-color: #ffffff;
@@ -106,14 +105,14 @@
   </section>
 
   <!--Universidades Recomendadas-->
-
   <div id="recomendadas" class="row"></div>
+  <!--Fin universidades recomendadas-->
 
   <!--Universidades Destacadas-->
   <div id="destacadas" class="row"></div>
+  <!--Fin universidades destacadas-->
 
-  <!--Agregamos un carrusel, en el cual, mostraremos el logo de las diferentes marcas que manejamos;
-    mismas que estarán referenciadas al ctálogo de productos-->
+  <!--Carrusel-->
   <section id="carrusel" class="section-p1">
     <div class="carousel-unis-container">
       <div class="carousel-marcas">
@@ -124,11 +123,13 @@
       </div>
     </div>
   </section>
+  <!--Fin carrusel-->
 
   <!--<Pie de la página.-->
   <?php include 'Footer.php'; ?>
   <!--Fin pie de la página.-->
 
+  <!--<Accesibilidad-->
   <div class="accessibility" title="Accesibilidad" id="accessibility" onclick="abrirAcce()">
     <img src="img/utileria/accessibility.png" alt="">
 
@@ -140,7 +141,7 @@
       <button class="buttonLec" onclick="toggleSpeech()"><i class="fas fa-stop"></i> </button>
     </div>
   </div>
-
+  <!--<Fin accesibilidad-->
 
 
   <script src="Universidades.js"></script>

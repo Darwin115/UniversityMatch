@@ -73,7 +73,7 @@
 </head>
 <body onload="iniciarLectura()">
 
-<?php include '../header.php'; ?>
+<?php include '../Header.php'; ?>
     
   <h1>Test Vocacional</h1>
 
