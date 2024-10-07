@@ -1,11 +1,12 @@
 [
       {
         "nombre": "Ingeniería en Sistemas Computacionales",
-        "descripcion": "Forma profesionales en el desarrollo, implementación y administración de sistemas computacionales. Incluye diseño de software, redes y sistemas de información."
+        "descripcion": "Forma profesionales en el desarrollo, implementación y administración de sistemas computacionales. Incluye diseño de software, redes y sistemas de información.",
+        "imagen": "../img/carreras/ISC.png"
       },
       {
         "nombre": "Ingeniería Electrónica",
-        "descripcion": "Enfocada en la creación y mantenimiento de dispositivos electrónicos, incluyendo circuitos, sistemas embebidos y comunicaciones electrónicas."
+        "descripcion": "Enfocada en la creación y mantenimiento de dispositivos electrónicos, incluyendo circuitos, sistemas embebidos y comunicaciones electrónicas"
       },
       {
         "nombre": "Ingeniería Industrial",

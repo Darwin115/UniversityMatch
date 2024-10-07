@@ -31,12 +31,15 @@ body {
     height: 100%;
     padding: 20px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0);
+    justify-content: center; /* Centra el contenido verticalmente */
 }
 
 .card-content {
-    flex-grow: 1;
+    display: flex;
+    flex-grow: 1; /* Permite que el contenido ocupe el espacio disponible */
+    align-items: center; /* Centra el contenido verticalmente dentro de la tarjeta */
+    justify-content: center; /* Centra el contenido horizontalmente dentro de la tarjeta */
 }
-
 /* Estilo del nombre */
 .nombre {
     font-size: 22px; /* Tamaño del texto del nombre */
@@ -228,3 +231,34 @@ h2 {
     text-align: center;
     width: 100%;
   }
+
+/*Modal*/
+.modal-content {
+    background-color: #fefefe;
+    margin: 10% auto; /* Margen superior */
+    padding: 20px;
+    border: 1px solid #888;
+    width: auto; /* Ajuste automático al contenido */
+    max-width: 95%; /* Ancho máximo */
+    border-radius: 12px; /* Esquinas redondeadas */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Sombra más suave */
+    overflow-y: auto; /* Habilitar scroll vertical si es necesario */
+    max-height: 2000vh; /* Limitar la altura del modal */
+}
+
+.modal-body {
+    padding: 20px; /* Espaciado interno */
+    text-align: left; /* Alinear el texto a la izquierda */
+}
+
+.modal-footer {
+    display: flex; /* Flexbox para centrar contenido */
+    justify-content: center; /* Centrar el botón en el pie del modal */
+}
+
+/* Ajustes para pantallas pequeñas */
+@media (max-width: 768px) {
+    .modal-content {
+        width: 95%; /* Más ancho en pantallas pequeñas */
+    }
+}
