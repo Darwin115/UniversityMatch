@@ -16,19 +16,24 @@
   <style>
     /* Estilos para la ventana emergente modal */
     .buttonLec {
-      background-color: #ffffff; 
-      color: rgb(0, 0, 0); 
-      border: none; /* Eliminar borde */
-      padding: 5px 10px; /* Espaciado interno */
-      cursor: pointer; /* Cursor al pasar sobre el botón */
-      border-radius: 5px; /* Borde redondeado */
-      font-size: 16px; /* Tamaño del texto */
-      margin-left: 0.2cm;
-      margin-bottom: 0cm;
+      background-color: #ffffff;
+      color: #246d96;
+      border: none;
+      /* Eliminar borde */
+      width: 35px;
+      height: 35px;
+      /* Espaciado interno */
+      cursor: pointer;
+      /* Cursor al pasar sobre el botón */
+      border-radius: 100px;
+      /* Borde redondeado */
+      font-size: 12px;
+      /* Tamaño del texto */
     }
-  
+
     .buttonLec:hover {
-      background-color: #246d96; /* Cambio de color al pasar sobre el botón */
+      background-color: #ebebebf6;
+      /* Cambio de color al pasar sobre el botón */
     }
 
     .modal {
@@ -157,47 +162,55 @@
   <?php include '../Footer.php'; ?>
   <!--Fin pie de la página.-->
     
+<!--<Accesibilidad-->
+<div class="accessibility" title="Accesibilidad" id="accessibility" onclick="abrirAcce()">
+    <img src="../img/utileria/accessibility.png" alt="">
 
+  </div>
+  <div class="BoxAccesibility" id="BoxAccesibility">
+    <p>Lector de texto</p>
+    <div class="centrado">
+      <button class="buttonLec" onclick="reiniciarLectura()"><i class="fas fa-play"></i> </button>
+      <button class="buttonLec" onclick="toggleSpeech()"><i class="fas fa-stop"></i> </button>
+    </div>
+  </div>
+    
   <script>
-    var speechSynthesisInstance;
-    var textoUniversidad = "En la presente sección, podrás realizar tu test vocacional y descubrir en qué ámbito se encuentra la carrera ideal para tí. Cuando gustes podemos comenzar.";
-
-    function iniciarLectura() {
-      if ('speechSynthesis' in window) {
-        speechSynthesisInstance = new SpeechSynthesisUtterance(textoUniversidad);
-        window.speechSynthesis.speak(speechSynthesisInstance);
-      } else {
-        console.log('Tu navegador no soporta la síntesis de voz.');
-      }
+  var speechSynthesisInstance;
+  var textoUniversidad = "Este es el catálogo de universidades, aquí podrás encontrar todas las universidades que ofrecen la carrera ideal para tí. Para ello, puedes utilizar el filtrado por categoría para revisar solo las universidades de tu interés o bien, si ya tienes claro a qué institución vas a entrar y deseas conocer más sobre ella, puedes utilizar el buscador";
+  function iniciarLectura() {
+    if ('speechSynthesis' in window) {
+      speechSynthesisInstance = new SpeechSynthesisUtterance(textoUniversidad);
+      window.speechSynthesis.speak(speechSynthesisInstance);
+    } else {
+      console.log('Tu navegador no soporta la síntesis de voz.');
     }
-
-    function pausarLectura() {
-      if (speechSynthesisInstance) {
-        window.speechSynthesis.pause();
-      }
+  }
+  function pausarLectura() {
+    if (speechSynthesisInstance) {
+      window.speechSynthesis.pause();
     }
-
-    function continuarLectura() {
-      if (speechSynthesisInstance) {
-        window.speechSynthesis.resume();
-      }
+  }
+  function continuarLectura() {
+    if (speechSynthesisInstance) {
+      window.speechSynthesis.resume();
     }
-
-    function reiniciarLectura() {
-      if (speechSynthesisInstance) {
-        window.speechSynthesis.cancel();
-        iniciarLectura();
-      }
+  }
+  function reiniciarLectura() {
+    if (speechSynthesisInstance) {
+      window.speechSynthesis.cancel();
+      iniciarLectura();
     }
-
-    function toggleSpeech() {
-      if (speechSynthesisInstance && window.speechSynthesis.speaking) {
-        pausarLectura();
-      } else {
-        continuarLectura();
-      }
+  }
+  function toggleSpeech() {
+    if (speechSynthesisInstance && window.speechSynthesis.speaking) {
+      pausarLectura();
+    } else {
+      continuarLectura();
     }
+  }
   </script>
+  <!--<Fin accesibilidad-->
 
   <script>
     function calculateResults() {

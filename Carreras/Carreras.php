@@ -12,6 +12,30 @@
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.css" />
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick-theme.css" />
     <script src="./scriptnav.js"></script>
+
+    <style>
+    .buttonLec {
+      background-color: #ffffff;
+      color: #246d96;
+      border: none;
+      /* Eliminar borde */
+      width: 35px;
+      height: 35px;
+      /* Espaciado interno */
+      cursor: pointer;
+      /* Cursor al pasar sobre el botón */
+      border-radius: 100px;
+      /* Borde redondeado */
+      font-size: 12px;
+      /* Tamaño del texto */
+
+    }
+
+    .buttonLec:hover {
+      background-color: #ebebebf6;
+      /* Cambio de color al pasar sobre el botón */
+    }
+  </style>
     
 </head>
 
@@ -38,8 +62,12 @@
   <?php include '../Footer.php'; ?>
   <!--Fin pie de la página.-->
     
+  <script src="/script.js"></script>
+  <script src="Carreras.js"></script>
+
+  <!--<Accesibilidad-->
   <div class="accessibility" title="Accesibilidad" id="accessibility" onclick="abrirAcce()">
-    <img src="/img/utileria/accessibility.png" alt="">
+    <img src="../img/utileria/accessibility.png" alt="">
 
   </div>
   <div class="BoxAccesibility" id="BoxAccesibility">
@@ -50,51 +78,41 @@
     </div>
   </div>
     
-  <script src="/script.js"></script>
-
-  <script src="Carreras.js"></script>
-  <!-- Asegúrate de incluir tu script JavaScript al final del cuerpo del documento -->
-
-    <script>
-      var speechSynthesisInstance;
-      var textoUniversidad = "Este es el catálogo de universidades, aquí podrás encontrar todas las universidades que ofrecen la carrera ideal para tí. Para ello, puedes utilizar el filtrado por categoría para revisar solo las universidades de tu interés o bien, si ya tienes claro a qué institución vas a entrar y deseas conocer más sobre ella, puedes utilizar el buscador";
-  
-      function iniciarLectura() {
-        if ('speechSynthesis' in window) {
-          speechSynthesisInstance = new SpeechSynthesisUtterance(textoUniversidad);
-          window.speechSynthesis.speak(speechSynthesisInstance);
-        } else {
-          console.log('Tu navegador no soporta la síntesis de voz.');
-        }
-      }
-  
-      function pausarLectura() {
-        if (speechSynthesisInstance) {
-          window.speechSynthesis.pause();
-        }
-      }
-  
-      function continuarLectura() {
-        if (speechSynthesisInstance) {
-          window.speechSynthesis.resume();
-        }
-      }
-  
-      function reiniciarLectura() {
-        if (speechSynthesisInstance) {
-          window.speechSynthesis.cancel();
-          iniciarLectura();
-        }
-      }
-  
-      function toggleSpeech() {
-        if (speechSynthesisInstance && window.speechSynthesis.speaking) {
-          pausarLectura();
-        } else {
-          continuarLectura();
-        }
-      }
-    </script>
-
+  <script>
+  var speechSynthesisInstance;
+  var textoUniversidad = "Este es el catálogo de universidades, aquí podrás encontrar todas las universidades que ofrecen la carrera ideal para tí. Para ello, puedes utilizar el filtrado por categoría para revisar solo las universidades de tu interés o bien, si ya tienes claro a qué institución vas a entrar y deseas conocer más sobre ella, puedes utilizar el buscador";
+  function iniciarLectura() {
+    if ('speechSynthesis' in window) {
+      speechSynthesisInstance = new SpeechSynthesisUtterance(textoUniversidad);
+      window.speechSynthesis.speak(speechSynthesisInstance);
+    } else {
+      console.log('Tu navegador no soporta la síntesis de voz.');
+    }
+  }
+  function pausarLectura() {
+    if (speechSynthesisInstance) {
+      window.speechSynthesis.pause();
+    }
+  }
+  function continuarLectura() {
+    if (speechSynthesisInstance) {
+      window.speechSynthesis.resume();
+    }
+  }
+  function reiniciarLectura() {
+    if (speechSynthesisInstance) {
+      window.speechSynthesis.cancel();
+      iniciarLectura();
+    }
+  }
+  function toggleSpeech() {
+    if (speechSynthesisInstance && window.speechSynthesis.speaking) {
+      pausarLectura();
+    } else {
+      continuarLectura();
+    }
+  }
+  </script>
+  <!--<Fin accesibilidad-->
   </body>
 </html>

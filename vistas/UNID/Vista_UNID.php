@@ -20,7 +20,29 @@
 
     gtag('config', 'G-4LTLCWXEBE');
   </script>
+  <style>
+    .buttonLec {
+      background-color: #ffffff;
+      color: #246d96;
+      border: none;
+      /* Eliminar borde */
+      width: 35px;
+      height: 35px;
+      /* Espaciado interno */
+      cursor: pointer;
+      /* Cursor al pasar sobre el botón */
+      border-radius: 100px;
+      /* Borde redondeado */
+      font-size: 12px;
+      /* Tamaño del texto */
 
+    }
+
+    .buttonLec:hover {
+      background-color: #ebebebf6;
+      /* Cambio de color al pasar sobre el botón */
+    }
+  </style>
 </head>
 
 <body onload="iniciarLectura()">
@@ -93,49 +115,56 @@
   <!--<Pie de la página.-->
   <?php include '../../Footer.php'; ?>
   <!--Fin pie de la página.-->
+  
+<!--<Accesibilidad-->
+<div class="accessibility" title="Accesibilidad" id="accessibility" onclick="abrirAcce()">
+    <img src="../../img/utileria/accessibility.png" alt="">
 
-    <!-- Scripts -->
-
-    <script>
-      var speechSynthesisInstance;
-      var textoUniversidad = "La Universidad Interamericana para el Desarrollo es una institución educativa multisede que promueve la excelencia académica, el desarrollo humano y el liderazgo profesional a través de un modelo educativo que integra valores, tecnología de vanguardia y experiencia laboral real, facilitando la inserción al mundo empresarial. La filosofía de la UNID se basa en una formación integral en la cual el desarrollo de la inteligencia y la adquisición del saber son fundamentales, potenciando el uso adecuado de la razón orientado a la búsqueda de la verdad, para emitir juicios rectos y equilibrados de los educandos, sobre sí mismos y el medio que les rodea.";
-  
-      function iniciarLectura() {
-        if ('speechSynthesis' in window) {
-          speechSynthesisInstance = new SpeechSynthesisUtterance(textoUniversidad);
-          window.speechSynthesis.speak(speechSynthesisInstance);
-        } else {
-          console.log('Tu navegador no soporta la síntesis de voz.');
-        }
-      }
-  
-      function pausarLectura() {
-        if (speechSynthesisInstance) {
-          window.speechSynthesis.pause();
-        }
-      }
-  
-      function continuarLectura() {
-        if (speechSynthesisInstance) {
-          window.speechSynthesis.resume();
-        }
-      }
-  
-      function reiniciarLectura() {
-        if (speechSynthesisInstance) {
-          window.speechSynthesis.cancel();
-          iniciarLectura();
-        }
-      }
-  
-      function toggleSpeech() {
-        if (speechSynthesisInstance && window.speechSynthesis.speaking) {
-          pausarLectura();
-        } else {
-          continuarLectura();
-        }
-      }
-    </script>
+  </div>
+  <div class="BoxAccesibility" id="BoxAccesibility">
+    <p>Lector de texto</p>
+    <div class="centrado">
+      <button class="buttonLec" onclick="reiniciarLectura()"><i class="fas fa-play"></i> </button>
+      <button class="buttonLec" onclick="toggleSpeech()"><i class="fas fa-stop"></i> </button>
+    </div>
+  </div>
+    
+  <script>
+  var speechSynthesisInstance;
+  var textoUniversidad = "Este es el catálogo de universidades, aquí podrás encontrar todas las universidades que ofrecen la carrera ideal para tí. Para ello, puedes utilizar el filtrado por categoría para revisar solo las universidades de tu interés o bien, si ya tienes claro a qué institución vas a entrar y deseas conocer más sobre ella, puedes utilizar el buscador";
+  function iniciarLectura() {
+    if ('speechSynthesis' in window) {
+      speechSynthesisInstance = new SpeechSynthesisUtterance(textoUniversidad);
+      window.speechSynthesis.speak(speechSynthesisInstance);
+    } else {
+      console.log('Tu navegador no soporta la síntesis de voz.');
+    }
+  }
+  function pausarLectura() {
+    if (speechSynthesisInstance) {
+      window.speechSynthesis.pause();
+    }
+  }
+  function continuarLectura() {
+    if (speechSynthesisInstance) {
+      window.speechSynthesis.resume();
+    }
+  }
+  function reiniciarLectura() {
+    if (speechSynthesisInstance) {
+      window.speechSynthesis.cancel();
+      iniciarLectura();
+    }
+  }
+  function toggleSpeech() {
+    if (speechSynthesisInstance && window.speechSynthesis.speaking) {
+      pausarLectura();
+    } else {
+      continuarLectura();
+    }
+  }
+  </script>
+  <!--<Fin accesibilidad-->
 
     <script>
       var MainImg = document.getElementById("ImgPrinc");
