@@ -12,37 +12,12 @@
   <link rel="stylesheet" href="Estilos/FooterStyle.css">
   <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.css" />
   <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick-theme.css" />
-  <link rel="stylesheet"
-    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <script src="./scriptnav.js"></script>
-
-  <style>
-    .buttonLec {
-      background-color: #ffffff;
-      color: #246d96;
-      border: none;
-      /* Eliminar borde */
-      width: 35px;
-      height: 35px;
-      /* Espaciado interno */
-      cursor: pointer;
-      /* Cursor al pasar sobre el botón */
-      border-radius: 100px;
-      /* Borde redondeado */
-      font-size: 12px;
-      /* Tamaño del texto */
-
-    }
-
-    .buttonLec:hover {
-      background-color: #ebebebf6;
-      /* Cambio de color al pasar sobre el botón */
-    }
-  </style>
-
 </head>
 
-<body onload="iniciarLectura(), abrirAcce()">
+<body>
 <?php include 'Header.php'; ?>
 
   <!--Banners-->
@@ -124,74 +99,14 @@
     </div>
   </section>
   <!--Fin carrusel-->
-
+  <a href="#" class="btn btn-primary back-to-top"><i class="fa fa-angle-double-up"></i></a>
   <!--<Pie de la página.-->
   <?php include 'Footer.php'; ?>
   <!--Fin pie de la página.-->
 
-  <!--<Accesibilidad-->
-  <div class="accessibility" title="Accesibilidad" id="accessibility" onclick="abrirAcce()">
-    <img src="img/utileria/accessibility.png" alt="">
-
-  </div>
-  <div class="BoxAccesibility" id="BoxAccesibility">
-    <p>Lector de texto</p>
-    <div class="centrado">
-      <button class="buttonLec" onclick="reiniciarLectura()"><i class="fas fa-play"></i> </button>
-      <button class="buttonLec" onclick="toggleSpeech()"><i class="fas fa-stop"></i> </button>
-    </div>
-  </div>
-  <!--<Fin accesibilidad-->
-
-
   <script src="Universidades.js"></script>
-
-  <script>
-    var speechSynthesisInstance;
-    var textoUniversidad = "Bienvenidos y bienvenidas a 'university match'. Continúa tus estudios, Existe una universidad ideal para tí!. Realiza tu test vocacional y comencemos a descubrir cuál es.";
-
-    function iniciarLectura() {
-      if ('speechSynthesis' in window) {
-        speechSynthesisInstance = new SpeechSynthesisUtterance(textoUniversidad);
-        window.speechSynthesis.speak(speechSynthesisInstance);
-      } else {
-        console.log('Tu navegador no soporta la síntesis de voz.');
-      }
-    }
-
-    function pausarLectura() {
-      if (speechSynthesisInstance) {
-        window.speechSynthesis.pause();
-      }
-    }
-
-    function continuarLectura() {
-      if (speechSynthesisInstance) {
-        window.speechSynthesis.resume();
-      }
-    }
-
-    function reiniciarLectura() {
-      if (speechSynthesisInstance) {
-        window.speechSynthesis.cancel();
-        iniciarLectura();
-      }
-    }
-
-    function toggleSpeech() {
-      if (speechSynthesisInstance && window.speechSynthesis.speaking) {
-        pausarLectura();
-      } else {
-        continuarLectura();
-      }
-    }
-  </script>
-
   <script src="banners.js"></script>
   <script src="script.js"></script>
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-    crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
     integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
     crossorigin="anonymous"></script>
@@ -201,6 +116,45 @@
   <script src="https://cdn.jsdelivr.net/npm/jquery/dist/jquery.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.min.js"></script>
   <script src="script.js"></script>
+
+  <!-- Script de accesibilidad -->
+  <script>
+    (function() {
+        var s = document.createElement('script');
+        s.src = 'https://acsbapp.com/apps/app/dist/js/app.js';
+        s.async = true;
+        s.onload = function() {
+            acsbJS.init({
+                statementLink: '', 
+                footerHtml: '',
+                hideMobile: false,
+                hideTrigger: false,
+                disableBgProcess: false,
+                language: 'es',
+                position: 'right',
+                leadColor: '#146FF8',
+                triggerColor: '#146FF8',
+                triggerRadius: '50%',
+                triggerPositionX: 'right',
+                triggerPositionY: 'bottom',
+                triggerIcon: 'people',
+                triggerSize: 'medium',
+                triggerOffsetX: 20,
+                triggerOffsetY: 20,
+                mobile: {
+                    triggerSize: 'small',
+                    triggerPositionX: 'right',
+                    triggerPositionY: 'bottom',
+                    triggerOffsetX: 10,
+                    triggerOffsetY: 10,
+                    triggerRadius: '50%'
+                }
+            });
+        };
+        document.body.appendChild(s);
+    })();
+</script>
+
 </body>
 
 </html>
