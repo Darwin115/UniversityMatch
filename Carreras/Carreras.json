@@ -6,239 +6,302 @@
       },
       {
         "nombre": "Ingeniería Electrónica",
-        "descripcion": "Enfocada en la creación y mantenimiento de dispositivos electrónicos, incluyendo circuitos, sistemas embebidos y comunicaciones electrónicas"
+        "descripcion": "Enfocada en la creación y mantenimiento de dispositivos electrónicos, incluyendo circuitos, sistemas embebidos y comunicaciones electrónicas",
+        "imagen": "../img/carreras/ingElectronica.jpeg"
       },
       {
         "nombre": "Ingeniería Industrial",
-        "descripcion": "Optimiza procesos y recursos en empresas. Incluye logística, administración de operaciones y mejora de procesos."
+        "descripcion": "Optimiza procesos y recursos en empresas. Incluye logística, administración de operaciones y mejora de procesos.",
+        "imagen": "../img/carreras/Ingeniería Industrial.jpg"
       },
       {
         "nombre": "Ingeniería Mecánica",
-        "descripcion": "Prepara para el diseño y fabricación de maquinaria y equipos mecánicos, incluyendo termodinámica, mecánica de fluidos y diseño mecánico."
-      },
+        "descripcion": "Prepara para el diseño y fabricación de maquinaria y equipos mecánicos, incluyendo termodinámica, mecánica de fluidos y diseño mecánico.",
+        "imagen": "../img/carreras/Ingeniería Mecánica.jpg"
+        },
       {
         "nombre": "Ingeniería Química",
-        "descripcion": "Aborda la transformación de materias primas en productos químicos, estudiando procesos químicos, reacciones y seguridad en el manejo de sustancias."
+        "descripcion": "Aborda la transformación de materias primas en productos químicos, estudiando procesos químicos, reacciones y seguridad en el manejo de sustancias.",
+        "imagen": "../img/carreras/Ingeniería Química.jpg"
       },
       {
         "nombre": "Licenciatura en Administración Industrial",
-        "descripcion": "Gestiona y administra recursos industriales, cubriendo administración de la producción, calidad y logística."
+        "descripcion": "Gestiona y administra recursos industriales, cubriendo administración de la producción, calidad y logística.",
+        "imagen": "../img/carreras/Licenciatura en Administración Industrial.jpg"
       },
       {
         "nombre": "Ingeniería en Tecnologías de la Información y Comunicaciones",
-        "descripcion": "Enfocada en la integración de tecnologías de información y comunicación para el desarrollo de soluciones tecnológicas eficientes en diversos sectores."
+        "descripcion": "Enfocada en la integración de tecnologías de información y comunicación para el desarrollo de soluciones tecnológicas eficientes en diversos sectores.",
+        "imagen": "../img/carreras/Ingeniería en Tecnologías de la Información y Comunicaciones.jpg"
       },
       {
         "nombre": "Licenciatura en Ingeniería de Audio",
-        "descripcion": "Especializada en la captura, edición y producción de sonido para medios de comunicación, espectáculos y entornos virtuales."
+        "descripcion": "Especializada en la captura, edición y producción de sonido para medios de comunicación, espectáculos y entornos virtuales.",
+        "imagen": "../img/carreras/Licenciatura en Ingeniería de Audio.jpg"
+
       },
       {
         "nombre": "Licenciatura en Contaduría Pública",
-        "descripcion": "Forma expertos en gestión financiera y contable, incluyendo contabilidad financiera, auditoría y fiscalidad."
+        "descripcion": "Forma expertos en gestión financiera y contable, incluyendo contabilidad financiera, auditoría y fiscalidad.",
+        "imagen": "../img/carreras/Licenciatura en Contaduría Pública.jpg"
       },
       {
         "nombre": "Licenciatura en Diseño Gráfico",
-        "descripcion": "Prepara para crear contenido visual en diversos medios, incluyendo diseño digital, teoría del color y comunicación visual."
+        "descripcion": "Prepara para crear contenido visual en diversos medios, incluyendo diseño digital, teoría del color y comunicación visual.",
+        "imagen": "../img/carreras/Licenciatura en Diseño Gráfico.jpg"
       },
       {
         "nombre": "Licenciatura en Mercadotecnia",
-        "descripcion": "Estudia mercados y estrategias de promoción de productos y servicios, incluyendo investigación de mercado, publicidad y ventas."
+        "descripcion": "Estudia mercados y estrategias de promoción de productos y servicios, incluyendo investigación de mercado, publicidad y ventas.",
+        "imagen": "../img/carreras/Licenciatura en Mercadotecnia.jpeg"
+
       },
       {
         "nombre": "Licenciatura en Relaciones Internacionales",
-        "descripcion": "Estudia relaciones entre países y organizaciones internacionales, incluyendo política exterior, comercio internacional y derechos humanos."
+        "descripcion": "Estudia relaciones entre países y organizaciones internacionales, incluyendo política exterior, comercio internacional y derechos humanos.",
+        "imagen": "../img/carreras/Licenciatura en Relaciones Internacionales.jpg"
       },
       {
         "nombre": "Ingeniería en Energías Renovables",
-        "descripcion": "Especializada en el desarrollo y gestión de tecnologías para la generación de energía a partir de fuentes renovables, como solar y eólica."
+        "descripcion": "Especializada en el desarrollo y gestión de tecnologías para la generación de energía a partir de fuentes renovables, como solar y eólica.",
+        "imagen": "../img/carreras/Ingeniería en Energías Renovables.jpg"
       },
       {
         "nombre": "Ingeniería en Logística y Transporte",
-        "descripcion": "Enfocada en la gestión y optimización de procesos logísticos y de transporte, incluyendo cadenas de suministro y distribución."
+        "descripcion": "Enfocada en la gestión y optimización de procesos logísticos y de transporte, incluyendo cadenas de suministro y distribución.",
+        "imagen": "../img/carreras/Ingeniería en Logística y Transporte.jpg"
       },
       {
         "nombre": "Licenciatura en Educación",
-        "descripcion": "Forma profesionales en el ámbito educativo, cubriendo pedagogía, didáctica y administración educativa."
+        "descripcion": "Forma profesionales en el ámbito educativo, cubriendo pedagogía, didáctica y administración educativa.",
+        "imagen": "../img/carreras/Licenciatura en Educación.jpg"
       },
       {
         "nombre": "Licenciatura en Psicología",
-        "descripcion": "Estudia el comportamiento humano y los procesos mentales, incluyendo terapia psicológica y evaluación psicológica."
+        "descripcion": "Estudia el comportamiento humano y los procesos mentales, incluyendo terapia psicológica y evaluación psicológica.",
+        "imagen": "../img/carreras/Licenciatura en Psicología.jpg"
       },
       {
         "nombre": "Licenciatura en Derecho",
-        "descripcion": "Forma profesionales en la aplicación y estudio del derecho, incluyendo legislación, jurisprudencia y ética legal."
+        "descripcion": "Forma profesionales en la aplicación y estudio del derecho, incluyendo legislación, jurisprudencia y ética legal.",
+        "imagen": "../img/carreras/Licenciatura en Derecho.jpg"
       },
       {
         "nombre": "Ingeniería en Telecomunicaciones",
-        "descripcion": "Especializada en el diseño, implementación y gestión de sistemas de telecomunicaciones, incluyendo redes y sistemas de comunicación."
+        "descripcion": "Especializada en el diseño, implementación y gestión de sistemas de telecomunicaciones, incluyendo redes y sistemas de comunicación.",
+        "imagen": "../img/carreras/Ingeniería en Telecomunicaciones.jpg"
       },
       {
         "nombre": "Licenciatura en Arquitectura",
-        "descripcion": "Prepara para el diseño y planificación de edificios y espacios urbanos, incluyendo técnicas de construcción y estética arquitectónica."
+        "descripcion": "Prepara para el diseño y planificación de edificios y espacios urbanos, incluyendo técnicas de construcción y estética arquitectónica.",
+        "imagen": "../img/carreras/Licenciatura en Arquitectura.jpg"
       },
       {
         "nombre": "Licenciatura en Ciencias de la Computación",
-        "descripcion": "Enfocada en el estudio de algoritmos, estructuras de datos y programación, preparando para el desarrollo de software y sistemas informáticos."
+        "descripcion": "Enfocada en el estudio de algoritmos, estructuras de datos y programación, preparando para el desarrollo de software y sistemas informáticos.",
+        "imagen": "../img/carreras/Licenciatura en Ciencias de la Computación.jpg"
       },
       {
         "nombre": "Licenciatura en Comunicación",
-        "descripcion": "Estudia los medios de comunicación y las técnicas de transmisión de mensajes, incluyendo periodismo, producción audiovisual y relaciones públicas."
+        "descripcion": "Estudia los medios de comunicación y las técnicas de transmisión de mensajes, incluyendo periodismo, producción audiovisual y relaciones públicas.",
+        "imagen": "../img/carreras/Licenciatura en Comunicación.jpeg"
       },
       {
         "nombre": "Ingeniería en Diseño Industrial",
-        "descripcion": "Especializada en el diseño y desarrollo de productos industriales, combinando aspectos funcionales, estéticos y ergonómicos."
+        "descripcion": "Especializada en el diseño y desarrollo de productos industriales, combinando aspectos funcionales, estéticos y ergonómicos.",
+        "imagen": "../img/carreras/Ingeniería en Diseño Industrial.jpeg"
       },
       {
         "nombre": "Ingeniería en Gestión Empresarial",
-        "descripcion": "Forma profesionales en la administración y gestión eficiente de empresas, con énfasis en estrategia, innovación y liderazgo."
+        "descripcion": "Forma profesionales en la administración y gestión eficiente de empresas, con énfasis en estrategia, innovación y liderazgo.",
+        "imagen": "../img/carreras/Ingeniería en Gestión Empresarial.jpg"
+
       },
       {
         "nombre": "Ingeniería en Robótica",
-        "descripcion": "Especializada en el diseño, construcción y programación de robots y sistemas automatizados para diversas aplicaciones industriales y de servicio."
+        "descripcion": "Especializada en el diseño, construcción y programación de robots y sistemas automatizados para diversas aplicaciones industriales y de servicio.",
+        "imagen": "../img/carreras/Ingeniería en Robótica.png"
       },
       {
         "nombre": "Ingeniería en Bioquímica",
-        "descripcion": "Estudia las aplicaciones de la química en procesos biológicos, incluyendo biotecnología, farmacología y análisis bioquímicos."
+        "descripcion": "Estudia las aplicaciones de la química en procesos biológicos, incluyendo biotecnología, farmacología y análisis bioquímicos.",
+        "imagen": "../img/carreras/Ingeniería en Bioquímica.png"
       },
       {
         "nombre": "Licenciatura en Biotecnología",
-        "descripcion": "Se enfoca en la aplicación de principios biológicos y químicos para desarrollar tecnologías y productos innovadores en áreas como salud y agricultura."
+        "descripcion": "Se enfoca en la aplicación de principios biológicos y químicos para desarrollar tecnologías y productos innovadores en áreas como salud y agricultura.",
+        "imagen": "../img/carreras/Licenciatura en Biotecnología.jpg"
       },
       {
         "nombre": "Licenciatura en Ciencias Políticas",
-        "descripcion": "Estudia las estructuras y procesos políticos, la teoría política y la administración pública, preparando a los estudiantes para roles en gobierno y organizaciones internacionales."
+        "descripcion": "Estudia las estructuras y procesos políticos, la teoría política y la administración pública, preparando a los estudiantes para roles en gobierno y organizaciones internacionales.",
+        "imagen": "../img/carreras/Licenciatura en Ciencias Políticas.jpg"
       },
       {
         "nombre": "Licenciatura en Sociología",
-        "descripcion": "Explora las estructuras sociales, el comportamiento humano y las instituciones sociales, enfocándose en el análisis y la investigación social."
+        "descripcion": "Explora las estructuras sociales, el comportamiento humano y las instituciones sociales, enfocándose en el análisis y la investigación social.",
+        "imagen": "../img/carreras/Licenciatura en Sociología.jpg"
       },
       {
         "nombre": "Licenciatura en Historia",
-        "descripcion": "Forma historiadores que estudian y analizan eventos históricos, procesos y contextos para comprender el desarrollo de las sociedades humanas."
+        "descripcion": "Forma historiadores que estudian y analizan eventos históricos, procesos y contextos para comprender el desarrollo de las sociedades humanas.",
+        "imagen": "../img/carreras/Licenciatura en Historia.jpg"
       },
       {
         "nombre": "Licenciatura en Filosofía",
-        "descripcion": "Estudia las cuestiones fundamentales sobre la existencia, el conocimiento, la moral y el pensamiento crítico, preparando a los estudiantes para el análisis filosófico."
+        "descripcion": "Estudia las cuestiones fundamentales sobre la existencia, el conocimiento, la moral y el pensamiento crítico, preparando a los estudiantes para el análisis filosófico.",
+        "imagen": "../img/carreras/Licenciatura en Filosofía.jpeg"
       },
       {
         "nombre": "Licenciatura en Artes Visuales",
-        "descripcion": "Enfocada en la creación y apreciación del arte visual, incluyendo técnicas de pintura, escultura, fotografía y medios digitales."
+        "descripcion": "Enfocada en la creación y apreciación del arte visual, incluyendo técnicas de pintura, escultura, fotografía y medios digitales.",
+        "imagen": "../img/carreras/Licenciatura en Artes Visuales.png"
       },
       {
         "nombre": "Licenciatura en Música",
-        "descripcion": "Prepara a los estudiantes en la teoría musical, la composición y la interpretación, cubriendo diferentes géneros y estilos musicales."
+        "descripcion": "Prepara a los estudiantes en la teoría musical, la composición y la interpretación, cubriendo diferentes géneros y estilos musicales.",
+        "imagen": "../img/carreras/Licenciatura en Música.jpg"
       },
       {
         "nombre": "Licenciatura en Gastronomía",
-        "descripcion": "Forma profesionales en la cocina y la gestión de restaurantes, incluyendo técnicas culinarias, nutrición y administración gastronómica."
+        "descripcion": "Forma profesionales en la cocina y la gestión de restaurantes, incluyendo técnicas culinarias, nutrición y administración gastronómica.",
+        "imagen": "../img/carreras/Licenciatura en Gastronomía.jpg"
       },
       {
         "nombre": "Licenciatura en Turismo",
-        "descripcion": "Estudia la gestión y promoción de destinos turísticos, así como la planificación y organización de servicios turísticos."
+        "descripcion": "Estudia la gestión y promoción de destinos turísticos, así como la planificación y organización de servicios turísticos.",
+        "imagen": "../img/carreras/Licenciatura en Turismo.jpg"
       },
       {
         "nombre": "Licenciatura en Administración Pública",
-        "descripcion": "Prepara para gestionar y administrar recursos y servicios públicos, incluyendo políticas gubernamentales y administración de programas públicos."
+        "descripcion": "Prepara para gestionar y administrar recursos y servicios públicos, incluyendo políticas gubernamentales y administración de programas públicos.",
+        "imagen": "../img/carreras/Licenciatura en Administración Pública.jpg"
       },
       {
         "nombre": "Licenciatura en Ingeniería en Software",
-        "descripcion": "Enfocada en el desarrollo de aplicaciones y sistemas de software, incluyendo programación avanzada y metodologías de desarrollo de software."
+        "descripcion": "Enfocada en el desarrollo de aplicaciones y sistemas de software, incluyendo programación avanzada y metodologías de desarrollo de software.",
+        "imagen": "../img/carreras/Licenciatura en Ingeniería en Software.jpg"
       },
       {
         "nombre": "Licenciatura en Diseño de Interiores",
-        "descripcion": "Especializada en el diseño y planificación de espacios interiores, enfocándose en la funcionalidad, estética y ergonomía de los entornos habitables."
+        "descripcion": "Especializada en el diseño y planificación de espacios interiores, enfocándose en la funcionalidad, estética y ergonomía de los entornos habitables.",
+        "imagen": "../img/carreras/Licenciatura en Diseño de Interiores.jpg"
       },
       {
         "nombre": "Licenciatura en Marketing Digital",
-        "descripcion": "Estudia estrategias de marketing en plataformas digitales, incluyendo SEO, SEM, redes sociales y análisis de datos para campañas digitales."
+        "descripcion": "Estudia estrategias de marketing en plataformas digitales, incluyendo SEO, SEM, redes sociales y análisis de datos para campañas digitales.",
+        "imagen": "../img/carreras/Licenciatura en Marketing Digital.jpg"
       },
       {
         "nombre": "Licenciatura en Ingeniería en Computación",
-        "descripcion": "Prepara para el desarrollo y mantenimiento de sistemas computacionales, incluyendo hardware, software y redes."
+        "descripcion": "Prepara para el desarrollo y mantenimiento de sistemas computacionales, incluyendo hardware, software y redes.",
+        "imagen": "../img/carreras/Licenciatura en Ingeniería en Computación.jpg"
       },
       {
         "nombre": "Licenciatura en Ciencias Ambientales",
-        "descripcion": "Estudia la protección y gestión del medio ambiente, incluyendo evaluación de impacto ambiental, sostenibilidad y conservación de recursos naturales."
+        "descripcion": "Estudia la protección y gestión del medio ambiente, incluyendo evaluación de impacto ambiental, sostenibilidad y conservación de recursos naturales.",
+        "imagen": "../img/carreras/Licenciatura en Ciencias Ambientales.jpg"
       },
       {
         "nombre": "Licenciatura en Matemáticas Aplicadas",
-        "descripcion": "Enfocada en el uso de técnicas matemáticas para resolver problemas en áreas como ingeniería, finanzas y ciencias naturales."
+        "descripcion": "Enfocada en el uso de técnicas matemáticas para resolver problemas en áreas como ingeniería, finanzas y ciencias naturales.",
+        "imagen": "../img/carreras/Licenciatura en Matemáticas Aplicadas.jpg"
       },
       {
         "nombre": "Licenciatura en Estadística",
-        "descripcion": "Estudia la recolección, análisis e interpretación de datos, aplicando métodos estadísticos para la toma de decisiones en diversos campos."
+        "descripcion": "Estudia la recolección, análisis e interpretación de datos, aplicando métodos estadísticos para la toma de decisiones en diversos campos.",
+        "imagen": "../img/carreras/Licenciatura en Estadística.jpg"
       },
       {
         "nombre": "Licenciatura en Educación Física",
-        "descripcion": "Prepara a los estudiantes para promover la salud y el bienestar físico a través de la enseñanza y la gestión de actividades físicas y deportivas."
+        "descripcion": "Prepara a los estudiantes para promover la salud y el bienestar físico a través de la enseñanza y la gestión de actividades físicas y deportivas.",
+        "imagen": "../img/carreras/Licenciatura en Educación Física.jpg"
       },
       {
         "nombre": "Licenciatura en Terapia Física",
-        "descripcion": "Forma profesionales en la rehabilitación y tratamiento de lesiones físicas, utilizando técnicas de terapia física y ejercicios de rehabilitación."
+        "descripcion": "Forma profesionales en la rehabilitación y tratamiento de lesiones físicas, utilizando técnicas de terapia física y ejercicios de rehabilitación.",
+        "imagen": "../img/carreras/Licenciatura en Terapia Física.jpg"
       },
       {
         "nombre": "Licenciatura en Nutrición",
-        "descripcion": "Enfocada en el estudio de la alimentación y la salud, incluyendo dietética, nutrición clínica y planificación de dietas equilibradas."
+        "descripcion": "Enfocada en el estudio de la alimentación y la salud, incluyendo dietética, nutrición clínica y planificación de dietas equilibradas.",
+        "imagen": "../img/carreras/Licenciatura en Nutrición.jpeg"
       },
       {
         "nombre": "Licenciatura en Ciencias de la Salud",
-        "descripcion": "Prepara profesionales para el cuidado y la promoción de la salud, cubriendo áreas como salud pública, prevención de enfermedades y gestión de servicios de salud."
+        "descripcion": "Prepara profesionales para el cuidado y la promoción de la salud, cubriendo áreas como salud pública, prevención de enfermedades y gestión de servicios de salud.",
+        "imagen": "../img/carreras/Licenciatura en Ciencias de la Salud.jpg"
       },
       {
         "nombre": "Licenciatura en Odontología",
-        "descripcion": "Forma dentistas que se especializan en el diagnóstico, tratamiento y prevención de enfermedades dentales y orales."
+        "descripcion": "Forma dentistas que se especializan en el diagnóstico, tratamiento y prevención de enfermedades dentales y orales.",
+        "imagen": "../img/carreras/Licenciatura en Odontología.jpg"
       },
       {
         "nombre": "Licenciatura en Medicina",
-        "descripcion": "Prepara a los estudiantes para la práctica médica, incluyendo diagnóstico, tratamiento y prevención de enfermedades, así como atención médica integral."
+        "descripcion": "Prepara a los estudiantes para la práctica médica, incluyendo diagnóstico, tratamiento y prevención de enfermedades, así como atención médica integral.",
+        "imagen": "../img/carreras/Licenciatura en Medicina.jpg"
       },
       {
         "nombre": "Licenciatura en Arquitectura de Interiores",
-        "descripcion": "Estudia el diseño y la mejora de espacios interiores con un enfoque en la funcionalidad, estética y confort de los ambientes."
+        "descripcion": "Estudia el diseño y la mejora de espacios interiores con un enfoque en la funcionalidad, estética y confort de los ambientes.",
+        "imagen": "../img/carreras/Licenciatura en Arquitectura de Interiores.jpg"
       },
       {
         "nombre": "Licenciatura en Diseño de Moda",
-        "descripcion": "Enfocada en la creación y diseño de prendas de vestir, incluyendo tendencias de moda, patrones y técnicas de confección."
+        "descripcion": "Enfocada en la creación y diseño de prendas de vestir, incluyendo tendencias de moda, patrones y técnicas de confección.",
+        "imagen": "../img/carreras/Licenciatura en Diseño de Moda.jpg"
       },
       {
         "nombre": "Licenciatura en Ciencias de la Comunicación",
-        "descripcion": "Explora los procesos de comunicación en medios de comunicación y organizaciones, cubriendo periodismo, producción y medios digitales."
+        "descripcion": "Explora los procesos de comunicación en medios de comunicación y organizaciones, cubriendo periodismo, producción y medios digitales.",
+        "imagen": "../img/carreras/Licenciatura en Ciencias de la Comunicación.jpg"
       },
       {
         "nombre": "Licenciatura en Ciencias Actuariales",
-        "descripcion": "Estudia la evaluación y gestión de riesgos financieros y de seguros mediante el uso de matemáticas y estadísticas actuariales."
+        "descripcion": "Estudia la evaluación y gestión de riesgos financieros y de seguros mediante el uso de matemáticas y estadísticas actuariales.",
+        "imagen": "../img/carreras/Licenciatura en Ciencias Actuariales.jpg"
       },
       {
         "nombre": "Licenciatura en Finanzas",
-        "descripcion": "Enfocada en la gestión de recursos financieros, incluyendo inversiones, análisis financiero y planificación financiera."
+        "descripcion": "Enfocada en la gestión de recursos financieros, incluyendo inversiones, análisis financiero y planificación financiera.",
+        "imagen": "../img/carreras/Licenciatura en Finanzas.jpg"
       },
       {
         "nombre": "Licenciatura en Relaciones Laborales",
-        "descripcion": "Estudia la administración de recursos humanos y relaciones laborales en las organizaciones, incluyendo negociación y gestión de conflictos."
+        "descripcion": "Estudia la administración de recursos humanos y relaciones laborales en las organizaciones, incluyendo negociación y gestión de conflictos.",
+        "imagen": "../img/carreras/Licenciatura en Relaciones Laborales.jpg"
       },
       {
         "nombre": "Licenciatura en Administración de Empresas Turísticas",
-        "descripcion": "Forma profesionales en la gestión de empresas y servicios en la industria del turismo, incluyendo planificación y administración de destinos turísticos."
+        "descripcion": "Forma profesionales en la gestión de empresas y servicios en la industria del turismo, incluyendo planificación y administración de destinos turísticos.",
+        "imagen": "../img/carreras/Licenciatura en Administración de Empresas Turísticas.jpg"
       },
       {
         "nombre": "Licenciatura en Ciencias de la Educación",
-        "descripcion": "Estudia teorías educativas, metodologías de enseñanza y gestión escolar, preparando a los estudiantes para roles en el sistema educativo."
+        "descripcion": "Estudia teorías educativas, metodologías de enseñanza y gestión escolar, preparando a los estudiantes para roles en el sistema educativo.",
+        "imagen": "../img/carreras/Licenciatura en Ciencias de la Educación.jpeg"
       },
       {
         "nombre": "Licenciatura en Trabajo Social",
-        "descripcion": "Forma profesionales en la intervención y apoyo a individuos y comunidades en situación de vulnerabilidad, incluyendo planificación y gestión de servicios sociales."
+        "descripcion": "Forma profesionales en la intervención y apoyo a individuos y comunidades en situación de vulnerabilidad, incluyendo planificación y gestión de servicios sociales.",
+        "imagen": "../img/carreras/Licenciatura en Trabajo Social.jpeg"
       },
       {
         "nombre": "Licenciatura en Administración de Empresas",
-        "descripcion": "Enfocada en la gestión y operación de empresas, cubriendo áreas como finanzas, marketing y estrategia empresarial."
+        "descripcion": "Enfocada en la gestión y operación de empresas, cubriendo áreas como finanzas, marketing y estrategia empresarial.",
+        "imagen": "../img/carreras/Licenciatura en Administración de Empresas.jpg"
       },
       {
         "nombre": "Licenciatura en Biología",
-        "descripcion": "Estudia los seres vivos y sus procesos vitales, incluyendo ecología, genética y biología celular."
+        "descripcion": "Estudia los seres vivos y sus procesos vitales, incluyendo ecología, genética y biología celular.",
+        "imagen": "../img/carreras/Licenciatura en Biología.jpg"
       },
       {
         "nombre": "Licenciatura en Ingeniería en Telecomunicaciones y Redes",
-        "descripcion": "Prepara en el diseño y gestión de redes de comunicación y sistemas de telecomunicaciones, incluyendo infraestructura y protocolos de red."
+        "descripcion": "Prepara en el diseño y gestión de redes de comunicación y sistemas de telecomunicaciones, incluyendo infraestructura y protocolos de red.",
+        "imagen": "../img/carreras/Licenciatura en Ingeniería en Telecomunicaciones y Redes.jpg"
+
       }
 ]
   
