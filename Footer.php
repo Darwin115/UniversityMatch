@@ -56,6 +56,10 @@ if (strpos($_SERVER['REQUEST_URI'], 'Formularios') !== false) {
     $base_path = '../../';
 } elseif (strpos($_SERVER['REQUEST_URI'], 'Registro') !== false) {
     $base_path = '../';
+} elseif (strpos($_SERVER['REQUEST_URI'], 'Cursos') !== false) {
+    $base_path = '../';
+} elseif (strpos($_SERVER['REQUEST_URI'], 'Contacto') !== false) {
+    $base_path = '../';
 } 
 ?>
 
@@ -77,6 +81,7 @@ if (strpos($_SERVER['REQUEST_URI'], 'Formularios') !== false) {
                 <li><a href="<?php echo $base_path; ?>Carreras/Carreras.php" title="Carreras">Carreras</a></li>
                 <li><a href="<?php echo $base_path; ?>Donaciones/Donaciones.php" title="Donaciones">Donaciones</a></li>
                 <li><a href="<?php echo $base_path; ?>Registro/registro.php" title="Registro">Registro</a></li>
+                <li><a href="<?php echo $base_path; ?>Contacto/contacto.php" title="Contacto">Contacto</a></li>
             </ul>
         </div>
         <div class="footer-column">
