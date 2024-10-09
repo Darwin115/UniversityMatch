@@ -57,8 +57,11 @@ if (strpos($_SERVER['REQUEST_URI'], 'Formularios') !== false) {
     $base_path = '../../';
 } elseif (strpos($_SERVER['REQUEST_URI'], 'Registro') !== false) {
     $base_path = '../';
+} elseif (strpos($_SERVER['REQUEST_URI'], 'Cursos') !== false) {
+    $base_path = '../';
+} elseif (strpos($_SERVER['REQUEST_URI'], 'Contacto') !== false) {
+    $base_path = '../';
 } 
-
 ?>
 
 <section id="header">
@@ -70,11 +73,12 @@ if (strpos($_SERVER['REQUEST_URI'], 'Formularios') !== false) {
       <span>&nbsp;&nbsp;&nbsp;</span>
       <li><a class="active" href="<?php echo $base_path; ?>index.php" title="Inicio">Inicio</a></li>
       <li><a href="<?php echo $base_path; ?>Formularios/Test.php" title="Test Vocacional">Test Vocacional</a></li>
-      <li><a href="<?php echo $base_path; ?>Cursos" title="Universidades">Cursos</a></li>
+      <li><a href="<?php echo $base_path; ?>Cursos/Cursos.php" title="Cursos">Cursos</a></li>
       <li><a href="<?php echo $base_path; ?>Rec_Catalogo/Catalogo.php" title="Universidades">Universidades</a></li>
-      <li><a href="<?php echo $base_path; ?>Carreras/Carreras.php" title="Universidades">Carreras</a></li>
-      <li><a href="<?php echo $base_path; ?>Donaciones/Donaciones.php" title="Universidades">Donaciones</a></li>
-      <li><a href="<?php echo $base_path; ?>Registro/registro.php" title="Universidades">Registro</a></li>
+      <li><a href="<?php echo $base_path; ?>Carreras/Carreras.php" title="Carreras">Carreras</a></li>
+      <li><a href="<?php echo $base_path; ?>Donaciones/Donaciones.php" title="Donaciones">Donaciones</a></li>
+      <li><a href="<?php echo $base_path; ?>Registro/registro.php" title="Registro">Registro</a></li>
+      <li><a href="<?php echo $base_path; ?>Contacto/contacto.php" title="Contacto">Contacto</a></li>
     </ul>
   </ul>
 </section>

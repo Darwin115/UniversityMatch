@@ -24,6 +24,29 @@
 
     gtag('config', 'G-4LTLCWXEBE');
   </script>
+  <style>
+    .buttonLec {
+      background-color: #ffffff;
+      color: #246d96;
+      border: none;
+      /* Eliminar borde */
+      width: 35px;
+      height: 35px;
+      /* Espaciado interno */
+      cursor: pointer;
+      /* Cursor al pasar sobre el botón */
+      border-radius: 100px;
+      /* Borde redondeado */
+      font-size: 12px;
+      /* Tamaño del texto */
+
+    }
+
+    .buttonLec:hover {
+      background-color: #ebebebf6;
+      /* Cambio de color al pasar sobre el botón */
+    }
+  </style>
 </head>
 
 <body onload="iniciarLectura()">
@@ -112,77 +135,59 @@
     </tr>
 </table>
 
-  <!--Pie de la página. Aquí mostramos información básica de la empresa-->
-  <section id="footer">
-    <div class="footer-container">
-      <div class="footer-column">
-        <h4>Contacto</h4>
-        <p><strong>Dirección:</strong> Av. Adolfo López Mateos Ote. 1801, Bona Gens, 20256 Aguascalientes, Ags.</p>
-        <p><strong>Teléfono:</strong> 449 960 9129</p>
-        <p><strong>Horario de Atención:</strong> 9:00 - 20:00, Lunes - Domingo</p>
-      </div>
-      <div class="footer-column">
-        <h4>Enlaces</h4>
-        <ul>
-          <li><a href="../../index.html">Inicio</a></li>
-          <li><a href="../../Formularios/Test.html">Test Vocacional</a></li>
-          <li><a href="../../Rec_Catalogo/Catalogo.html">Universidades</a></li>
-        </ul>
-      </div>
-      <div class="footer-column">
-        <h4>Síguenos</h4>
-        <ul class="social-icons">
-          <a href="#" class="fab fa-facebook-f"></a>
-          <a href="#" class="fab fa-twitter"></a>
-          <a href="#" class="fab fa-instagram"></a>
-        </ul>
-      </div>
+  <!--<Pie de la página.-->
+  <?php include '../../Footer.php'; ?>
+  <!--Fin pie de la página.-->
+
+  <!--<Accesibilidad-->
+  <div class="accessibility" title="Accesibilidad" id="accessibility" onclick="abrirAcce()">
+    <img src="../../img/utileria/accessibility.png" alt="">
+
+  </div>
+  <div class="BoxAccesibility" id="BoxAccesibility">
+    <p>Lector de texto</p>
+    <div class="centrado">
+      <button class="buttonLec" onclick="reiniciarLectura()"><i class="fas fa-play"></i> </button>
+      <button class="buttonLec" onclick="toggleSpeech()"><i class="fas fa-stop"></i> </button>
     </div>
-  </section>
-  
-
-  <!-- Scripts -->
-
+  </div>
+    
   <script>
-    var speechSynthesisInstance;
-    var textoUniversidad = "En el Instituto Tecnológico de Aguascalientes, la matrícula se ha convertido en un tema de interés y preocupación para estudiantes y familias por igual. Con cifras claras y concretas, la institución establece que el costo semestral de la matrícula es de $2,850, mientras que el costo anual asciende a $5,700. A pesar de estas cifras, el Instituto reconoce la importancia de garantizar el acceso a la educación superior y, por ende, ofrece oportunidades de becas para aquellos que califiquen. La beca deportiva reduce el costo a $1,425 por semestre, mientras que la beca destinada a Familiares de Empleados del Gobierno disminuye aún más la carga financiera, dejándola en $400. Estas becas no solo alivian el peso económico para los estudiantes, sino que también reflejan el compromiso de la institución con la equidad y la inclusión en el acceso a la educación.";
-
-    function iniciarLectura() {
-      if ('speechSynthesis' in window) {
-        speechSynthesisInstance = new SpeechSynthesisUtterance(textoUniversidad);
-        window.speechSynthesis.speak(speechSynthesisInstance);
-      } else {
-        console.log('Tu navegador no soporta la síntesis de voz.');
-      }
+  var speechSynthesisInstance;
+  var textoUniversidad = "Este es el catálogo de universidades, aquí podrás encontrar todas las universidades que ofrecen la carrera ideal para tí. Para ello, puedes utilizar el filtrado por categoría para revisar solo las universidades de tu interés o bien, si ya tienes claro a qué institución vas a entrar y deseas conocer más sobre ella, puedes utilizar el buscador";
+  function iniciarLectura() {
+    if ('speechSynthesis' in window) {
+      speechSynthesisInstance = new SpeechSynthesisUtterance(textoUniversidad);
+      window.speechSynthesis.speak(speechSynthesisInstance);
+    } else {
+      console.log('Tu navegador no soporta la síntesis de voz.');
     }
-
-    function pausarLectura() {
-      if (speechSynthesisInstance) {
-        window.speechSynthesis.pause();
-      }
+  }
+  function pausarLectura() {
+    if (speechSynthesisInstance) {
+      window.speechSynthesis.pause();
     }
-
-    function continuarLectura() {
-      if (speechSynthesisInstance) {
-        window.speechSynthesis.resume();
-      }
+  }
+  function continuarLectura() {
+    if (speechSynthesisInstance) {
+      window.speechSynthesis.resume();
     }
-
-    function reiniciarLectura() {
-      if (speechSynthesisInstance) {
-        window.speechSynthesis.cancel();
-        iniciarLectura();
-      }
+  }
+  function reiniciarLectura() {
+    if (speechSynthesisInstance) {
+      window.speechSynthesis.cancel();
+      iniciarLectura();
     }
-
-    function toggleSpeech() {
-      if (speechSynthesisInstance && window.speechSynthesis.speaking) {
-        pausarLectura();
-      } else {
-        continuarLectura();
-      }
+  }
+  function toggleSpeech() {
+    if (speechSynthesisInstance && window.speechSynthesis.speaking) {
+      pausarLectura();
+    } else {
+      continuarLectura();
     }
+  }
   </script>
+  <!--<Fin accesibilidad-->
 
 </body>
 
