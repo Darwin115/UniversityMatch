@@ -169,13 +169,14 @@ h2 {
 
 /* Estilo para los filtros */
 .filters-container {
-    display: flex; /* Usar flexbox */
-    align-items: center; /* Centrar verticalmente los elementos */
+    display: flex;
+    justify-content: space-between; /* Espacio entre los elementos */
+    justify-content: center;
+    align-items: center; /* Centrar verticalmente */
     background-color: #f0f0f0; /* Color de fondo */
     padding: 5px; /* Espaciado interno */
     border-radius: 8px; /* Bordes redondeados */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra */
-    margin: 20px auto; /* Margen exterior */
     max-width: 900px; /* Ancho máximo */
     height: 60px; /* Altura fija del contenedor */
 }
@@ -198,7 +199,6 @@ h2 {
 
 .filters-container input[type="text"] {
     flex: 1; /* Expande para llenar el espacio restante */
-    min-width: 200px; /* Ancho mínimo del input */
 }
 
 .filters-container button {

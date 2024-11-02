@@ -64,7 +64,10 @@ if (strpos($_SERVER['REQUEST_URI'], 'Formularios') !== false) {
 } 
 ?>
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> master
 <section id="header"> 
     <a href="<?php echo $base_path; ?>index.php">
       <img src="<?php echo $base_path; ?>img/Logo2.jpg" class="sin-borde imgResponsive" alt="logo" title="Logo" width="250">
@@ -88,6 +91,19 @@ if (strpos($_SERVER['REQUEST_URI'], 'Formularios') !== false) {
       <li><a href="<?php echo $base_path; ?>Contacto/contacto.php" title="Contacto">Contacto</a></li>
     </ul>
   </section>
+<<<<<<< HEAD
+=======
+
+  <script>
+    // Script para controlar el menú hamburguesa
+    const burgerMenu = document.getElementById('burger-menu');
+    const navbar = document.getElementById('navbar');
+
+    burgerMenu.addEventListener('click', function() {
+      navbar.classList.toggle('show');
+    });
+  </script>
+>>>>>>> master
 
   <script>
     // Script para controlar el menú hamburguesa
