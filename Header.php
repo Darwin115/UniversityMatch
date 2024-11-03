@@ -1,4 +1,3 @@
-
 <?php
 $base_path = '';
 if (strpos($_SERVER['REQUEST_URI'], 'Formularios') !== false) {
@@ -61,56 +60,49 @@ if (strpos($_SERVER['REQUEST_URI'], 'Formularios') !== false) {
     $base_path = '../';
 } elseif (strpos($_SERVER['REQUEST_URI'], 'Contacto') !== false) {
     $base_path = '../';
-} 
+} elseif (strpos($_SERVER['REQUEST_URI'], 'Carrito') !== false) {
+    $base_path = '../';
+} elseif (strpos($_SERVER['REQUEST_URI'], 'Favoritos') !== false) {
+    $base_path = '../';
+}
+
+// Determinar la clase activa
+function setActiveClass($page) {
+    return (strpos($_SERVER['REQUEST_URI'], $page) !== false) ? 'class="active"' : '';
+}
+
 ?>
 
-<<<<<<< HEAD
-
-=======
->>>>>>> master
 <section id="header"> 
     <a href="<?php echo $base_path; ?>index.php">
-      <img src="<?php echo $base_path; ?>img/Logo2.jpg" class="sin-borde imgResponsive" alt="logo" title="Logo" width="250">
+        <img src="<?php echo $base_path; ?>img/Logo2.jpg" class="sin-borde imgResponsive" alt="logo" title="Logo" width="250">
     </a>
 
     <!-- Menú hamburguesa -->
     <div class="burger-menu" id="burger-menu">
-      <div></div>
-      <div></div>
-      <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
     </div>
 
     <ul id="navbar">
-      <li><a class="active" href="<?php echo $base_path; ?>index.php" title="Inicio">Inicio</a></li>
-      <li><a href="<?php echo $base_path; ?>Formularios/Test.php" title="Test Vocacional">Test Vocacional</a></li>
-      <li><a href="<?php echo $base_path; ?>Cursos/Cursos.php" title="Cursos">Cursos</a></li>
-      <li><a href="<?php echo $base_path; ?>Rec_Catalogo/Catalogo.php" title="Universidades">Universidades</a></li>
-      <li><a href="<?php echo $base_path; ?>Carreras/Carreras.php" title="Carreras">Carreras</a></li>
-      <li><a href="<?php echo $base_path; ?>Donaciones/Donaciones.php" title="Donaciones">Donaciones</a></li>
-      <li><a href="<?php echo $base_path; ?>Registro/registro.php" title="Registro">Registro</a></li>
-      <li><a href="<?php echo $base_path; ?>Contacto/contacto.php" title="Contacto">Contacto</a></li>
+        <li><a href="<?php echo $base_path; ?>index.php" title="Inicio" <?php echo setActiveClass('index.php'); ?>>Inicio</a></li>
+        <li><a href="<?php echo $base_path; ?>Formularios/Test.php" title="Test Vocacional" <?php echo setActiveClass('Test.php'); ?>>Test Vocacional</a></li>
+        <li><a href="<?php echo $base_path; ?>Cursos/Cursos.php" title="Cursos" <?php echo setActiveClass('Cursos.php'); ?>>Cursos</a></li>
+        <li><a href="<?php echo $base_path; ?>Rec_Catalogo/Catalogo.php" title="Universidades" <?php echo setActiveClass('Catalogo.php'); ?>>Universidades</a></li>
+        <li><a href="<?php echo $base_path; ?>Carreras/Carreras.php" title="Carreras" <?php echo setActiveClass('Carreras.php'); ?>>Carreras</a></li>
+        <li><a href="<?php echo $base_path; ?>Donaciones/Donaciones.php" title="Donaciones" <?php echo setActiveClass('Donaciones.php'); ?>>Donaciones</a></li>
+        <li><a href="<?php echo $base_path; ?>Registro/registro.php" title="Registro" <?php echo setActiveClass('registro.php'); ?>>Registro</a></li>
+        <li><a href="<?php echo $base_path; ?>Contacto/contacto.php" title="Contacto" <?php echo setActiveClass('contacto.php'); ?>>Contacto</a></li>
     </ul>
-  </section>
-<<<<<<< HEAD
-=======
+</section>
 
-  <script>
+<script>
     // Script para controlar el menú hamburguesa
     const burgerMenu = document.getElementById('burger-menu');
     const navbar = document.getElementById('navbar');
 
     burgerMenu.addEventListener('click', function() {
-      navbar.classList.toggle('show');
+        navbar.classList.toggle('show');
     });
-  </script>
->>>>>>> master
-
-  <script>
-    // Script para controlar el menú hamburguesa
-    const burgerMenu = document.getElementById('burger-menu');
-    const navbar = document.getElementById('navbar');
-
-    burgerMenu.addEventListener('click', function() {
-      navbar.classList.toggle('show');
-    });
-  </script>
+</script>

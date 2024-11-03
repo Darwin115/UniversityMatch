@@ -9,7 +9,7 @@ body {
 }
 
 a {
-    color: #FF6F61;
+    color: #238ac7;
 }
 
 a:hover,
@@ -25,9 +25,10 @@ h1 {
     font-weight: 900;
 }
 
-h2 {
+h6 {
     font-family: 'Source Code Pro', monospace;
     font-weight: 700;
+
 }
 
 @media(min-width: 992px) {
@@ -79,7 +80,7 @@ h2 {
 .form-control:focus,
 .custom-select:focus {
     box-shadow: none;
-    border-color: #FF6F61;
+    border-color: #238ac7;
 }
 
 .custom-radio,
@@ -96,8 +97,8 @@ h2 {
 .custom-radio .custom-control-input:checked~.custom-control-label::before,
 .custom-checkbox .custom-control-input:checked~.custom-control-label::before {
     color: #ffffff;
-    background: #FF6F61;
-    border-color: #FF6F61;
+    background: #238ac7;
+    border-color: #238ac7;
     box-shadow: none;
 }
 
@@ -162,7 +163,7 @@ h2 {
 .normal-slider .slick-prev:focus::before,
 .normal-slider .slick-next:hover::before,
 .normal-slider .slick-next:focus::before {
-    color: #FF6F61;
+    color: #238ac7;
 }
 
 .normal-slider .slick-prev::before,
@@ -191,7 +192,7 @@ h2 {
 }
 
 .normal-slider .slick-dots li.slick-active button:before {
-    color: #FF6F61;
+    color: #238ac7;
 }
 
 .slick-dotted.slick-slider {
@@ -205,7 +206,7 @@ h2 {
 .top-bar {
     padding: 3px 0;
     font-size: 14px;
-    color: #FF6F61;
+    color: #238ac7;
     background: #000000;
 }
 
@@ -384,12 +385,12 @@ h2 {
     color: #353535;
 }
 .header .navbar a:hover {
-    color: #FF6F61;
+    color: #238ac7;
 }
 
 
 .header .navbar i {
-    color: #FF6F61;
+    color: #238ac7;
     width: 20px;
     text-align: center;
     margin-right: 8px;
@@ -607,12 +608,12 @@ h2 {
 }
 
 .feature .feature-content i {
-    color: #FF6F61;
+    color: #238ac7;
     font-size: 60px;
     margin-bottom: 30px;
 }
 
-.feature .feature-content h2 {
+.feature .feature-content h6 {
     font-size: 18px;
 }
 
@@ -637,7 +638,7 @@ h2 {
 }
 
 .product-item:hover .product-title {
-    background: #FF6F61;
+    background: #238ac7;
 }
 
 .product-item .product-title a,
@@ -654,7 +655,7 @@ h2 {
 
 .product-item .product-title .ratting i {
     font-size: 14px;
-    color: #FF6F61;
+    color: #238ac7;
 }
 
 .product-item .product-content .price span {
@@ -722,7 +723,7 @@ h2 {
     font-size: 16px;
     text-align: center;
     color: #ffffff;
-    background: #FF6F61;
+    background: #238ac7;
     border: 1px solid #ffffff;
     border-radius: 4px;
     transition: all .3s;
@@ -738,9 +739,9 @@ h2 {
 }
 
 .product-item .product-image .product-action a:hover {
-    color: #FF6F61;
+    color: #238ac7;
     background: #ffffff;
-    border: 1px solid #FF6F61;
+    border: 1px solid #238ac7;
 }
 
 .product-item .product-price {
@@ -750,7 +751,7 @@ h2 {
 }
 
 .product-item:hover .product-price {
-    background: #FF6F61;
+    background: #238ac7;
 }
 
 .product-item .product-price h3 {
@@ -767,12 +768,12 @@ h2 {
     float: right;
     border: none;
     color: #000000;
-    background: #FF6F61;
+    background: #238ac7;
 }
 
 .product-item:hover .product-price .btn,
 .product-item .product-price .btn:hover {
-    color: #FF6F61;
+    color: #238ac7;
     background: #ffffff;
 }
 
@@ -797,7 +798,7 @@ h2 {
 .product .section-header {
     margin-bottom: 30px;
     padding: 20px 30px 15px 30px;
-    color: #FF6F61;
+    color: #238ac7;
     background: #ffffff;
 }
 
@@ -808,9 +809,9 @@ h2 {
     height: 30px;
     z-index: 1;
     transition: .5s;
-    color: #FF6F61;
+    color: #238ac7;
     background: #ffffff;
-    border: 1px solid #FF6F61;
+    border: 1px solid #238ac7;
     border-radius: 4px;
 }
 
@@ -826,7 +827,7 @@ h2 {
 .product .slick-prev:focus,
 .product .slick-next:hover,
 .product .slick-next:focus {
-    background: #FF6F61;
+    background: #238ac7;
 }
 
 .product .slick-prev::before,
@@ -834,7 +835,7 @@ h2 {
     font-family: "Font Awesome 5 Free";
     font-size: 18px;
     font-weight: 900;
-    color: #FF6F61;
+    color: #238ac7;
 }
 
 .product .slick-prev::before {
@@ -885,7 +886,7 @@ h2 {
 }
 
 .product-view .product-search input:focus {
-    border-color: #FF6F61;
+    border-color: #238ac7;
 }
 
 .product-view .product-search button {
@@ -907,7 +908,7 @@ h2 {
 }
 
 .product-view .product-search button:hover {
-    background: #FF6F61;
+    background: #238ac7;
     color: #ffffff;
 }
 
@@ -934,8 +935,8 @@ h2 {
 
 .product-view .product-short .dropdown .dropdown-toggle:hover,
 .product-view .product-price-range .dropdown .dropdown-toggle:hover {
-    color: #FF6F61;
-    border-color: #FF6F61;
+    color: #238ac7;
+    border-color: #238ac7;
 }
 
 .product-view .product-short .dropdown .dropdown-toggle::after,
@@ -966,7 +967,7 @@ h2 {
 
 .product-view .pagination .page-item:hover .page-link,
 .product-view .pagination .page-item.active .page-link {
-    color: #FF6F61;
+    color: #238ac7;
     background: #000000;
 }
 
@@ -980,20 +981,40 @@ h2 {
 /**********************************/
 /******* Product Detail CSS *******/
 /**********************************/
+
 .product-detail {
     position: relative;
     width: 100%;
-    padding: 30px 0;
+    height: 100vh; /* Asegura que ocupe toda la altura de la ventana */
+    display: flex;
+    align-items: center; /* Centra verticalmente */
+    justify-content: center; /* Centra horizontalmente */
+    margin-top: 0%;
+}
+
+.product-detail .row {
+    display: flex;
+    align-items: center; /* Centra verticalmente */
+    justify-content: center; /* Centra horizontalmente */
+    margin-top: 0%;
 }
 
 .product-detail .product-detail-top,
 .product-detail .product-detail-bottom {
-    margin-bottom: 30px;
+    border: 1px solid black; /* Agrega esta línea */
+    border-radius: 10px; /* Esquinas redondeadas */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Opcional: sombra suave */
+    padding: 10px; /* Espaciado interno */
+    width: 100%; /* Asegura que el ancho ocupe el 100% del contenedor */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0%;
 }
 
 .product-detail .product-detail-top {
     padding: 0;
-    background: #ffffff;
+    background: #f0f0f0;
 }
 
 .product-detail .product-slider-single img {
@@ -1002,11 +1023,11 @@ h2 {
 
 .product-detail .product-slider-single-nav {
     margin: 15px 30px 30px 30px;
-    border: 3px double #FF6F61;
+    border: 3px double #238ac7;
 }
 
 .product-detail .product-slider-single-nav .slider-nav-img {
-    border-right: 1px solid #FF6F61;
+    border-right: 1px solid #238ac7;
     overflow: hidden;
 }
 
@@ -1040,7 +1061,7 @@ h2 {
     }
 }
 
-.product-detail .product-content .title h2 {
+.product-detail .product-content .title h6 {
     font-size: 25px;
     margin-bottom: 5px;
 }
@@ -1050,7 +1071,7 @@ h2 {
 }
 
 .product-detail .product-content .ratting i {
-    color: #FF6F61;
+    color: #238ac7;
     font-size: 16px;
 }
 
@@ -1074,7 +1095,7 @@ h2 {
 
 .product-detail .product-content .price p {
     display: inline-block;
-    color: #FF6F61;
+    color: #238ac7;
     font-size: 30px;
     font-weight: 700;
     margin: 0;
@@ -1098,7 +1119,7 @@ h2 {
     font-size: 16px;
     text-align: center;
     color: #ffffff;
-    background: #FF6F61;
+    background: #238ac7;
     border: none;
 }
 
@@ -1129,7 +1150,7 @@ h2 {
 }
 
 .product-detail .nav.nav-pills .nav-link {
-    color: #FF6F61;
+    color: #238ac7;
     background: #000000;
     border-radius: 0;
     transition: all .3s;
@@ -1138,7 +1159,7 @@ h2 {
 .product-detail .nav.nav-pills .nav-link:hover,
 .product-detail .nav.nav-pills .nav-link.active {
     color: #000000;
-    background: #FF6F61;
+    background: #238ac7;
 }
 
 .product-detail .tab-content {
@@ -1169,7 +1190,7 @@ h2 {
 }
 
 .product-detail .tab-content .reviewer {
-    color: #FF6F61;
+    color: #238ac7;
     font-size: 18px;
     font-weight: 600;
 }
@@ -1181,7 +1202,7 @@ h2 {
 }
 
 .product-detail .tab-content .ratting {
-    color: #FF6F61;
+    color: #238ac7;
     margin-bottom: 15px;
 }
 
@@ -1213,9 +1234,9 @@ h2 {
     display: inline-block;
     height: 35px;
     padding: 0 15px;
-    color: #FF6F61;
+    color: #238ac7;
     background: #ffffff;
-    border: 1px solid #FF6F61;
+    border: 1px solid #238ac7;
     border-radius: 4px;
     margin-bottom: 15px;
     transition: all .3s;
@@ -1223,7 +1244,7 @@ h2 {
 
 .product-detail .tab-content .form button:hover {
     color: #ffffff;
-    background: #FF6F61;
+    background: #238ac7;
 }
 
 
@@ -1273,11 +1294,11 @@ h2 {
 }
 
 .sidebar-widget.category .navbar a:hover {
-    color: #FF6F61;
+    color: #238ac7;
 }
 
 .sidebar-widget.category .navbar i {
-    color: #FF6F61;
+    color: #238ac7;
     width: 20px;
     text-align: center;
     margin-right: 8px;
@@ -1317,7 +1338,7 @@ h2 {
 }
 
 .sidebar-widget.brands ul li a:hover {
-    color: #FF6F61;
+    color: #238ac7;
 }
 
 .sidebar-widget.brands ul li a:hover::before {
@@ -1373,10 +1394,9 @@ h2 {
 
 .sidebar-widget.tag a:hover {
     color: #ffffff;
-    background: #FF6F61;
-    border-color: #FF6F61;
+    background: #238ac7;
+    border-color: #238ac7;
 }
-
 
 /**********************************/
 /************ Cart CSS ************/
@@ -1396,23 +1416,31 @@ h2 {
     width: 100%;
     text-align: center;
     margin-bottom: 0;
+    border: 2px solid black; /* Bordes exteriores negros */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Sombra ligera */
 }
 
-.cart-page .table .thead-dark th {
+.cart-page .table th {
+    border: 1px solid black; /* Bordes negros para los encabezados */
+    background-color: #f8f9fa; /* Color de fondo opcional para los encabezados */
     font-family: 'Source Code Pro', monospace;
     font-size: 18px;
     font-weight: 700;
     color: #353535;
     text-align: center;
-    background: transparent;
-    border-color: #dddddd;
-    border-bottom: none;
     vertical-align: middle;
 }
 
 .cart-page .table td {
+    border: 1px solid black; /* Bordes negros para las celdas */
     font-size: 16px;
     vertical-align: middle;
+    background-color: #ffffff; /* Color de fondo de las celdas */
+}
+
+.cart-page .table td:hover {
+    background-color: #e6f7ff; /* Resaltado azul claro al pasar el mouse sobre las celdas */
 }
 
 .cart-page .table .img {
@@ -1444,7 +1472,7 @@ h2 {
     font-size: 14px;
     text-align: center;
     color: #ffffff;
-    background: #FF6F61;
+    background: #238ac7;
     border: none;
     border-radius: 4px;
 }
@@ -1492,7 +1520,7 @@ h2 {
 }
 
 .cart-page .coupon input:focus {
-    border-color: #FF6F61;
+    border-color: #238ac7;
 }
 
 .cart-page .coupon button {
@@ -1501,15 +1529,15 @@ h2 {
     padding: 2px 0;
     font-size: 16px;
     text-align: center;
-    color: #FF6F61;
+    color: #238ac7;
     background: #ffffff;
-    border: 1px solid #FF6F61;
+    border: 1px solid #238ac7;
     border-radius: 4px;
 }
 
 .cart-page .coupon button:hover {
     color: #ffffff;
-    background: #FF6F61;
+    background: #238ac7;
 }
 
 .cart-page .cart-summary {
@@ -1519,7 +1547,7 @@ h2 {
 
 .cart-page .cart-summary .cart-content {
     padding: 30px;
-    background: #f3f6ff;
+    background: #f0f0f0;
 }
 
 .cart-page .cart-summary .cart-content h1 {
@@ -1528,11 +1556,11 @@ h2 {
 }
 
 .cart-page .cart-summary .cart-content p span,
-.cart-page .cart-summary .cart-content h2 span {
+.cart-page .cart-summary .cart-content h6 span {
     float: right;
 }
 
-.cart-page .cart-summary .cart-content h2 {
+.cart-page .cart-summary .cart-content h6 {
     font-size: 20px;
     font-weight: 600;
     padding-top: 12px;
@@ -1540,35 +1568,40 @@ h2 {
     margin: 0;
 }
 
+.cart-page .cart-summary .cart-btn {
+    display: flex; /* Usar flexbox */
+    justify-content: center; /* Centrar horizontalmente */
+    margin-top: 20px; /* Espacio superior para separación */
+}
+
 .cart-page .cart-summary .cart-btn button {
-    margin-top: 15px;
-    width: calc(50% - 15px);
-    height: 50px;
-    padding: 2px 10px;
-    text-align: center;
-    color: #ffffff;
-    background: #FF6F61;
-    border: none;
-    border-radius: 4px;
+    width: 120px; /* Ancho del botón */
+    height: 40px; /* Altura del botón */
+    font-size: 16px; /* Tamaño de fuente */
+    text-align: center; /* Centrar texto */
+    color: #238ac7; /* Color de texto azul */
+    background: #ffffff; /* Fondo transparente */
+    border: 2px solid #238ac7; /* Bordes azules */
+    border-radius: 4px; /* Bordes redondeados */
+    transition: background 0.3s, color 0.3s; /* Transiciones suaves */
 }
 
 .cart-page .cart-summary .cart-btn button:hover {
-    color: #FF6F61;
-    background: #000000;
+    background: #000000; /* Fondo negro al pasar el mouse */
+    color: #ffffff; /* Texto blanco al pasar el mouse */
+    border: 2px solid #238ac7; /* Bordes siguen siendo azules */
 }
 
+.cart-page .cart-summary .cart-btn button:active {
+    background: #000000; /* Fondo negro al presionar */
+    color: #ffffff; /* Texto blanco al presionar */
+    border: 2px solid #238ac7; /* Bordes siguen siendo azules */
+}
+
+/* Para el primer botón (si hay más en el futuro) */
 .cart-page .cart-summary .cart-btn button:first-child {
-    margin-right: 25px;
-    color: #FF6F61;
-    background: #ffffff;
-    border: 1px solid #FF6F61;
+    margin-right: 25px; /* Espacio derecho para separación */
 }
-
-.cart-page .cart-summary .cart-btn button:first-child:hover {
-    color: #ffffff;
-    background: #FF6F61;
-}
-
 
 /**********************************/
 /********** Wishlist CSS **********/
@@ -1587,6 +1620,9 @@ h2 {
     width: 100%;
     text-align: center;
     margin-bottom: 0;
+    border: 2px solid black; /* Bordes exteriores negros */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Sombra ligera */
 }
 
 .wishlist-page .table .thead-dark th {
@@ -1595,15 +1631,20 @@ h2 {
     font-weight: 700;
     color: #353535;
     text-align: center;
-    background: transparent;
-    border-color: #dddddd;
-    border-bottom: none;
+    background: #f8f9fa; /* Color de fondo para los encabezados */
+    border: 1px solid black; /* Bordes internos */
     vertical-align: middle;
 }
 
 .wishlist-page .table td {
     font-size: 16px;
     vertical-align: middle;
+    border: 1px solid black; /* Bordes internos */
+    background-color: #ffffff; /* Color de fondo de las celdas */
+}
+
+.wishlist-page .table td:hover {
+    background-color: #e6f7ff; /* Resaltado azul claro al pasar el mouse sobre las celdas */
 }
 
 .wishlist-page .table .img {
@@ -1635,7 +1676,7 @@ h2 {
     font-size: 14px;
     text-align: center;
     color: #ffffff;
-    background: #FF6F61;
+    background: #238ac7;
     border: none;
     border-radius: 4px;
 }
@@ -1688,8 +1729,8 @@ h2 {
     margin-top: 30px;
 }
 
-.checkout .billing-address h2,
-.checkout .shipping-address h2 {
+.checkout .billing-address h6,
+.checkout .shipping-address h6 {
     font-size: 25px;
     margin-bottom: 20px;
 }
@@ -1709,7 +1750,7 @@ h2 {
 .checkout .checkout-summary,
 .checkout .checkout-payment .payment-methods {
     padding: 30px;
-    background: #f3f6ff;
+    background: #f0f0f0;
     margin-bottom: 30px;
 }
 
@@ -1720,11 +1761,11 @@ h2 {
 }
 
 .checkout .checkout-summary p span,
-.checkout .checkout-summary h2 span {
+.checkout .checkout-summary h6 span {
     float: right;
 }
 
-.checkout .checkout-summary h2 {
+.checkout .checkout-summary h6 {
     font-size: 20px;
     padding-top: 12px;
     border-top: 1px solid #dddddd;
@@ -1743,16 +1784,17 @@ h2 {
     font-weight: 700;
     font-size: 25px;
     text-align: center;
-    color: #000000;
-    background: #FF6F61;
-    border: none;
+    color: #238ac7;
+    background: #ffffff;
+    border: 1px solid #238ac7;
     border-radius: 4px;
     transition: all .3s;
 }
 
 .checkout .checkout-payment .checkout-btn button:hover {
-    color: #FF6F61;
+    color: #ffffff;
     background: #000000;
+    border: 1px solid #238ac7;
 }
 
 
@@ -1780,7 +1822,7 @@ h2 {
 .my-account .nav.nav-pills .nav-link:hover,
 .my-account .nav.nav-pills .nav-link.active {
     color: #ffffff;
-    background: #FF6F61;
+    background: #238ac7;
 }
 
 .my-account .nav.nav-pills .nav-link i {
@@ -1818,7 +1860,7 @@ h2 {
 .call-to-action {
     position: relative;
     padding: 30px 0;
-    background: #FF6F61;
+    background: #238ac7;
 }
 
 .call-to-action .col-md-6:last-child {
@@ -1885,7 +1927,7 @@ h2 {
     z-index: 1;
     opacity: 0;
     transition: .5s;
-    background: #FF6F61;
+    background: #238ac7;
     border-radius: 4px;
 }
 
@@ -1918,7 +1960,7 @@ h2 {
 .brand .slick-prev:focus::before,
 .brand .slick-next:hover::before,
 .brand .slick-next:focus::before {
-    color: #FF6F61;
+    color: #238ac7;
 }
 
 .brand .slick-prev::before,
@@ -1974,7 +2016,7 @@ h2 {
     max-width: calc(100% - 200px);
 }
 
-.review .review-text h2 {
+.review .review-text h6 {
     font-size: 22px;
     letter-spacing: 2px;
     margin-bottom: 5px;
@@ -1995,7 +2037,7 @@ h2 {
 }
 
 .review .review-text .ratting i {
-    color: #FF6F61;
+    color: #238ac7;
     font-size: 14px;
 }
 
@@ -2025,7 +2067,7 @@ h2 {
     border-bottom: 30px solid #f3f6ff;
 }
 
-.contact .contact-info h2 {
+.contact .contact-info h6 {
     margin-bottom: 15px;
 }
 
@@ -2036,7 +2078,7 @@ h2 {
 
 .contact .contact-info h3 i {
     width: 20px;
-    color: #FF6F61;
+    color: #238ac7;
     margin-right: 5px;
 }
 
@@ -2053,16 +2095,16 @@ h2 {
     padding: 5px 0;
     text-align: center;
     font-size: 18px;
-    border: 1px solid #FF6F61;
+    border: 1px solid #238ac7;
     border-radius: 4px;
 }
 
 .contact .social a i {
-    color: #FF6F61;
+    color: #238ac7;
 }
 
 .contact .social a:hover {
-    background: #FF6F61;
+    background: #238ac7;
 }
 
 .contact .social a:hover i {
@@ -2106,7 +2148,7 @@ h2 {
     margin-bottom: 30px;
 }
 
-.footer .footer-widget h2 {
+.footer .footer-widget h6 {
     font-size: 25px;
     white-space: nowrap;
     margin-bottom: 20px; 
@@ -2142,7 +2184,7 @@ h2 {
 }
 
 .footer .footer-widget ul li a:hover {
-    color: #FF6F61;
+    color: #238ac7;
 }
 
 .footer .footer-widget ul li a:hover::before {
@@ -2180,8 +2222,8 @@ h2 {
 }
 
 .footer .social a:hover {
-    color: #FF6F61;
-    border-color: #FF6F61;
+    color: #238ac7;
+    border-color: #238ac7;
 }
 
 .footer .payment {
@@ -2221,8 +2263,8 @@ h2 {
     } 
 }
 
-.footer .payment-method h2,
-.footer .payment-security h2 {
+.footer .payment-method h6,
+.footer .payment-security h6 {
     display: inline-block;
     margin: 0 10px 0 0;
     font-size: 18px;
