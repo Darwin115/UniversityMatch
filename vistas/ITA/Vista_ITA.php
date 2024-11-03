@@ -11,6 +11,7 @@
   <link rel="stylesheet" type="text/css" href="../../Estilos/stylevistaproductos.css">
   <link rel="stylesheet" type="text/css" href="../../Estilos/FooterStyle.css">
   <link rel="stylesheet" type="text/css" href="../../Estilos/Universidades.css">
+  <link rel="stylesheet" type="text/css" href="../../Donaciones/css/style2.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-GDWlJng9xEwG1eYTTvWe4H9fA1Idb51fbrYw5YK51m6JzCj5lCR4gI6Rbmu1nCrXOjW1QrR7TjDXXESmtv5D5Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <!-- Google tag (gtag.js) -->
@@ -121,31 +122,60 @@
   </section>
   <script src="Estrellas.js"></script>
 
-  <section id="lista-carreras">
-    <h2><strong>Carreras ofrecidas</strong></h2>
-    <label for="select-categoria">Selecciona una categoría:</label>
-    <select id="select-categoria" onchange="getCareers()">
-      <option value="Ciencias sociales">Ciencias Sociales</option>
-      <option value="Ciencias biológicas">Ciencias biológicas</option>
-      <option value="Ciencias físico-matemáticas">Ciencias físico-matemáticas</option>
-      <option value="Arte y humanidades">Arte y humanidades</option>
-    </select>
-    <ul id="carreras-list"></ul>
-    <!-- Lista de carreras -->
-  </section>
-  <section id="comentarios">
-    <h2>Comentarios</h2>
-    <div id="comentarios-lista">
-      <!-- Aquí se mostrarán los comentarios -->
+  <!-- Product Detail Start -->
+  <div class="product-detail">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-8">                        
+                    <div class="row product-detail-bottom">
+                        <div class="col-lg-12">
+                            <div class="tab-content">
+                                <div id="reviews" class="container tab-pane fade show active">
+                                    <div class="reviews-submitted">
+                                        <div class="reviewer">Phasellus Gravida - <span>01 Ene 2020</span></div>
+                                        <div class="ratting">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                        </div>
+                                        <p>
+                                            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.
+                                        </p>
+                                    </div>
+                                    <div class="reviews-submit">
+                                        <h4>Deja tu Reseña:</h4>
+                                        <div class="ratting">
+                                            <i class="far fa-star"></i>
+                                            <i class="far fa-star"></i>
+                                            <i class="far fa-star"></i>
+                                            <i class="far fa-star"></i>
+                                            <i class="far fa-star"></i>
+                                        </div>
+                                        <div class="row form">
+                                            <div class="col-sm-6">
+                                                <input type="text" placeholder="Nombre">
+                                            </div>
+                                            <div class="col-sm-6">
+                                                <input type="email" placeholder="Email">
+                                            </div>
+                                            <div class="col-sm-12">
+                                                <textarea placeholder="Reseña"></textarea>
+                                            </div>
+                                            <div class="col-sm-12">
+                                                <button>Enviar</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+        </div>
     </div>
-    <form id="formulario-comentario">
-      <label for="nombre">Nombre:</label>
-      <input type="text" id="nombre" required>
-      <label for="comentario">Comentario:</label>
-      <textarea id="comentario" required></textarea>
-      <button id="btn-enviar" type="submit">Enviar</button>
-    </form>
-  </section>
   
   <!--<Pie de la página.-->
   <?php include '../../Footer.php'; ?>

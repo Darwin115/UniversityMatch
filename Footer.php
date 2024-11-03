@@ -60,7 +60,11 @@ if (strpos($_SERVER['REQUEST_URI'], 'Formularios') !== false) {
     $base_path = '../';
 } elseif (strpos($_SERVER['REQUEST_URI'], 'Contacto') !== false) {
     $base_path = '../';
-} 
+} elseif (strpos($_SERVER['REQUEST_URI'], 'Carrito') !== false) {
+    $base_path = '../';
+} elseif (strpos($_SERVER['REQUEST_URI'], 'Favoritos') !== false) {
+    $base_path = '../';
+}
 ?>
 
 <section id="footer">

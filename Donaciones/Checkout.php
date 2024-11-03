@@ -31,15 +31,12 @@
     <?php include '../header.php'; ?>
     <?php include 'HeaderDonaciones.php'; ?>
     
-    <p class="text-center">Explora nuestras donaciones disponibles a continuación. Si necesitas algo específico, ¡contáctanos y te ayudaremos a encontrarlo!</p>
-    <span>&nbsp;&nbsp;&nbsp;</span>
-    <div class="row" id="res"></div>
+    <script src="Checkout.js"></script>
+    <div id="res"></div>
 
     <!--<Pie de la página.-->
     <?php include '../Footer.php'; ?>
     <!--Fin pie de la página.-->
-    
-    <script src="Donaciones.js"></script>
 
     <a href="#" class="bt custom-btn back-to-top"><i class="fa fa-angle-double-up"></i></a>
 
