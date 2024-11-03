@@ -106,73 +106,53 @@
   <section id="mapa">
     <h2>Ubicación</h2>
     <div id="map" style="height: 400px;"></div>
-</section>
+  </section>
 
   <br>
 
-  <section id="Calificacion">
-    <h2>Califica esta universidad</h2>
-    <div class="estrellas">
-      <span class="estrella estrella-item" data-valor="1">&#9733;</span>
-      <span class="estrella estrella-item" data-valor="2">&#9733;</span>
-      <span class="estrella estrella-item" data-valor="3">&#9733;</span>
-      <span class="estrella estrella-item" data-valor="4">&#9733;</span>
-      <span class="estrella estrella-item" data-valor="5">&#9733;</span>
-    </div>
-  </section>
-  <script src="Estrellas.js"></script>
+  <h2>Califica esta Universidad</h2>
 
-  <!-- Product Detail Start -->
+  <br>
+  <br>
+
   <div class="product-detail">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-lg-8">                        
-                    <div class="row product-detail-bottom">
-                        <div class="col-lg-12">
-                            <div class="tab-content">
-                                <div id="reviews" class="container tab-pane fade show active">
-                                    <div class="reviews-submitted">
-                                        <div class="reviewer">Phasellus Gravida - <span>01 Ene 2020</span></div>
-                                        <div class="ratting">
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                        </div>
-                                        <p>
-                                            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.
-                                        </p>
-                                    </div>
-                                    <div class="reviews-submit">
-                                        <h4>Deja tu Reseña:</h4>
-                                        <div class="ratting">
-                                            <i class="far fa-star"></i>
-                                            <i class="far fa-star"></i>
-                                            <i class="far fa-star"></i>
-                                            <i class="far fa-star"></i>
-                                            <i class="far fa-star"></i>
-                                        </div>
-                                        <div class="row form">
-                                            <div class="col-sm-6">
-                                                <input type="text" placeholder="Nombre">
-                                            </div>
-                                            <div class="col-sm-6">
-                                                <input type="email" placeholder="Email">
-                                            </div>
-                                            <div class="col-sm-12">
-                                                <textarea placeholder="Reseña"></textarea>
-                                            </div>
-                                            <div class="col-sm-12">
-                                                <button>Enviar</button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+        <div class="row">                     
+            <div class="row product-detail-bottom">
+                <div class="tab-content">
+                    <div class="reviews-submitted">
+                        <div class="reviewer">Phasellus Gravida - <span>01 Ene 2020</span></div>
+                        <div class="ratting">
+                          <i class="fas fa-heart"></i>
+                          <i class="fas fa-heart"></i>
+                          <i class="fas fa-heart"></i>
+                          <i class="fas fa-heart"></i>
+                          <i class="fas fa-heart"></i>
+                        </div>
+                        <p>
+                            Mi experiencia en el ITA ha sido increíble. Desde el primer día, me sentí acogido por un ambiente cálido y un equipo docente apasionado. Los programas académicos son desafiantes y están siempre actualizados, lo que me ha permitido aprender de manera efectiva. Las instalaciones son modernas y están bien equipadas, lo que facilita mucho el estudio. Además, la vida estudiantil es muy activa, con un montón de clubes y actividades que hacen que la experiencia universitaria sea muy enriquecedora.
+                        </p>
+                    </div>
+                    <div class="reviews-submit">
+                        <h4>Deja tu Reseña</h4>
+                        <div class="ratting">
+                        <i class="fas fa-heart estrella-item"></i>
+                        <i class="fas fa-heart estrella-item"></i>
+                        <i class="fas fa-heart estrella-item"></i>
+                        <i class="fas fa-heart estrella-item"></i>
+                        <i class="fas fa-heart estrella-item"></i>
+                        </div>
+                        <div class="row form">
+                            <div class="col-sm-12 form-group">
+                                <input type="text" id="nombre" placeholder="Nombre">
+                                <input type="email" id="email" placeholder="Email">
+                            </div>
+                            <textarea id="comentario" placeholder="Reseña"></textarea>
+                            <div class="col-sm-12">
+                                <button type="submit">Enviar</button>
                             </div>
                         </div>
                     </div>
-                </div> 
+                </div>
             </div>
         </div>
     </div>
@@ -316,6 +296,9 @@
     }
   </script>
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBDFMWxzIm2U40wfcYVDDOXdKsOVIm6S4A&callback=initMap" async defer></script>
+
+  <script src="../Corazones.js"></script>
+
 </body>
 
 </html>

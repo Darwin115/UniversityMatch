@@ -253,19 +253,3 @@ h5 {
     width: 200px;
     height: 200px;
 }
-
-.estrellas {
-    display: flex;
-    justify-content: center;
-}
-
-.estrella {
-    font-size: 70px;
-    color: #ccc;
-    cursor: pointer;
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
-}
-
-.estrella.active {
-    color: gold;
-}
