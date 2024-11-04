@@ -98,6 +98,8 @@
   <div class="row" id="res"></div>
 
   <!-- Modal -->
+  <div id="backgroundBlur" class="background-blur"></div>
+  
   <div id="myModal" class="modal">
     <div class="modal-content">
       <span class="close">&times;</span>

@@ -60,78 +60,56 @@
         <th class="centro">Carrera</th>
         <th class="centro">Semestral</th>
         <th class="centro">Anual</th>
-        <th class="centro">Con Beca Deportiva</th>
-        <th class="centro">Con Beca para Familiares de Empleados del Gobierno</th>
     </tr>
     <tr>
         <td>Ingeniería en Tecnologías de la Información y Comunicaciones</td>
         <td class="centro">$2,850 MXN</td>
         <td class="centro">$5,700 MXN</td>
-        <td class="centro">$1,425 MXN</td>
-        <td class="centro">$400 MXN</td>
     </tr>
     <tr>
         <td>Ingeniería en Gestión Empresarial</td>
         <td class="centro">$2,850 MXN</td>
         <td class="centro">$5,700 MXN</td>
-        <td class="centro">$1,425 MXN</td>
-        <td class="centro">$400 MXN</td>
     </tr>
     <tr>
         <td>Ingeniería Química</td>
         <td class="centro">$2,850 MXN</td>
         <td class="centro">$5,700 MXN</td>
-        <td class="centro">$1,425 MXN</td>
-        <td class="centro">$400 MXN</td>
     </tr>
     <tr>
         <td>Ingeniería Eléctrica</td>
         <td class="centro">$2,850 MXN</td>
         <td class="centro">$5,700 MXN</td>
-        <td class="centro">$1,425 MXN</td>
-        <td class="centro">$400 MXN</td>
     </tr>
     <tr>
         <td>Ingeniería Electrónica</td>
         <td class="centro">$2,850 MXN</td>
         <td class="centro">$5,700 MXN</td>
-        <td class="centro">$1,425 MXN</td>
-        <td class="centro">$400 MXN</td>
     </tr>
     <tr>
         <td>Ingeniería Industrial</td>
         <td class="centro">$2,850 MXN</td>
         <td class="centro">$5,700 MXN</td>
-        <td class="centro">$1,425 MXN</td>
-        <td class="centro">$400 MXN</td>
     </tr>
     <tr>
         <td>Ingeniería en Materiales</td>
         <td class="centro">$2,850 MXN</td>
         <td class="centro">$5,700 MXN</td>
-        <td class="centro">$1,425 MXN</td>
-        <td class="centro">$400 MXN</td>
     </tr>
     <tr>
         <td>Ingeniería Mecánica</td>
         <td class="centro">$2,850 MXN</td>
         <td class="centro">$5,700 MXN</td>
-        <td class="centro">$1,425 MXN</td>
-        <td class="centro">$400 MXN</td>
     </tr>
     <tr>
         <td>Ingeniería en Semiconductores</td>
         <td class="centro">$2,850 MXN</td>
         <td class="centro">$5,700 MXN</td>
-        <td class="centro">$1,425 MXN</td>
-        <td class="centro">$400 MXN</td>
     </tr>
     <tr>
         <td>Licenciatura en Administración</td>
         <td class="centro">$2,850 MXN</td>
         <td class="centro">$5,700 MXN</td>
-        <td class="centro">$1,425 MXN</td>
-        <td class="centro">$400 MXN</td>
     </tr>
 </table>
 

@@ -10,6 +10,7 @@
 
     <link rel="stylesheet" href="../Estilos/style.css">
     <link rel="stylesheet" href="./BusDonaciones.css">
+    <link rel="stylesheet" href="Modal.css">
     <link rel="stylesheet" href="../Estilos/FooterStyle.css">
     <link rel="stylesheet" href="../Estilos/TestStyle.css">
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.css" />
@@ -35,11 +36,24 @@
     <span>&nbsp;&nbsp;&nbsp;</span>
     <div class="row" id="res"></div>
 
+    <!-- Modal -->
+    <div id="backgroundBlur" class="background-blur"></div>
+    <div id="myModal" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <h3 id="modalNombre"></h3>
+        <p id="modalDescripcion"></p>
+    </div>
+</div>
+
+  <!-- Fin modal -->
+
     <!--<Pie de la página.-->
     <?php include '../Footer.php'; ?>
     <!--Fin pie de la página.-->
     
     <script src="Donaciones.js"></script>
+    <script src="Modal.js"></script>
 
     <a href="#" class="bt custom-btn back-to-top"><i class="fa fa-angle-double-up"></i></a>
 

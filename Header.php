@@ -64,6 +64,10 @@ if (strpos($_SERVER['REQUEST_URI'], 'Formularios') !== false) {
     $base_path = '../';
 } elseif (strpos($_SERVER['REQUEST_URI'], 'Favoritos') !== false) {
     $base_path = '../';
+} elseif (strpos($_SERVER['REQUEST_URI'], 'Conocenos') !== false) {
+    $base_path = '../';
+} elseif (strpos($_SERVER['REQUEST_URI'], 'Perfil') !== false) {
+    $base_path = '../';
 }
 
 // Determinar la clase activa
@@ -86,15 +90,23 @@ function setActiveClass($page) {
     </div>
 
     <ul id="navbar">
-        <li><a href="<?php echo $base_path; ?>index.php" title="Inicio" <?php echo setActiveClass('index.php'); ?>>Inicio</a></li>
-        <li><a href="<?php echo $base_path; ?>Formularios/Test.php" title="Test Vocacional" <?php echo setActiveClass('Test.php'); ?>>Test Vocacional</a></li>
-        <li><a href="<?php echo $base_path; ?>Cursos/Cursos.php" title="Cursos" <?php echo setActiveClass('Cursos.php'); ?>>Cursos</a></li>
-        <li><a href="<?php echo $base_path; ?>Rec_Catalogo/Catalogo.php" title="Universidades" <?php echo setActiveClass('Catalogo.php'); ?>>Universidades</a></li>
-        <li><a href="<?php echo $base_path; ?>Carreras/Carreras.php" title="Carreras" <?php echo setActiveClass('Carreras.php'); ?>>Carreras</a></li>
-        <li><a href="<?php echo $base_path; ?>Donaciones/Donaciones.php" title="Donaciones" <?php echo setActiveClass('Donaciones.php'); ?>>Donaciones</a></li>
-        <li><a href="<?php echo $base_path; ?>Registro/registro.php" title="Registro" <?php echo setActiveClass('registro.php'); ?>>Registro</a></li>
-        <li><a href="<?php echo $base_path; ?>Contacto/contacto.php" title="Contacto" <?php echo setActiveClass('contacto.php'); ?>>Contacto</a></li>
-    </ul>
+    <li><a href="<?php echo $base_path; ?>index.php" title="Inicio" <?php echo setActiveClass('index.php'); ?>>Inicio</a></li>
+    <li><a href="<?php echo $base_path; ?>Formularios/Test.php" title="Test Vocacional" <?php echo setActiveClass('Test.php'); ?>>Test Vocacional</a></li>
+    <li><a href="<?php echo $base_path; ?>Cursos/Cursos.php" title="Cursos" <?php echo setActiveClass('Cursos.php'); ?>>Cursos</a></li>
+    <li><a href="<?php echo $base_path; ?>Rec_Catalogo/Catalogo.php" title="Universidades" <?php echo setActiveClass('Catalogo.php'); ?>>Universidades</a></li>
+    <li><a href="<?php echo $base_path; ?>Carreras/Carreras.php" title="Carreras" <?php echo setActiveClass('Carreras.php'); ?>>Carreras</a></li>
+    <li><a href="<?php echo $base_path; ?>Donaciones/Donaciones.php" title="Donaciones" <?php echo setActiveClass('Donaciones.php'); ?>>Donaciones</a></li>
+    
+    <li class="dropdown">
+        <a href="#" title="Mi Cuenta">Mi Cuenta <span class="arrow">&#9660;</span></a>
+        <ul class="dropdown-content">
+            <li><a href="<?php echo $base_path; ?>Perfil/Perfil.php" title="Perfil" <?php echo setActiveClass('perfil.php'); ?>>Perfil</a></li>
+            <li><a href="<?php echo $base_path; ?>Registro/registro.php" title="Registro" <?php echo setActiveClass('registro.php'); ?>>Registro</a></li>
+            <li><a href="<?php echo $base_path; ?>Contacto/contacto.php" title="Contacto" <?php echo setActiveClass('contacto.php'); ?>>Contacto</a></li>
+            <li><a href="<?php echo $base_path; ?>Conocenos/Conocenos.php" title="Conócenos" <?php echo setActiveClass('conocenos.php'); ?>>Conócenos</a></li>
+        </ul>
+    </li>
+</ul>
 </section>
 
 <script>
@@ -105,4 +117,25 @@ function setActiveClass($page) {
     burgerMenu.addEventListener('click', function() {
         navbar.classList.toggle('show');
     });
+
+    // Script para controlar el menú desplegable de "Mi Cuenta"
+    const dropdowns = document.querySelectorAll('.dropdown');
+
+    dropdowns.forEach(dropdown => {
+        dropdown.addEventListener('click', function(event) {
+            event.stopPropagation(); // Evita que el clic se propague
+            this.querySelector('.dropdown-content').classList.toggle('show');
+        });
+    });
+
+    // Cerrar el menú si se hace clic fuera de él
+    document.addEventListener('click', function(event) {
+        dropdowns.forEach(dropdown => {
+            const dropdownContent = dropdown.querySelector('.dropdown-content');
+            if (!dropdown.contains(event.target)) {
+                dropdownContent.classList.remove('show'); // Cierra el menú
+            }
+        });
+    });
 </script>
+
