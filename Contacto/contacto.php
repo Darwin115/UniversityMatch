@@ -9,65 +9,93 @@
   <meta name="description" content="" />
   <meta name="author" content="" />
   <title>Contacto</title>
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
-    <link rel="stylesheet" href="../Estilos/style.css">
-    <link rel="stylesheet" href="./CursosStyle.css">
-    <link rel="stylesheet" href="../Estilos/FooterStyle.css">
-    <link rel="stylesheet" href="../Estilos/TestStyle.css">
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.css" />
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick-theme.css" />
-    <link rel="stylesheet" type="text/css"
-    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.3/assets/owl.carousel.min.css" />
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+  <link rel="stylesheet" href="../Estilos/style.css">
+  <link rel="stylesheet" href="./CursosStyle.css">
+  <link rel="stylesheet" href="../Estilos/FooterStyle.css">
+  <link rel="stylesheet" href="../Estilos/TestStyle.css">
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.css" />
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick-theme.css" />
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.3/assets/owl.carousel.min.css" />
   <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
-
+  
   <link href="https://fonts.googleapis.com/css?family=Dosis:400,500|Poppins:400,700&display=swap" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet" />
   <link href="css/responsive.css" rel="stylesheet" />
+  
+  <style>
+    .map_section {
+      position: relative; /* Posiciona el contenedor de forma relativa */
+      height: 100vh; /* Ajusta la altura deseada */
+      overflow: hidden;
+    }
+
+    .map_section img {
+      width: 100%; /* Ajusta la imagen al ancho del contenedor */
+      height: 100%; /* Ajusta la imagen a la altura del contenedor */
+      object-fit: cover; /* Mantiene la relación de aspecto */
+      position: absolute; /* Asegura que la imagen esté detrás del formulario */
+      top: 0;
+      left: 0;
+      z-index: 1; /* Asegura que la imagen esté detrás */
+    }
+
+    .form_container {
+      position: absolute; /* Posiciona el formulario de forma absoluta */
+      top: 50%; /* Centra verticalmente */
+      left: 100px; /* Ajuste para que quede pegado a la izquierda */
+      transform: translateY(-50%); /* Ajuste para centrar verticalmente */
+      background-color: rgba(255, 255, 255, 0.9); /* Fondo blanco semitransparente */
+      padding: 20px;
+      border-radius: 10px; /* Esquinas redondeadas */
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Sombra */
+      max-width: 600px; /* Aumentar ancho máximo */
+      max-height: 300px
+      z-index: 2; /* Asegura que el formulario esté encima de la imagen */
+    }
+    .form_container form {
+      margin: 0; /* Elimina el margen del formulario */
+    }
+
+    .form_container h3 {
+      margin-bottom: 5px; /* Reduce el margen inferior del título */
+    }
+  </style>
 </head>
 
-<body onload="iniciarLectura() , abrirAcce()">
+<body onload="iniciarLectura(), abrirAcce()">
   <?php include '../Header.php'; ?>
-  <!-- Mapa -->
 
+  <!-- Sección con imagen y formulario -->
   <section class="map_section">
-    <div id="map" class="h-100 w-100 ">
-    </div>
-
-    <div class="form_container ">
-      <div class="row">
-        <div class="col-md-8 col-sm-10 offset-md-4">
-          <form action="">
-            <div class="text-center">
-              <h3>
-                Contactanos
-              </h3>
-            </div>
-            <div>
-              <input type="text" placeholder="Nombre" class="pt-3">
-            </div>
-            <div>
-              <input type=" text" placeholder="Teléfono">
-            </div>
-            <div>
-              <input type="email" placeholder="Correo electrónico">
-            </div>
-            <div>
-              <input type="text" class="message-box" placeholder="Mensaje">
-            </div>
-            <div class="d-flex justify-content-center">
-              <button>
-                Enviar
-              </button>
-            </div>
-          </form>
-        </div>
+    <img src="images/Contacto.jpg" alt="Contacto">
+    
+    <div class="form_container">
+      <div class="text-center">
+        <h3>Contactanos</h3>
       </div>
-    </div>
+      <form action="">
+        <div>
+          <input type="text" placeholder="Nombre" class="pt-3">
+        </div>
+        <div>
+          <input type="text" placeholder="Teléfono">
+        </div>
+        <div>
+          <input type="email" placeholder="Correo electrónico">
+        </div>
+        <div>
+          <input type="text" class="message-box" placeholder="Mensaje">
+        </div>
+        <div class="d-flex justify-content-center">
+          <button>Enviar</button>
+        </div>
+      </form>
     </div>
   </section>
-  <!-- Fin mapa -->
+  <!-- Fin imagen -->
 
-  <!-- Informacion -->
+  <!-- Información -->
   <section class="info_section layout_padding2">
     <div class="container">
       <div class="info_items">
@@ -77,9 +105,7 @@
               <img src="" alt="">
             </div>
             <div class="detail-box">
-              <p>
-                Ubicación
-              </p>
+              <p>Ubicación</p>
             </div>
           </div>
         </a>
@@ -89,9 +115,7 @@
               <img src="" alt="">
             </div>
             <div class="detail-box">
-              <p>
-                +52 449 - 137 - 0279
-              </p>
+              <p>+52 449 - 137 - 0279</p>
             </div>
           </div>
         </a>
@@ -101,48 +125,21 @@
               <img src="" alt="">
             </div>
             <div class="detail-box">
-              <p>
-                universitymatch.com@gmail.com
-              </p>
+              <p>universitymatch.com@gmail.com</p>
             </div>
           </div>
         </a>
       </div>
     </div>
   </section>
-  <!-- Fin informacion -->
+  <!-- Fin información -->
 
-  <!--<Pie de la página.-->
+  <!-- Pie de la página -->
   <?php include '../Footer.php'; ?>
-  <!--Fin pie de la página.-->
+  <!-- Fin pie de la página -->
 
   <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
   <script type="text/javascript" src="js/bootstrap.js"></script>
-
-  <script>
-    function initMap() {
-      var map = new google.maps.Map(document.getElementById('map'), {
-        zoom: 11,
-        center: {
-          lat: 40.645037,
-          lng: -73.880224
-        },
-      });
-
-      var image = 'images/maps-and-flags.png';
-      var beachMarker = new google.maps.Marker({
-        position: {
-          lat: 40.645037,
-          lng: -73.880224
-        },
-        map: map,
-        icon: image
-      });
-    }
-  </script>
-
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBDFMWxzIm2U40wfcYVDDOXdKsOVIm6S4A&callback=initMap">
-  </script>
 </body>
 
 </html>

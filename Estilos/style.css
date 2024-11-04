@@ -349,6 +349,9 @@ body {
   flex-direction: column; /* Cambio a columna en pantallas pequeñas */
   align-items: center;
   justify-content: center;
+  list-style: none; /* Eliminar viñetas */
+  padding: 0; /* Eliminar padding */
+  margin: 0; /* Eliminar margin */
 }
 
 #navbar2 {
@@ -364,8 +367,6 @@ body {
 }
 
 #navbar li {
-  list-style: none;
-  padding: 10px 0; /* Ajuste del espacio entre elementos */
   position: relative;
 }
 
@@ -431,7 +432,35 @@ body {
     padding: 0 20px; /* Restaurar el espacio entre elementos */
   }
 }
+
 /*FIN BARRA DE NAVEGACION*/
+
+
+.dropdown-content {
+  display: none; /* Ocultar por defecto */
+  position: absolute; /* Colocar debajo del elemento padre */
+  background-color: #ffffff; /* Color de fondo */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2); /* Sombra */
+  z-index: 1; /* Asegurar que se muestre encima */
+  min-width: 160px; /* Ancho mínimo */
+}
+
+.dropdown:hover .dropdown-content,
+.dropdown .dropdown-content.show {
+  display: block; /* Mostrar cuando se hace hover o se activa */
+}
+
+.dropdown-content li {
+  padding: 8px 16px; /* Espaciado para elementos del dropdown */
+}
+
+.dropdown-content li a {
+  color: #000; /* Color del texto */
+  text-decoration: none; /* Sin subrayado */
+}
+
+
+
 #carrusel {
   background-color: #ffffff;
   height: 90vh;
@@ -705,3 +734,4 @@ body {
     border-radius: 2px;
   }
 }
+

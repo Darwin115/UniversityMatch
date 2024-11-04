@@ -58,8 +58,9 @@ function mostrarModal(producto) {
     document.getElementById('modalDescripcion').innerText = descripcion;
     document.getElementById('modalImagen').src = imagen;
 
-    // Mostrar el modal
+    // Mostrar el modal y el fondo desenfocado
     document.getElementById('myModal').style.display = 'block';
+    document.getElementById('backgroundBlur').classList.add('active');
 
     // Desactivar scroll en el body
     document.body.style.overflow = 'hidden';
@@ -67,6 +68,7 @@ function mostrarModal(producto) {
 
 document.querySelector('.close').addEventListener('click', () => {
     document.getElementById('myModal').style.display = 'none';
+    document.getElementById('backgroundBlur').classList.remove('active');
 
     // Reactivar scroll en el body
     document.body.style.overflow = 'auto';
@@ -76,6 +78,7 @@ window.addEventListener('click', (event) => {
     const modal = document.getElementById('myModal');
     if (event.target === modal) {
         modal.style.display = 'none';
+        document.getElementById('backgroundBlur').classList.remove('active');
 
         // Reactivar scroll en el body
         document.body.style.overflow = 'auto';
