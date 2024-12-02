@@ -13,6 +13,9 @@
   <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick-theme.css" />
   <script src="./scriptnav.js"></script>
 
+  <!-- Favicons -->
+  <link href="../img/Logo3.png" rel="icon">
+
   <style>
     .buttonLec {
     background-color: #ffffff;
@@ -98,6 +101,8 @@
   <div class="row" id="res"></div>
 
   <!-- Modal -->
+  <div id="backgroundBlur" class="background-blur"></div>
+  
   <div id="myModal" class="modal">
     <div class="modal-content">
       <span class="close">&times;</span>

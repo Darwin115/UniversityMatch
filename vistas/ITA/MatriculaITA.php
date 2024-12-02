@@ -12,6 +12,8 @@
   <link rel="stylesheet" type="text/css" href="../../Estilos/FooterStyle.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-GDWlJng9xEwG1eYTTvWe4H9fA1Idb51fbrYw5YK51m6JzCj5lCR4gI6Rbmu1nCrXOjW1QrR7TjDXXESmtv5D5Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <!-- Favicons -->
+  <link href="../../img/Logo3.png" rel="icon">
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-4LTLCWXEBE"></script>
   <script>
@@ -60,78 +62,56 @@
         <th class="centro">Carrera</th>
         <th class="centro">Semestral</th>
         <th class="centro">Anual</th>
-        <th class="centro">Con Beca Deportiva</th>
-        <th class="centro">Con Beca para Familiares de Empleados del Gobierno</th>
     </tr>
     <tr>
         <td>Ingeniería en Tecnologías de la Información y Comunicaciones</td>
         <td class="centro">$2,850 MXN</td>
         <td class="centro">$5,700 MXN</td>
-        <td class="centro">$1,425 MXN</td>
-        <td class="centro">$400 MXN</td>
     </tr>
     <tr>
         <td>Ingeniería en Gestión Empresarial</td>
         <td class="centro">$2,850 MXN</td>
         <td class="centro">$5,700 MXN</td>
-        <td class="centro">$1,425 MXN</td>
-        <td class="centro">$400 MXN</td>
     </tr>
     <tr>
         <td>Ingeniería Química</td>
         <td class="centro">$2,850 MXN</td>
         <td class="centro">$5,700 MXN</td>
-        <td class="centro">$1,425 MXN</td>
-        <td class="centro">$400 MXN</td>
     </tr>
     <tr>
         <td>Ingeniería Eléctrica</td>
         <td class="centro">$2,850 MXN</td>
         <td class="centro">$5,700 MXN</td>
-        <td class="centro">$1,425 MXN</td>
-        <td class="centro">$400 MXN</td>
     </tr>
     <tr>
         <td>Ingeniería Electrónica</td>
         <td class="centro">$2,850 MXN</td>
         <td class="centro">$5,700 MXN</td>
-        <td class="centro">$1,425 MXN</td>
-        <td class="centro">$400 MXN</td>
     </tr>
     <tr>
         <td>Ingeniería Industrial</td>
         <td class="centro">$2,850 MXN</td>
         <td class="centro">$5,700 MXN</td>
-        <td class="centro">$1,425 MXN</td>
-        <td class="centro">$400 MXN</td>
     </tr>
     <tr>
         <td>Ingeniería en Materiales</td>
         <td class="centro">$2,850 MXN</td>
         <td class="centro">$5,700 MXN</td>
-        <td class="centro">$1,425 MXN</td>
-        <td class="centro">$400 MXN</td>
     </tr>
     <tr>
         <td>Ingeniería Mecánica</td>
         <td class="centro">$2,850 MXN</td>
         <td class="centro">$5,700 MXN</td>
-        <td class="centro">$1,425 MXN</td>
-        <td class="centro">$400 MXN</td>
     </tr>
     <tr>
         <td>Ingeniería en Semiconductores</td>
         <td class="centro">$2,850 MXN</td>
         <td class="centro">$5,700 MXN</td>
-        <td class="centro">$1,425 MXN</td>
-        <td class="centro">$400 MXN</td>
     </tr>
     <tr>
         <td>Licenciatura en Administración</td>
         <td class="centro">$2,850 MXN</td>
         <td class="centro">$5,700 MXN</td>
-        <td class="centro">$1,425 MXN</td>
-        <td class="centro">$400 MXN</td>
     </tr>
 </table>
 

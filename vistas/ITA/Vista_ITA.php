@@ -11,8 +11,11 @@
   <link rel="stylesheet" type="text/css" href="../../Estilos/stylevistaproductos.css">
   <link rel="stylesheet" type="text/css" href="../../Estilos/FooterStyle.css">
   <link rel="stylesheet" type="text/css" href="../../Estilos/Universidades.css">
+  <link rel="stylesheet" type="text/css" href="../../Donaciones/css/style2.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-GDWlJng9xEwG1eYTTvWe4H9fA1Idb51fbrYw5YK51m6JzCj5lCR4gI6Rbmu1nCrXOjW1QrR7TjDXXESmtv5D5Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <!-- Favicons -->
+  <link href="../../img/Logo3.png" rel="icon">
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-4LTLCWXEBE"></script>
   <script>
@@ -105,47 +108,56 @@
   <section id="mapa">
     <h2>Ubicación</h2>
     <div id="map" style="height: 400px;"></div>
-</section>
+  </section>
 
   <br>
 
-  <section id="Calificacion">
-    <h2>Califica esta universidad</h2>
-    <div class="estrellas">
-      <span class="estrella estrella-item" data-valor="1">&#9733;</span>
-      <span class="estrella estrella-item" data-valor="2">&#9733;</span>
-      <span class="estrella estrella-item" data-valor="3">&#9733;</span>
-      <span class="estrella estrella-item" data-valor="4">&#9733;</span>
-      <span class="estrella estrella-item" data-valor="5">&#9733;</span>
-    </div>
-  </section>
-  <script src="Estrellas.js"></script>
+  <h2>Califica esta Universidad</h2>
 
-  <section id="lista-carreras">
-    <h2><strong>Carreras ofrecidas</strong></h2>
-    <label for="select-categoria">Selecciona una categoría:</label>
-    <select id="select-categoria" onchange="getCareers()">
-      <option value="Ciencias sociales">Ciencias Sociales</option>
-      <option value="Ciencias biológicas">Ciencias biológicas</option>
-      <option value="Ciencias físico-matemáticas">Ciencias físico-matemáticas</option>
-      <option value="Arte y humanidades">Arte y humanidades</option>
-    </select>
-    <ul id="carreras-list"></ul>
-    <!-- Lista de carreras -->
-  </section>
-  <section id="comentarios">
-    <h2>Comentarios</h2>
-    <div id="comentarios-lista">
-      <!-- Aquí se mostrarán los comentarios -->
+  <br>
+  <br>
+
+  <div class="product-detail">
+        <div class="row">                     
+            <div class="row product-detail-bottom">
+                <div class="tab-content">
+                    <div class="reviews-submitted">
+                        <div class="reviewer">Phasellus Gravida - <span>01 Ene 2020</span></div>
+                        <div class="ratting">
+                          <i class="fas fa-heart"></i>
+                          <i class="fas fa-heart"></i>
+                          <i class="fas fa-heart"></i>
+                          <i class="fas fa-heart"></i>
+                          <i class="fas fa-heart"></i>
+                        </div>
+                        <p>
+                            Mi experiencia en el ITA ha sido increíble. Desde el primer día, me sentí acogido por un ambiente cálido y un equipo docente apasionado. Los programas académicos son desafiantes y están siempre actualizados, lo que me ha permitido aprender de manera efectiva. Las instalaciones son modernas y están bien equipadas, lo que facilita mucho el estudio. Además, la vida estudiantil es muy activa, con un montón de clubes y actividades que hacen que la experiencia universitaria sea muy enriquecedora.
+                        </p>
+                    </div>
+                    <div class="reviews-submit">
+                        <h4>Deja tu Reseña</h4>
+                        <div class="ratting">
+                        <i class="fas fa-heart estrella-item"></i>
+                        <i class="fas fa-heart estrella-item"></i>
+                        <i class="fas fa-heart estrella-item"></i>
+                        <i class="fas fa-heart estrella-item"></i>
+                        <i class="fas fa-heart estrella-item"></i>
+                        </div>
+                        <div class="row form">
+                            <div class="col-sm-12 form-group">
+                                <input type="text" id="nombre" placeholder="Nombre">
+                                <input type="email" id="email" placeholder="Email">
+                            </div>
+                            <textarea id="comentario" placeholder="Reseña"></textarea>
+                            <div class="col-sm-12">
+                                <button type="submit">Enviar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-    <form id="formulario-comentario">
-      <label for="nombre">Nombre:</label>
-      <input type="text" id="nombre" required>
-      <label for="comentario">Comentario:</label>
-      <textarea id="comentario" required></textarea>
-      <button id="btn-enviar" type="submit">Enviar</button>
-    </form>
-  </section>
   
   <!--<Pie de la página.-->
   <?php include '../../Footer.php'; ?>
@@ -286,6 +298,9 @@
     }
   </script>
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBDFMWxzIm2U40wfcYVDDOXdKsOVIm6S4A&callback=initMap" async defer></script>
+
+  <script src="../Corazones.js"></script>
+
 </body>
 
 </html>
