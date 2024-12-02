@@ -11,9 +11,6 @@
   <link rel="stylesheet" href="../bootstrap-5.3.3-dist/css/bootstrap.css">
     <!-- Estilos de registro personalizados  -->
   <link rel="stylesheet" type="text/css" href="../Registro/registro_form.css">
-
-
-
   <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
   <link rel="stylesheet" type="text/css" href="../Estilos/style.css">
   <link rel="stylesheet" type="text/css" href="../Estilos/TestStyle.css">
@@ -21,7 +18,10 @@
   <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.css" />
   <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick-theme.css" />
 
-<script src="./scriptnav.js"></script>
+  <script src="./scriptnav.js"></script>
+  
+  <!-- Favicons -->
+  <link href="../img/Logo3.png" rel="icon">
   <style>
     /* Estilos para la ventana emergente modal */
     .buttonLec {

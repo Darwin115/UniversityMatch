@@ -16,8 +16,8 @@
     <meta content="Free HTML Templates" name="keywords">
     <meta content="Free HTML Templates" name="description">
 
-    <!-- Favicon -->
-    <link href="img/favicon.ico" rel="icon">
+    <!-- Favicons -->
+  <link href="../img/Logo3.png" rel="icon">
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -138,9 +138,9 @@
                                     <img class="img-fluid w-100" src="img/team-1.jpg" alt="">
                                 </div>
                                 <div class="team-social d-flex flex-column align-items-center justify-content-center bg-primary">
-                                    <a class="btn btn-secondary btn-social mb-2" href="#"><i class="fab fa-instagram"></i></a>
-                                    <a class="btn btn-secondary btn-social mb-2" href="#"><i class="fab fa-facebook-f"></i></a>
-                                    <a class="btn btn-secondary btn-social" href="#"><i class="fab fa-tiktok"></i></a>
+                                    <a class="btn btn-secondary btn-social mb-2" href="https://www.instagram.com/luz.campos.09/profilecard/?igsh=MW5mMzdwdGhuYnM1cg=="><i class="fab fa-instagram"></i></a>
+                                    <a class="btn btn-secondary btn-social mb-2" href="https://www.facebook.com/luzaneli.camposgonzalez?mibextid=ZbWKwL"><i class="fab fa-facebook-f"></i></a>
+                                    <a class="btn btn-secondary btn-social mb-2" href="https://www.tiktok.com/@mklhgf_33?_t=8rBO4lHLdCi&_r=1"><i class="fab fa-tiktok"></i></a>
                                 </div>
                             </div>
                             <div class="d-flex flex-column bg-primary text-center py-4">
@@ -154,9 +154,9 @@
                                     <img class="img-fluid w-100" src="img/team-2.jpg" alt="">
                                 </div>
                                 <div class="team-social d-flex flex-column align-items-center justify-content-center bg-primary">
-                                    <a class="btn btn-secondary btn-social mb-2" href="#"><i class="fab fa-instagram"></i></a>
-                                    <a class="btn btn-secondary btn-social mb-2" href="#"><i class="fab fa-facebook-f"></i></a>
-                                    <a class="btn btn-secondary btn-social" href="#"><i class="fab fa-tiktok"></i></a>
+                                    <a class="btn btn-secondary btn-social mb-2" href="https://www.instagram.com/diegoarias49/profilecard/?igsh=MXM5NXZ3ZXl5Z3o1Zw=="><i class="fab fa-instagram"></i></a>
+                                    <a class="btn btn-secondary btn-social mb-2" href="https://www.facebook.com/profile.php?id=100027239340383&mibextid=ZbWKwL"><i class="fab fa-facebook-f"></i></a>
+                                    <a class="btn btn-secondary btn-social mb-2" href="https://www.tiktok.com/@diegoarias570?_t=8r6LhRHgdmf&_r=1"><i class="fab fa-tiktok"></i></a>
                                 </div>
                             </div>
                             <div class="d-flex flex-column bg-primary text-center py-4">
@@ -170,9 +170,9 @@
                                     <img class="img-fluid w-100" src="img/team-3.jpg" alt="">
                                 </div>
                                 <div class="team-social d-flex flex-column align-items-center justify-content-center bg-primary">
-                                    <a class="btn btn-secondary btn-social mb-2" href="#"><i class="fab fa-instagram"></i></a>
-                                    <a class="btn btn-secondary btn-social mb-2" href="#"><i class="fab fa-facebook-f"></i></a>
-                                    <a class="btn btn-secondary btn-social" href="#"><i class="fab fa-tiktok"></i></a>
+                                    <a class="btn btn-secondary btn-social mb-2" href="https://www.instagram.com/_sofiaglezz_?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><i class="fab fa-instagram"></i></a>
+                                    <a class="btn btn-secondary btn-social mb-2" href="https://www.facebook.com/profile.php?id=100009602982281&mibextid=ZbWKwL"><i class="fab fa-facebook-f"></i></a>
+                                    <a class="btn btn-secondary btn-social mb-2" href="https://www.tiktok.com/@sofiagonzalez3372?_t=8rBOM7eYoI4&_r=1"><i class="fab fa-tiktok"></i></a>
                                 </div>
                             </div>
                             <div class="d-flex flex-column bg-primary text-center py-4">
@@ -186,9 +186,9 @@
                                     <img class="img-fluid w-100" src="img/team-4.jpg" alt="">
                                 </div>
                                 <div class="team-social d-flex flex-column align-items-center justify-content-center bg-primary">
-                                    <a class="btn btn-secondary btn-social mb-2" href="#"><i class="fab fa-instagram"></i></a>
-                                    <a class="btn btn-secondary btn-social mb-2" href="#"><i class="fab fa-facebook-f"></i></a>
-                                    <a class="btn btn-secondary btn-social" href="#"><i class="fab fa-tiktok"></i></a>
+                                    <a class="btn btn-secondary btn-social mb-2" href="https://www.instagram.com/nuri.gonzalez.148/profilecard/?igsh=MXFmNzI4Y2N6NzNndQ=="><i class="fab fa-instagram"></i></a>
+                                    <a class="btn btn-secondary btn-social mb-2" href="https://www.facebook.com/nuri.gonzalez.148?mibextid=LQQJ4d"><i class="fab fa-facebook-f"></i></a>
+                                    <a class="btn btn-secondary btn-social mb-2" href="https://www.tiktok.com/@nurigonzalez121?_t=8r6MIAvJwak&_r=1"><i class="fab fa-tiktok"></i></a>
                                 </div>
                             </div>
                             <div class="d-flex flex-column bg-primary text-center py-4">
