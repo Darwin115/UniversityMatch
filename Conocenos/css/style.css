@@ -2424,16 +2424,16 @@ fieldset:disabled a.btn {
 }
 
 .btn-secondary:hover {
-  color: #fff;
-  background-color: #1c812b;
-  border-color: #1a7628;
+  color: #000000;
+  background-color: #ffffff;
+  border-color: #ffffff;
 }
 
 .btn-secondary:focus, .btn-secondary.focus {
-  color: #fff;
-  background-color: #1c812b;
-  border-color: #1a7628;
-  box-shadow: 0 0 0 0.2rem rgba(68, 174, 84, 0.5);
+  color: #000000;
+  background-color: #ffffff;
+  border-color: #238ac7;
+  box-shadow: 0 0 0 0.2rem #238ac7;
 }
 
 .btn-secondary.disabled, .btn-secondary:disabled {
@@ -2444,14 +2444,14 @@ fieldset:disabled a.btn {
 
 .btn-secondary:not(:disabled):not(.disabled):active, .btn-secondary:not(:disabled):not(.disabled).active,
 .show > .btn-secondary.dropdown-toggle {
-  color: #fff;
-  background-color: #1a7628;
-  border-color: #186c24;
+  color: #000000;
+  background-color: f#ffffff;
+  border-color: #ffffff;
 }
 
 .btn-secondary:not(:disabled):not(.disabled):active:focus, .btn-secondary:not(:disabled):not(.disabled).active:focus,
 .show > .btn-secondary.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(68, 174, 84, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.5);
 }
 
 .btn-success {
@@ -2462,15 +2462,15 @@ fieldset:disabled a.btn {
 
 .btn-success:hover {
   color: #fff;
-  background-color: #218838;
-  border-color: #1e7e34;
+  background-color: #000000;
+  border-color: #000000;
 }
 
 .btn-success:focus, .btn-success.focus {
   color: #fff;
-  background-color: #218838;
-  border-color: #1e7e34;
-  box-shadow: 0 0 0 0.2rem rgba(72, 180, 97, 0.5);
+  background-color: #000000;
+  border-color: #000000;
+  box-shadow: 0 0 0 0.2rem rgba(255, 27, 27, 0.5);
 }
 
 .btn-success.disabled, .btn-success:disabled {
@@ -2482,13 +2482,13 @@ fieldset:disabled a.btn {
 .btn-success:not(:disabled):not(.disabled):active, .btn-success:not(:disabled):not(.disabled).active,
 .show > .btn-success.dropdown-toggle {
   color: #fff;
-  background-color: #1e7e34;
-  border-color: #1c7430;
+  background-color: #000000;
+  border-color: #000000;
 }
 
 .btn-success:not(:disabled):not(.disabled):active:focus, .btn-success:not(:disabled):not(.disabled).active:focus,
 .show > .btn-success.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(72, 180, 97, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(255, 27, 27, 0.5);
 }
 
 .btn-info {
@@ -4903,8 +4903,8 @@ a.badge-secondary:focus, a.badge-secondary.focus {
 }
 
 a.badge-success:hover, a.badge-success:focus {
-  color: #fff;
-  background-color: #1e7e34;
+  color: #000000;
+  background-color: #ffffff;
 }
 
 a.badge-success:focus, a.badge-success.focus {
@@ -5651,7 +5651,7 @@ a.close.disabled {
 }
 
 .modal.fade .modal-dialog {
-  transition: transform 0.3s ease-out;
+  transition: transform 0.7s ease-out;
   transform: translate(0, -50px);
 }
 
@@ -6196,7 +6196,7 @@ a.close.disabled {
   color: #fff;
   text-align: center;
   opacity: 0.5;
-  transition: opacity 0.15s ease;
+  transition: opacity 0.25s ease;
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -6267,7 +6267,7 @@ a.close.disabled {
   border-top: 10px solid transparent;
   border-bottom: 10px solid transparent;
   opacity: .5;
-  transition: opacity 0.6s ease;
+  transition: opacity 0.7s ease;
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -10031,7 +10031,7 @@ h6,
   border-radius: 40px;
   font-size: 22px;
   opacity: .1;
-  transition: .3s;
+  transition: .15s;
 }
 
 .owl-carousel:hover .owl-nav .owl-prev,
@@ -10048,7 +10048,7 @@ h6,
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: .5s;
+  transition: .15s;
 }
 
 .portfolio-item:hover .portfolio-img {
@@ -10065,7 +10065,7 @@ h6,
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  transition: .5s;
+  transition: .7s;
 }
 
 .portfolio-item:hover .portfolio-text {
@@ -10081,11 +10081,15 @@ h6,
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: .5s;
+  transition: .7s;
 }
 
 .team:hover .team-img {
   left: 75px;
+}
+
+.team {
+  position: relative; /* Añadir esto para que los hijos con "position: absolute" se ubiquen correctamente */
 }
 
 .team .team-social {
@@ -10095,7 +10099,7 @@ h6,
   bottom: 0;
   left: -75px;
   z-index: 1;
-  transition: .5s;
+  transition: .7s;
 }
 
 .team:hover .team-social {

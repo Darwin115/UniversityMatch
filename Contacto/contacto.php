@@ -22,6 +22,9 @@
   <link href="https://fonts.googleapis.com/css?family=Dosis:400,500|Poppins:400,700&display=swap" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet" />
   <link href="css/responsive.css" rel="stylesheet" />
+
+  <!-- Favicons -->
+  <link href="../img/Logo3.png" rel="icon">
   
   <style>
     .map_section {

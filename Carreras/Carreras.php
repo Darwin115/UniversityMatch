@@ -13,6 +13,9 @@
   <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick-theme.css" />
   <script src="./scriptnav.js"></script>
 
+  <!-- Favicons -->
+  <link href="../img/Logo3.png" rel="icon">
+
   <style>
     .buttonLec {
     background-color: #ffffff;

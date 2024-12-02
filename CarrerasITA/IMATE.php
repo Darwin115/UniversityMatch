@@ -12,6 +12,21 @@
   <link rel="stylesheet" type="text/css" href="../Estilos/FooterStyle.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-GDWlJng9xEwG1eYTTvWe4H9fA1Idb51fbrYw5YK51m6JzCj5lCR4gI6Rbmu1nCrXOjW1QrR7TjDXXESmtv5D5Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <!-- Google Fonts -->
+  <link href="https://fonts.gstatic.com" rel="preconnect">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="../Perfil/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="../Perfil/assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="../Perfil/assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="../Perfil/assets/vendor/quill/quill.snow.css" rel="stylesheet">
+  <link href="../Perfil/assets/vendor/quill/quill.bubble.css" rel="stylesheet">
+  <link href="../Perfil/assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="../Perfil/assets/vendor/simple-datatables/style.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="../Perfil/assets/css/style.css" rel="stylesheet">
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-4LTLCWXEBE"></script>
   <script>
