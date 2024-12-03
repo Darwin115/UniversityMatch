@@ -5,7 +5,18 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ITA || UniversityMatch</title>
+  <title>UniversityMatch || ITA-MATERIALES</title>
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-4M2DHVY2HW"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-4M2DHVY2HW');
+  </script>
+
   <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
   <link rel="stylesheet" type="text/css" href="../Estilos/style.css">
   <link rel="stylesheet" type="text/css" href="../Estilos/stylevistaproductos.css">
@@ -27,18 +38,6 @@
 
   <!-- Template Main CSS File -->
   <link href="../Perfil/assets/css/style.css" rel="stylesheet">
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-4LTLCWXEBE"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-
-    function gtag() {
-      dataLayer.push(arguments);
-    }
-    gtag('js', new Date());
-
-    gtag('config', 'G-4LTLCWXEBE');
-  </script>
   <style>
     .buttonLec {
       background-color: #ffffff;

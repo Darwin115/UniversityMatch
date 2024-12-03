@@ -3,7 +3,18 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Donaciones</title>
+    <title>UniversityMatch || BUSCAR DONACIÓN</title>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-4M2DHVY2HW"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-4M2DHVY2HW');
+    </script>
+
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="Free HTML Templates" name="keywords">
     <meta content="Free HTML Templates" name="description">
