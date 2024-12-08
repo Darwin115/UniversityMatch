@@ -71,12 +71,25 @@ function mostrarProductos(productos) {
 }
 
 function mostrarModal(producto) {
-    const { nombre, descripcion, imagen } = producto;
+    const { nombre, descripcion, imagen, mision, vision, objetivos } = producto;
 
     // Asignar el contenido del modal
     document.getElementById('modalNombre').innerText = nombre;
     document.getElementById('modalDescripcion').innerText = descripcion;
     document.getElementById('modalImagen').src = imagen;
+    
+    // Aquí debes asignar texto, no src
+    document.getElementById('modalMision').innerText = mision;
+    document.getElementById('modalVision').innerText = vision;
+
+    // Mostrar los objetivos en una lista
+    const objetivosList = document.getElementById('modalObjetivos');
+    objetivosList.innerHTML = ''; // Limpiar la lista de objetivos anterior
+    objetivos.forEach(objetivo => {
+        const li = document.createElement('li');
+        li.innerText = objetivo;
+        objetivosList.appendChild(li);
+    });
 
     // Mostrar el modal y el fondo desenfocado
     document.getElementById('myModal').style.display = 'block';
@@ -86,13 +99,6 @@ function mostrarModal(producto) {
     document.body.style.overflow = 'hidden';
 }
 
-document.querySelector('.close').addEventListener('click', () => {
-    document.getElementById('myModal').style.display = 'none';
-    document.getElementById('backgroundBlur').classList.remove('active');
-
-    // Reactivar scroll en el body
-    document.body.style.overflow = 'auto';
-});
 
 window.addEventListener('click', (event) => {
     const modal = document.getElementById('myModal');

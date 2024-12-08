@@ -1,116 +1,133 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <title>IMGS_UNID || UniMatch</title>
-    <link rel="stylesheet" type="text/css" href="../../Estilos/style.css">
-    <link rel="stylesheet" type="text/css" href="../../Estilos/stylevistaproductos.css">
-    <link rel="stylesheet" type="text/css" href="../../Estilos/FooterStyle.css">
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css"/>
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css"/>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-        }
-        .slick-slide img {
-            display: block;
-            margin: auto;
-        }
-        .slick-prev:before, .slick-next:before {
-            color: black; /* Asegúrate de que este color sea visible en tu fondo */
-        }
-        .slick-dots li button:before {
-            font-size: 12px;
-            color: blue; /* Asegúrate de que este color sea visible en tu fondo */
-        }
-        .carrusel h2 {
-            text-align: center;
-            margin: 20px 0;
-        }
-    .buttonLec {
-      background-color: #ffffff;
-      color: #246d96;
-      border: none;
-      /* Eliminar borde */
-      width: 35px;
-      height: 35px;
-      /* Espaciado interno */
-      cursor: pointer;
-      /* Cursor al pasar sobre el botón */
-      border-radius: 100px;
-      /* Borde redondeado */
-      font-size: 12px;
-      /* Tamaño del texto */
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>UniversityMatch || UNID-GALERÍA</title>
 
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-4M2DHVY2HW"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-4M2DHVY2HW');
+  </script>
+
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+  <link rel="stylesheet" type="text/css" href="../../Estilos/style.css">
+  <link rel="stylesheet" type="text/css" href="../../Estilos/stylevistaproductos.css">
+  <link rel="stylesheet" type="text/css" href="../../Estilos/FooterStyle.css">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-GDWlJng9xEwG1eYTTvWe4H9fA1Idb51fbrYw5YK51m6JzCj5lCR4gI6Rbmu1nCrXOjW1QrR7TjDXXESmtv5D5Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+  <!-- Favicons -->
+  <link href="../../img/Logo3.png" rel="icon">
+
+  <style>
+    /* Estilo para la galería */
+    .gallery {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        gap: 15px;
+        padding: 0 15px;
+    }
+    .gallery img {
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease-in-out;
+        cursor: pointer;
+    }
+    .gallery img:hover {
+        transform: scale(1.05);
     }
 
-    .buttonLec:hover {
-      background-color: #ebebebf6;
-      /* Cambio de color al pasar sobre el botón */
+    /* Estilo para el modal */
+    .modal {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.8);
+        z-index: 1000;
+        align-items: center;
+        justify-content: center;
+    }
+    .modal img {
+        max-width: 90%;
+        max-height: 90%;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    }
+    .modal .close {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        font-size: 30px;
+        color: white;
+        cursor: pointer;
     }
   </style>
 </head>
 <body>
-    <?php include '../../Header.php'; ?>
 
-<section class="carrusel" id="aulas">
-    <h2>Aulas</h2>
-    <div class="slick-slider">
-        <div><img src="../../img/uniPics/UNID/UNID2.jpg" alt="Aula 1"></div>
-        <div><img src="../../img/uniPics/UNID/UNID3.jpg" alt="Aula 2"></div>
-        <div><img src="../../img/uniPics/UNID/UNID1.jpg" alt="Aula 3"></div>
+  <?php include '../../Header.php'; ?>
+  <?php include 'HeaderUNID.php'; ?>
+
+  <section id="aulas">
+    <h2>Edificios</h2>
+    <br>
+    <div class="gallery">
+        <img src="../../img/uniPics/UNID/Galeria/Ext1.png" alt="Edificio 1">
+        <img src="../../img/uniPics/UNID/Galeria/Ext3.jpg" alt="Edificio 2">
+        <img src="../../img/uniPics/UNID/Galeria/Ext4.jpeg" alt="Edificio 3">
+        <img src="../../img/uniPics/UNID/Galeria/Ext6.jpg" alt="Edificio 4">
+        <img src="../../img/uniPics/UNID/Galeria/Ext5.jpg" alt="Edificio 5">
+        <img src="../../img/uniPics/UNID/Galeria/Ext2.jpg" alt="Edificio 6">
     </div>
-</section>
+  </section>
 
-<section class="carrusel" id="laboratorios">
-    <h2>Laboratorios</h2>
-    <div class="slick-slider">
-        <div><img src="../../img/uniPics/UNID/UNID1.jpg" alt="Laboratorio 1"></div>
-        <div><img src="../../img/uniPics/UNID/UNID2.jpg" alt="Laboratorio 2"></div>
-        <div><img src="../../img/uniPics/UNID/UNID3.jpg" alt="Laboratorio 3"></div>
-    </div>
-</section>
+  <br>
 
-<section class="carrusel" id="areas-deportivas">
-    <h2>Áreas Deportivas</h2>
-    <div class="slick-slider">
-        <div><img src="../../img/uniPics/UNID/UNID3.jpg" alt="Área Deportiva 1"></div>
-        <div><img src="../../img/uniPics/UNID/UNID1.jpg" alt="Área Deportiva 2"></div>
-        <div><img src="../../img/uniPics/UNID/UNID2.jpg" alt="Área Deportiva 3"></div>
-    </div>
-</section>
+  <!-- Modal -->
+  <div class="modal" id="imageModal">
+    <span class="close" id="closeModal">&times;</span>
+    <img id="modalImage" src="" alt="Imagen ampliada">
+  </div>
 
-    <!--<Pie de la página.-->
-    <?php include '../../Footer.php'; ?>
-    <!--Fin pie de la página.-->
+  <script>
+    // Seleccionar elementos
+    const modal = document.getElementById("imageModal");
+    const modalImage = document.getElementById("modalImage");
+    const closeModal = document.getElementById("closeModal");
+    const galleryImages = document.querySelectorAll(".gallery img");
 
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
-<script>
-    $(document).ready(function() {
-        // Inicializa cada carrusel de forma independiente
-        $('.slick-slider').each(function() {
-            $(this).slick({
-                dots: true,
-                infinite: true,
-                speed: 300,
-                slidesToShow: 1,
-                autoplay: true,
-                autoplaySpeed: 2000,
-                adaptiveHeight: true,
-                pauseOnFocus: false, // Asegura que el carrusel no se pause con el foco
-                pauseOnHover: false, // Asegura que el carrusel no se pause al pasar el mouse
-                focusOnSelect: false // Asegura que no se cambie el enfoque al seleccionar
-            });
-        });
-
-        // Refrescar Slick en cambio de tamaño de ventana
-        $(window).resize(function() {
-            $('.slick-slider').slick('setPosition');
-        });
+    // Abrir modal al hacer clic en una imagen
+    galleryImages.forEach(img => {
+      img.addEventListener("click", () => {
+        modal.style.display = "flex";
+        modalImage.src = img.src;
+        modalImage.alt = img.alt;
+      });
     });
-</script>
 
+    // Cerrar modal
+    closeModal.addEventListener("click", () => {
+      modal.style.display = "none";
+    });
+
+    // Cerrar modal al hacer clic fuera de la imagen
+    modal.addEventListener("click", (e) => {
+      if (e.target === modal) {
+        modal.style.display = "none";
+      }
+    });
+  </script>
 </body>
+<?php include '../../Footer.php'; ?>
 </html>

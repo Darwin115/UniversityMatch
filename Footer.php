@@ -64,6 +64,10 @@ if (strpos($_SERVER['REQUEST_URI'], 'Formularios') !== false) {
     $base_path = '../';
 } elseif (strpos($_SERVER['REQUEST_URI'], 'Favoritos') !== false) {
     $base_path = '../';
+} elseif (strpos($_SERVER['REQUEST_URI'], 'ISIMA') !== false) {
+    $base_path = '../';
+} elseif (strpos($_SERVER['REQUEST_URI'], 'ILI') !== false) {
+    $base_path = '../';
 }
 ?>
 
