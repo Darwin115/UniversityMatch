@@ -12,7 +12,6 @@
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
-
     gtag('config', 'G-4M2DHVY2HW');
   </script>
 
@@ -20,234 +19,196 @@
   <link rel="stylesheet" type="text/css" href="../../Estilos/style.css">
   <link rel="stylesheet" type="text/css" href="../../Estilos/stylevistaproductos.css">
   <link rel="stylesheet" type="text/css" href="../../Estilos/FooterStyle.css">
-  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css"/>
-  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css"/>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-GDWlJng9xEwG1eYTTvWe4H9fA1Idb51fbrYw5YK51m6JzCj5lCR4gI6Rbmu1nCrXOjW1QrR7TjDXXESmtv5D5Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-GDWlJng9xEwG1eYTTvWe4H9fA1Idb51fbrYw5YK51m6JzCj5lCR4gI6Rbmu1nCrXOjW1QrR7TjDXXESmtv5D5Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
   <!-- Favicons -->
   <link href="../../img/Logo3.png" rel="icon">
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-4LTLCWXEBE"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
 
-    function gtag() {
-      dataLayer.push(arguments);
+  <style>
+    /* Estilo para la galería */
+    .gallery {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        gap: 15px;
+        padding: 0 15px;
     }
-    gtag('js', new Date());
-
-    gtag('config', 'G-4LTLCWXEBE');
-  </script>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-        }
-
-        .slick-slide img {
-            display: block;
-            margin: 0 auto;
-            height: 518px;
-            width: auto; 
-        }
-        .slick-prev:before, .slick-next:before {
-            color: black; 
-        }
-        .slick-dots li button:before {
-            font-size: 12px;
-            color: blue; 
-        }
-        .carrusel h2 {
-            text-align: center;
-            margin: 20px 0;
-        }
-    .buttonLec {
-      background-color: #ffffff;
-      color: #246d96;
-      border: none;
-      /* Eliminar borde */
-      width: 35px;
-      height: 35px;
-      /* Espaciado interno */
-      cursor: pointer;
-      /* Cursor al pasar sobre el botón */
-      border-radius: 100px;
-      /* Borde redondeado */
-      font-size: 12px;
-      /* Tamaño del texto */
+    .gallery img {
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease-in-out;
+        cursor: pointer;
+    }
+    .gallery img:hover {
+        transform: scale(1.05);
     }
 
-    .buttonLec:hover {
-      background-color: #ebebebf6;
-      /* Cambio de color al pasar sobre el botón */
+    /* Estilo para el modal */
+    .modal {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.8);
+        z-index: 1000;
+        align-items: center;
+        justify-content: center;
+    }
+    .modal img {
+        max-width: 90%;
+        max-height: 90%;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    }
+    .modal .close {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        font-size: 30px;
+        color: white;
+        cursor: pointer;
     }
   </style>
-
 </head>
-<body onload="iniciarLectura()">
+<body>
+
   <?php include '../../Header.php'; ?>
   <?php include 'HeaderITA.php'; ?>
-    
-  
-<section class="carrusel" id="aulas">
+
+  <section id="aulas">
     <h2>Edificios</h2>
-    <div class="slick-slider">
-        <div><img src="../../img/uniPics/ITA/Galeria/Ext2.webp" alt="Edificio 2"></div>
-        <div><img src="../../img/uniPics/ITA/Galeria/Ext3.jpg" alt="Edificio 3"></div>
-        <div><img src="../../img/uniPics/ITA/Galeria/Ext4.jpg" alt="Edificio 4"></div>
-        <div><img src="../../img/uniPics/ITA/Galeria/Ext5.jpg" alt="Edificio 5"></div>
-        <div><img src="../../img/uniPics/ITA/Galeria/Ext6.jpg" alt="Edificio 6"></div>
-        <div><img src="../../img/uniPics/ITA/Galeria/Ext7.jpg" alt="Edificio 7"></div>
-        <div><img src="../../img/uniPics/ITA/Galeria/Ext8.jpg" alt="Edificio 8"></div>
-        <div><img src="../../img/uniPics/ITA/Galeria/Ext9.jpg" alt="Edificio 9"></div>
-        <div><img src="../../img/uniPics/ITA/Galeria/Ext11.jpg" alt="Edificio 10"></div>
-        <div><img src="../../img/uniPics/ITA/Galeria/Ext12.jpg" alt="Edificio 11"></div>
-        <div><img src="../../img/uniPics/ITA/Galeria/Ext13.jpg" alt="Edificio 12"></div>
-        <div><img src="../../img/uniPics/ITA/Galeria/Ext14.jpg" alt="Edificio 13"></div>
-        <div><img src="../../img/uniPics/ITA/Galeria/Ext15.jpg" alt="Edificio 14"></div>
-        <div><img src="../../img/uniPics/ITA/Galeria/Ext16.jpg" alt="Edificio 15"></div>
-        <div><img src="../../img/uniPics/ITA/Galeria/Ext17.jpg" alt="Edificio 16"></div>
+    <br>
+    <div class="gallery">
+        <img src="../../img/uniPics/ITA/Galeria/Ext3.jpg" alt="Edificio 3">
+        <img src="../../img/uniPics/ITA/Galeria/Ext4.jpg" alt="Edificio 4">
+        <img src="../../img/uniPics/ITA/Galeria/Ext6.jpg" alt="Edificio 6">
+        <img src="../../img/uniPics/ITA/Galeria/Ext7.jpg" alt="Edificio 7">
+        <img src="../../img/uniPics/ITA/Galeria/Ext8.jpg" alt="Edificio 8">
+        <img src="../../img/uniPics/ITA/Galeria/Ext9.jpg" alt="Edificio 9">
+        <img src="../../img/uniPics/ITA/Galeria/Ext11.jpg" alt="Edificio 10">
+        <img src="../../img/uniPics/ITA/Galeria/Ext12.jpg" alt="Edificio 11">
+        <img src="../../img/uniPics/ITA/Galeria/Ext13.jpg" alt="Edificio 12">
+        <img src="../../img/uniPics/ITA/Galeria/Ext14.jpg" alt="Edificio 13">
+        <img src="../../img/uniPics/ITA/Galeria/Ext16.jpg" alt="Edificio 15">
+        <img src="../../img/uniPics/ITA/Galeria/Ext17.jpg" alt="Edificio 16">
+        <img src="../../img/uniPics/ITA/Galeria/Ext15.jpg" alt="Edificio 14">
+        <img src="../../img/uniPics/ITA/Galeria/Ext5.jpg" alt="Edificio 5">
+        <img src="../../img/uniPics/ITA/Galeria/Ext2.webp" alt="Edificio 2">
     </div>
-</section>
+  </section>
 
-<section class="carrusel" id="laboratorios">
+  <br>
+
+  <section id="laboratorios">
     <h2>Laboratorios</h2>
-    <div class="slick-slider">
-        <div><img src="../../img/uniPics/ITA/Galeria/Laboratorios1.jpg" alt="Laboratorio 1"></div>
-        <div><img src="../../img/uniPics/ITA/Galeria/Laboratorios2.jpg" alt="Laboratorio 2"></div>
-        <div><img src="../../img/uniPics/ITA/Galeria/Laboratorios4.jpg" alt="Laboratorio 4"></div>
-        <div><img src="../../img/uniPics/ITA/Galeria/Laboratorios5.jpg" alt="Laboratorio 5"></div>
-        <div><img src="../../img/uniPics/ITA/Galeria/Laboratorios6.jpg" alt="Laboratorio 6"></div>
+    <br>
+    <div class="gallery">
+        <img src="../../img/uniPics/ITA/Galeria/Laboratorios4.jpg" alt="Laboratorio 4">
+        <img src="../../img/uniPics/ITA/Galeria/Laboratorios1.jpg" alt="Laboratorio 1">
+        <img src="../../img/uniPics/ITA/Galeria/Laboratorios2.jpg" alt="Laboratorio 2">
+        <img src="../../img/uniPics/ITA/Galeria/Laboratorios5.jpg" alt="Laboratorio 5">
+        <img src="../../img/uniPics/ITA/Galeria/Laboratorios6.jpg" alt="Laboratorio 6">
     </div>
-</section>
+  </section>
 
-<section class="carrusel" id="auditorio">
+  <br>
+
+  <section id="auditorio">
     <h2>Auditorio</h2>
-    <div class="slick-slider">
-        <div><img src="../../img/uniPics/ITA/Galeria/Auditorio1.jpg" alt="Auditorio 1"></div>
-        <div><img src="../../img/uniPics/ITA/Galeria/Auditorio2.jpg" alt="Auditorio 2"></div>
-        <div><img src="../../img/uniPics/ITA/Galeria/Auditorio3.jpg" alt="Auditorio 3"></div>
+    <br>
+    <div class="gallery">
+        <img src="../../img/uniPics/ITA/Galeria/Auditorio1.jpg" alt="Auditorio 1">
+        <img src="../../img/uniPics/ITA/Galeria/Auditorio2.jpg" alt="Auditorio 2">
+        <img src="../../img/uniPics/ITA/Galeria/Auditorio3.jpg" alt="Auditorio 3">
     </div>
-</section>
+  </section>
 
-<section class="carrusel" id="premios">
+  <br>
+
+  <section id="premios">
     <h2>Premios</h2>
-    <div class="slick-slider">
-        <div><img src="../../img/uniPics/ITA/Galeria/Premios1.jpg" alt="Premio 1"></div>
-        <div><img src="../../img/uniPics/ITA/Galeria/Premios2.jpg" alt="Premio 2"></div>
-        <div><img src="../../img/uniPics/ITA/Galeria/Premios3.jpg" alt="Premio 3"></div>
-        <div><img src="../../img/uniPics/ITA/Galeria/Premios4.jpg" alt="Premio 4"></div>
+    <br>
+    <div class="gallery">
+        <img src="../../img/uniPics/ITA/Galeria/Premios1.jpg" alt="Premio 1">
+        <img src="../../img/uniPics/ITA/Galeria/Premios4.jpg" alt="Premio 4">
+        <img src="../../img/uniPics/ITA/Galeria/Premios2.jpg" alt="Premio 2">
+        <img src="../../img/uniPics/ITA/Galeria/Premios3.jpg" alt="Premio 3">
     </div>
-</section>
+  </section>
 
-<section class="carrusel" id="areas-deportivas">
+  <br>
+
+  <section id="areas-deportivas">
     <h2>Áreas Deportivas</h2>
-    <div class="slick-slider">
-        <div><img src="../../img/uniPics/ITA/Galeria/Adepo1.jpg" alt="Área Deportiva 1"></div>
-        <div><img src="../../img/uniPics/ITA/Galeria/Adepo2.jpg" alt="Área Deportiva 2"></div>
-        <div><img src="../../img/uniPics/ITA/Galeria/Adepo3.jpg" alt="Área Deportiva 3"></div>
-        <div><img src="../../img/uniPics/ITA/Galeria/Adepo4.jpg" alt="Área Deportiva 4"></div>
-        <div><img src="../../img/uniPics/ITA/Galeria/Adepo5.jpg" alt="Área Deportiva 5"></div>
-        <div><img src="../../img/uniPics/ITA/Galeria/Adepo6.jpg" alt="Área Deportiva 6"></div>
-        <div><img src="../../img/uniPics/ITA/Galeria/Adepo7.jpg" alt="Área Deportiva 7"></div>
-        <div><img src="../../img/uniPics/ITA/Galeria/Adepo8.jpg" alt="Área Deportiva 8"></div>
+    <br>
+    <div class="gallery">
+        <img src="../../img/uniPics/ITA/Galeria/Adepo1.jpg" alt="Área Deportiva 1">
+        <img src="../../img/uniPics/ITA/Galeria/Adepo2.jpg" alt="Área Deportiva 2">
+        <img src="../../img/uniPics/ITA/Galeria/Adepo3.jpg" alt="Área Deportiva 3">
+        <img src="../../img/uniPics/ITA/Galeria/Adepo4.jpg" alt="Área Deportiva 4">
+        <img src="../../img/uniPics/ITA/Galeria/Adepo5.jpg" alt="Área Deportiva 5">
+        <img src="../../img/uniPics/ITA/Galeria/Adepo6.jpg" alt="Área Deportiva 6">
+        <img src="../../img/uniPics/ITA/Galeria/Adepo7.jpg" alt="Área Deportiva 7">
+        <img src="../../img/uniPics/ITA/Galeria/Adepo8.jpg" alt="Área Deportiva 8">
     </div>
-</section>
+  </section>
 
-<section class="carrusel" id="areas-verdes">
+  <br>
+
+  <section id="areas-verdes">
     <h2>Áreas Verdes</h2>
-    <div class="slick-slider">
-        <div><img src="../../img/uniPics/ITA/Galeria/AreasV1.webp" alt="Área Verde 1"></div>
-        <div><img src="../../img/uniPics/ITA/Galeria/AreasV2.jpg" alt="Área Verde 2"></div>
-        <div><img src="../../img/uniPics/ITA/Galeria/AreasV3.jpg" alt="Área Verde 3"></div>
-        <div><img src="../../img/uniPics/ITA/Galeria/AreasV4.webp" alt="Área Verde 4"></div>
-        <div><img src="../../img/uniPics/ITA/Galeria/AreasV5.jpg" alt="Área Verde 5"></div>
-        <div><img src="../../img/uniPics/ITA/Galeria/AreasV6.jpg" alt="Área Verde 6"></div>
-        <div><img src="../../img/uniPics/ITA/Galeria/AreasV7.jpg" alt="Área Verde 7"></div>
-        <div><img src="../../img/uniPics/ITA/Galeria/AreasV8.jpg" alt="Área Verde 8"></div>
-        <div><img src="../../img/uniPics/ITA/Galeria/AreasV9.jpg" alt="Área Verde 9"></div>
+    <br>
+    <div class="gallery">
+        <img src="../../img/uniPics/ITA/Galeria/AreasV2.jpg" alt="Área Verde 2">
+        <img src="../../img/uniPics/ITA/Galeria/AreasV3.jpg" alt="Área Verde 3">
+        <img src="../../img/uniPics/ITA/Galeria/AreasV5.jpg" alt="Área Verde 5">
+        <img src="../../img/uniPics/ITA/Galeria/AreasV6.jpg" alt="Área Verde 6">
+        <img src="../../img/uniPics/ITA/Galeria/AreasV7.jpg" alt="Área Verde 7">
+        <img src="../../img/uniPics/ITA/Galeria/AreasV1.webp" alt="Área Verde 1">
+        <img src="../../img/uniPics/ITA/Galeria/AreasV4.webp" alt="Área Verde 4">
     </div>
-</section>
+  </section>
 
-  <!--<Pie de la página.-->
-  <?php include '../../Footer.php'; ?>
-  <!--Fin pie de la página.-->
+  <br>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
-<script>
-    $(document).ready(function() {
-        // Inicializa cada carrusel de forma independiente
-        $('.slick-slider').each(function() {
-            $(this).slick({
-                dots: true,
-                infinite: true,
-                speed: 300,
-                slidesToShow: 1,
-                autoplay: true,
-                autoplaySpeed: 2000,
-                adaptiveHeight: true,
-                pauseOnFocus: false, // Asegura que el carrusel no se pause con el foco
-                pauseOnHover: false, // Asegura que el carrusel no se pause al pasar el mouse
-                focusOnSelect: false // Asegura que no se cambie el enfoque al seleccionar
-            });
-        });
-
-        // Refrescar Slick en cambio de tamaño de ventana
-        $(window).resize(function() {
-            $('.slick-slider').slick('setPosition');
-        });
-    });
-</script>
-
-<!--<Accesibilidad-->
-<div class="accessibility" title="Accesibilidad" id="accessibility" onclick="abrirAcce()">
-    <img src="../../img/utileria/accessibility.png" alt="">
-
+  <!-- Modal -->
+  <div class="modal" id="imageModal">
+    <span class="close" id="closeModal">&times;</span>
+    <img id="modalImage" src="" alt="Imagen ampliada">
   </div>
-  <div class="BoxAccesibility" id="BoxAccesibility">
-    <p>Lector de texto</p>
-    <div class="centrado">
-      <button class="buttonLec" onclick="reiniciarLectura()"><i class="fas fa-play"></i> </button>
-      <button class="buttonLec" onclick="toggleSpeech()"><i class="fas fa-stop"></i> </button>
-    </div>
-  </div>
-    
+
   <script>
-  var speechSynthesisInstance;
-  var textoUniversidad = "Este es el catálogo de universidades, aquí podrás encontrar todas las universidades que ofrecen la carrera ideal para tí. Para ello, puedes utilizar el filtrado por categoría para revisar solo las universidades de tu interés o bien, si ya tienes claro a qué institución vas a entrar y deseas conocer más sobre ella, puedes utilizar el buscador";
-  function iniciarLectura() {
-    if ('speechSynthesis' in window) {
-      speechSynthesisInstance = new SpeechSynthesisUtterance(textoUniversidad);
-      window.speechSynthesis.speak(speechSynthesisInstance);
-    } else {
-      console.log('Tu navegador no soporta la síntesis de voz.');
-    }
-  }
-  function pausarLectura() {
-    if (speechSynthesisInstance) {
-      window.speechSynthesis.pause();
-    }
-  }
-  function continuarLectura() {
-    if (speechSynthesisInstance) {
-      window.speechSynthesis.resume();
-    }
-  }
-  function reiniciarLectura() {
-    if (speechSynthesisInstance) {
-      window.speechSynthesis.cancel();
-      iniciarLectura();
-    }
-  }
-  function toggleSpeech() {
-    if (speechSynthesisInstance && window.speechSynthesis.speaking) {
-      pausarLectura();
-    } else {
-      continuarLectura();
-    }
-  }
-  </script>
-  <!--<Fin accesibilidad-->
+    // Seleccionar elementos
+    const modal = document.getElementById("imageModal");
+    const modalImage = document.getElementById("modalImage");
+    const closeModal = document.getElementById("closeModal");
+    const galleryImages = document.querySelectorAll(".gallery img");
 
+    // Abrir modal al hacer clic en una imagen
+    galleryImages.forEach(img => {
+      img.addEventListener("click", () => {
+        modal.style.display = "flex";
+        modalImage.src = img.src;
+        modalImage.alt = img.alt;
+      });
+    });
+
+    // Cerrar modal
+    closeModal.addEventListener("click", () => {
+      modal.style.display = "none";
+    });
+
+    // Cerrar modal al hacer clic fuera de la imagen
+    modal.addEventListener("click", (e) => {
+      if (e.target === modal) {
+        modal.style.display = "none";
+      }
+    });
+  </script>
 </body>
+<?php include '../../Footer.php'; ?>
 </html>
