@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>UniversityMatch || UNID-INICIO</title>
+  <title>UniversityMatch || ILI-INICIO</title>
 
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-4M2DHVY2HW"></script>
@@ -18,15 +18,15 @@
   </script>
 
   <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
-  <link rel="stylesheet" type="text/css" href="../../Estilos/style.css">
-  <link rel="stylesheet" type="text/css" href="../../Estilos/stylevistaproductos.css">
-  <link rel="stylesheet" type="text/css" href="../../Estilos/FooterStyle.css">
-  <link rel="stylesheet" type="text/css" href="../../Estilos/Universidades.css">
-  <link rel="stylesheet" type="text/css" href="../../Donaciones/css/style2.css">
+  <link rel="stylesheet" type="text/css" href="../Estilos/style.css">
+  <link rel="stylesheet" type="text/css" href="../Estilos/stylevistaproductos.css">
+  <link rel="stylesheet" type="text/css" href="../Estilos/FooterStyle.css">
+  <link rel="stylesheet" type="text/css" href="../Estilos/Universidades.css">
+  <link rel="stylesheet" type="text/css" href="../Donaciones/css/style2.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-GDWlJng9xEwG1eYTTvWe4H9fA1Idb51fbrYw5YK51m6JzCj5lCR4gI6Rbmu1nCrXOjW1QrR7TjDXXESmtv5D5Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <!-- Favicons -->
-  <link href="../../img/Logo3.png" rel="icon">
+  <link href="../img/Logo3.png" rel="icon">
   <style>
     .buttonLec {
       background-color: #ffffff;
@@ -53,33 +53,36 @@
 </head>
 
 <body onload="iniciarLectura()">
-  <?php include '../../Header.php'; ?>
-  <?php include 'HeaderUNID.php'; ?>
+  <?php include '../Header.php'; ?>
 
   <!--Agregamos la imagen principal del producto y la información-->
   <section id="prodetails">
     <div class="single-pro-image">
-      <img src="../../img/uniPics/UNID/UNIDL.jpg" id="ImgPrinc" alt="Dell_7480" title="3">
+      <img src="../img/cursosPics/ILI/ILI4.png" id="ImgPrinc" alt="Dell_7480" title="3">
       <div class="small-img-group">
         <div class="small-img-col">
-          <img src="../../img/uniPics/UNID/UNIDL.jpg" width="100" alt="Dell_7480" title="3">
+          <img src="../img/cursosPics/ILI/ILI4.png" width="140px" alt="Dell_7480" title="3">
         </div>
         <div class="small-img-col">
-          <img src="../../img/uniPics/UNID/UNID2.jpg" width="100" alt="Dell_7480" title="2">
+          <img src="../img/cursosPics/ILI/ILI2.jpg" width="140px" alt="Dell_7480" title="2">
         </div>
         <div class="small-img-col">
-          <img src="../../img/uniPics/UNID/UNID3.jpg" width="100" alt="Dell_7480" title="4">
+          <img src="../img/cursosPics/ILI/ILI3.webp" width="107px" alt="Dell_7480" title="4">
         </div>
         <div class="small-img-col">
-          <img src="../../img/uniPics/UNID/UNID1.jpg" width="100" alt="Dell_7480" title="1">
+          <img src="../img/cursosPics/ILI/ILI1.jpg" width="120px" alt="Dell_7480" title="1">
         </div>
       </div>
     </div>
     <div class="info">
-      <h1><strong>UNID - Universidad Interamericana para el Desarrollo</strong></h1>
-      <p>La Universidad Interamericana para el Desarrollo es una institución educativa multisede que promueve la excelencia académica, el desarrollo humano y el liderazgo profesional a través de un modelo educativo que integra valores, tecnología de vanguardia y experiencia laboral real, facilitando la inserción al mundo empresarial. La filosofía de la UNID se basa en una formación integral en la cual el desarrollo de la inteligencia y la adquisición del saber son fundamentales, potenciando el uso adecuado de la razón orientado a la búsqueda de la verdad, para emitir juicios rectos y equilibrados de los educandos, sobre sí mismos y el medio que les rodea.
-      </p>
-      </div>
+        <h1><strong>ILI - Instituto de Lenguas Internacionales</strong></h1>
+        <p>El Instituto de Lenguas Internacionales (ILI) en Aguascalientes tiene como misión brindar educación en idiomas extranjeros con un enfoque adaptado a las necesidades específicas de cada estudiante o empresa. La institución busca fomentar la comprensión cultural y lingüística, preparando a sus estudiantes para un mundo globalizado y profesionalmente competitivo.
+            <br><br><strong>Misión</strong>
+            <br>El ILI se centra en enseñar no solo las reglas lingüísticas y la pronunciación adecuada, sino también la cultura y tradiciones de los países donde se hablan estos idiomas. Además, se esfuerza en ofrecer atención personalizada y programas intensivos, adaptados tanto a individuos como a empresas.
+            <br><br><strong>Visión</strong>
+            <br>La visión del ILI incluye ser un referente en la enseñanza de idiomas en el estado, ofreciendo soluciones a la medida que faciliten la comunicación efectiva en entornos multiculturales y profesionales. También se enfoca en contribuir al éxito personal y empresarial en un contexto globalizado
+        </p>
+    </div>
   </section>
 
 
@@ -87,10 +90,10 @@
   <section id="inter">
     <section id="ininterImg" style="display: flex; align-items: center; justify-content: center;">
       <div class="infointer">
-        <img src="../../img/anuncios/Anuncio1.jpg" alt="Anuncio">
+        <img src="../img/anuncios/Anuncio1.jpg" alt="Anuncio">
       </div>
       <div class="infointer">
-        <video src="../../videos/Inter1.mp4" controls alt="Intérprete" autoplay loop muted style="max-height: 100%; max-width: 100%;"></video>
+        <video src="../videos/Inter1.mp4" controls alt="Intérprete" autoplay loop muted style="max-height: 100%; max-width: 100%;"></video>
       </div>
     </section>
   </section>
@@ -103,7 +106,7 @@
 
   <br>
 
-  <h2>Califica esta Universidad</h2>
+  <h2>Califica este Curso</h2>
 
   <br>
   <br>
@@ -122,7 +125,7 @@
                           <i class="fas fa-heart"></i>
                         </div>
                         <p>
-                            Mi experiencia en el UNID ha sido increíble. Desde el primer día, me sentí acogido por un ambiente cálido y un equipo docente apasionado. Los programas académicos son desafiantes y están siempre actualizados, lo que me ha permitido aprender de manera efectiva. Las instalaciones son modernas y están bien equipadas, lo que facilita mucho el estudio. Además, la vida estudiantil es muy activa, con un montón de clubes y actividades que hacen que la experiencia universitaria sea muy enriquecedora.
+                            Mi experiencia en el ILI ha sido increíble. Desde el primer día, me sentí acogido por un ambiente cálido y un equipo docente apasionado. Los programas académicos son desafiantes y están siempre actualizados, lo que me ha permitido aprender de manera efectiva. Las instalaciones son modernas y están bien equipadas, lo que facilita mucho el estudio. Además, la vida estudiantil es muy activa, con un montón de clubes y actividades que hacen que la experiencia universitaria sea muy enriquecedora.
                         </p>
                     </div>
                     <div class="reviews-submit">
@@ -151,7 +154,7 @@
     </div>
   
   <!--<Pie de la página.-->
-  <?php include '../../Footer.php'; ?>
+  <?php include '../Footer.php'; ?>
   <!--Fin pie de la página.-->
 
 <script>
@@ -178,7 +181,7 @@
       var categoria = $('#select-categoria').val();
       $.ajax({
         type: "POST",
-        url: "Consulta_UNID.php", // Ruta al archivo PHP que maneja la solicitud AJAX
+        url: "Consulta_ILI.php", // Ruta al archivo PHP que maneja la solicitud AJAX
         data: {
           categoria: categoria
         },
@@ -220,8 +223,8 @@
     function initMap() {
       // Coordenadas del Instituto Tecnológico de Aguascalientes
       var upCoords = {
-        lat: 21.88695100436538,
-        lng: -102.3129049018961
+        lat: 21.88131747479803,
+        lng: -102.29925420370084
       };
 
       // Crear el mapa

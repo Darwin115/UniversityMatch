@@ -5,13 +5,27 @@
         "foto": "../img/cursosLogos/ILI.JPG",
         "direccion": "Venustiano Carranza 115, Zona Centro, 20000 Aguascalientes, Ags",
         "telefono": "449 915 3812",
-        "url": "https://institutodelenguasinternacionales.net/",
+        "url": "../vistas_cursos/ILI.php",
         "categoria": "idiomas",
         "nivel": "principiante",
         "modalidad": "presencial",
         "popularidad": 4,
         "duracion": 30,
         "costo": 1000
+    },
+    {
+        "nombre": "ISIMA",
+        "acronimo": "IS",
+        "foto": "../img/cursosLogos/ISIMA.JPG",
+        "direccion": "Av. Adolfo López Mateos Ote. 327, Barrio del Encino, 20240 Aguascalientes, Ags.",
+        "telefono": "449 918 2845",
+        "url": "../vistas_cursos/ISIMA1.php",
+        "categoria": "tec",
+        "nivel": "avanzado",
+        "modalidad": "presencial",
+        "popularidad": 3,
+        "duracion": 60,
+        "costo": 2500
     },
     {
         "nombre": "EUROINNOVA",
@@ -26,21 +40,7 @@
         "popularidad": 5,
         "duracion": 40,
         "costo": 1500
-    },
-    {
-        "nombre": "ISIMA",
-        "acronimo": "IS",
-        "foto": "../img/cursosLogos/ISIMA.JPG",
-        "direccion": "Av. Adolfo López Mateos Ote. 327, Barrio del Encino, 20240 Aguascalientes, Ags.",
-        "telefono": "449 918 2845",
-        "url": "https://www.isima.com.mx/gastronomia-en-aguascalientes.html",
-        "categoria": "tec",
-        "nivel": "avanzado",
-        "modalidad": "presencial",
-        "popularidad": 3,
-        "duracion": 60,
-        "costo": 2500
-    },
+    },    
     {
         "nombre": "Instituto Gastronómico de Aguascalientes",
         "acronimo": "IGA",

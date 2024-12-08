@@ -226,19 +226,27 @@
 
   <div class="row" id="res"></div>
 
-  <!-- Modal -->
-  <div id="backgroundBlur" class="background-blur"></div>
+<!-- Modal -->
+<div id="backgroundBlur" class="background-blur"></div>
   
   <div id="myModal" class="modal">
     <div class="modal-content">
       <span class="close">&times;</span>
-      <h3 id="modalNombre"></h3>
-      <p id="modalDescripcion"></p>
+      <h3 id="modalNombre" style="font-size: 2em; color: rgb(27, 152, 206); margin-bottom: 15px;"></h3>
+      <p id="modalDescripcion" style="text-align: justify; line-height: 1.5;"></p>
+      <h5 style="font-size: 1.5em; font-weight: bold; text-align: left; margin-bottom: 10px;">Misión</h5>
+      <p id="modalMision" style="text-align: justify; line-height: 1.5;"></p>
+      <h5 style="font-size: 1.5em; font-weight: bold; text-align: left; margin-bottom: 10px;">Visión</h5>
+      <p id="modalVision" style="text-align: justify; line-height: 1.5;"></p>
+      <h5 style="font-size: 1.5em; font-weight: bold; text-align: left; margin-bottom: 10px;">Objetivos</h5>
+      <ul id="modalObjetivos" style="text-align: justify; line-height: 1.5; margin-left: 20px;"></ul>
       <img id="modalImagen" src="" alt="Imagen de la carrera" style="max-width: 100%; border-radius: 8px; margin-top: 10px;">
       <button id="conocerUniversidades" class="btn-success">Conocer Universidades</button>
     </div>
   </div>
-  <!-- Fin modal -->
+<!-- Fin modal -->
+
+
   
   <!--<Pie de la página.-->
   <?php include '../Footer.php'; ?>

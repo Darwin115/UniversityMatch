@@ -16,11 +16,7 @@ if (strpos($_SERVER['REQUEST_URI'], 'Formularios') !== false) {
     $base_path = '../';
 } elseif (strpos($_SERVER['REQUEST_URI'], 'AplicarITA') !== false) {
     $base_path = '../../';
-} elseif (strpos($_SERVER['REQUEST_URI'], 'IMGS_ITA') !== false) {
-    $base_path = '../../';
-} elseif (strpos($_SERVER['REQUEST_URI'], 'IMGS_UNID') !== false) {
-    $base_path = '../../';
-} elseif (strpos($_SERVER['REQUEST_URI'], 'IMGS_UP') !== false) {
+} elseif (strpos($_SERVER['REQUEST_URI'], 'IMGS_ITA') !== false) { 
     $base_path = '../../';
 } elseif (strpos($_SERVER['REQUEST_URI'], 'Info_ITA') !== false) {
     $base_path = '../../';
@@ -32,7 +28,27 @@ if (strpos($_SERVER['REQUEST_URI'], 'Formularios') !== false) {
     $base_path = '../../';
 } elseif (strpos($_SERVER['REQUEST_URI'], 'Vista_UNID') !== false) {
     $base_path = '../../';
+} elseif (strpos($_SERVER['REQUEST_URI'], 'Info_UNID') !== false) {
+    $base_path = '../../';
+} elseif (strpos($_SERVER['REQUEST_URI'], 'MatriculaUNID') !== false) {
+    $base_path = '../../';
+} elseif (strpos($_SERVER['REQUEST_URI'], 'PlanUNID') !== false) {
+    $base_path = '../';
+} elseif (strpos($_SERVER['REQUEST_URI'], 'AplicarUNID') !== false) {
+    $base_path = '../../';
+} elseif (strpos($_SERVER['REQUEST_URI'], 'IMGS_UNID') !== false) {
+    $base_path = '../../';
 } elseif (strpos($_SERVER['REQUEST_URI'], 'Vista_UP') !== false) {
+    $base_path = '../../';
+} elseif (strpos($_SERVER['REQUEST_URI'], 'Info_UP') !== false) {
+    $base_path = '../../';
+} elseif (strpos($_SERVER['REQUEST_URI'], 'MatriculaUP') !== false) {
+    $base_path = '../../';
+} elseif (strpos($_SERVER['REQUEST_URI'], 'PlanUP') !== false) {
+    $base_path = '../';
+} elseif (strpos($_SERVER['REQUEST_URI'], 'AplicarUP') !== false) {
+    $base_path = '../../';
+} elseif (strpos($_SERVER['REQUEST_URI'], 'IMGS_UP') !== false) {
     $base_path = '../../';
 } elseif (strpos($_SERVER['REQUEST_URI'], 'IELECTRI') !== false) {
     $base_path = '../../';
@@ -68,7 +84,11 @@ if (strpos($_SERVER['REQUEST_URI'], 'Formularios') !== false) {
     $base_path = '../';
 } elseif (strpos($_SERVER['REQUEST_URI'], 'Perfil') !== false) {
     $base_path = '../';
-}
+} elseif (strpos($_SERVER['REQUEST_URI'], 'ILI') !== false) {
+    $base_path = '../';
+} if (strpos($_SERVER['REQUEST_URI'], 'ISIMA1') !== false) {
+    $base_path = '../';
+} 
 
 // Función para activar clases en el menú
 function setActiveClass($page) {
