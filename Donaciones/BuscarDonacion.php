@@ -48,7 +48,7 @@
     
     <p class="text-center">Explora nuestras donaciones disponibles a continuación. Si necesitas algo específico, ¡contáctanos y te ayudaremos a encontrarlo!</p>
     <span>&nbsp;&nbsp;&nbsp;</span>
-    <h5 class="text-center mb-4" style="font-family: 'Poppins', sans-serif; font-size: 1.8rem; font-weight: bold; background-color: #2980b9; color: white; padding: 15px; border-radius: 5px;">
+    <h5 class="text-center mb-4" style="font-family: 'Poppins', sans-serif; font-size: 1.8rem; font-weight: bold; background-color: #246d96; color: white; padding: 15px; border-radius: 5px;">
         Productos varios disponibles para donación
     </h5>
 <div class="row" id="res"></div>
@@ -65,7 +65,7 @@
     <!-- Fin modal -->
 
     <!-- Stripe Buttons --> 
-    <h5 class="text-center mb-4" style="font-family: 'Poppins', sans-serif; font-size: 1.8rem; font-weight: bold; background-color: #2980b9; color: white; padding: 15px; border-radius: 5px; margin-top: 35px;">
+    <h5 class="text-center mb-4" style="font-family: 'Poppins', sans-serif; font-size: 1.8rem; font-weight: bold; background-color: #246d96; color: white; padding: 15px; border-radius: 5px; margin-top: 35px;">
         Productos únicos disponibles para donación
     </h5>
 <div style="background-color: #f0f0f0; padding: 30px 0;">
