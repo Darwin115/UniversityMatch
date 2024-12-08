@@ -110,7 +110,6 @@
             <option value="electronicos">Electrónicos</option>
             <option value="juguetes">Juguetes</option>
             <option value="libros">Libros</option>
-            <option value="alimentos">Alimentos no perecederos</option>
             <option value="otros">Otros (especificar)</option>
           </select>
 

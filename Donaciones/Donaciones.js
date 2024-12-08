@@ -45,9 +45,6 @@ function mostrarProductos(productos) {
                     <div class="text-center py-4">
                         <a class="h6 text-decoration-none text-truncate" href="#">${producto.nombre}</a>
                     </div>
-                    <div class="d-flex align-items-center justify-content-center mb-1">
-                        ${'<small class="fa fa-star text-primary mr-1"></small>'.repeat(5)}<small>(99)</small>
-                    </div>
                 </div>
             `;
             res.appendChild(productoDiv);
