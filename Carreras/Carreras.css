@@ -43,7 +43,7 @@ body {
 /* Estilo del nombre */
 .nombre {
     font-size: 22px; /* Tamaño del texto del nombre */
-    color: rgb(27, 152, 206); /* Color del nombre */
+    color: black; /* Color del nombre */
     margin-bottom: 25px; /* Espaciado inferior */
     text-align: center; /* Alinea el texto al centro */
 }
@@ -105,7 +105,8 @@ h3 {
 
 /* Estilo de fondo del resultado */
 #res {
-    background-color: #f0f0f0;
+    background-color: rgb(27, 152, 206);
+
     padding: 20px;
     border-radius: 10px;
 }
