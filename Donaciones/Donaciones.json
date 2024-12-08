@@ -13,19 +13,6 @@
     },
 
     {
-      "nombre": "Teclado Mecánico Retroiluminado",
-      "marca": "Corsair",
-      "estado": "Usado",
-      "tamaño": "44 x 15 x 3.5 cm",
-      "peso": "950 g",
-      "material": "Aluminio y Plástico",
-      "color": "Negro con retroiluminación RGB",
-      "foto": "imgDonaciones/Teclado.jpg",
-      "url": "BuscarFormulario.php",
-      "descripcion": "El Teclado Mecánico Retroiluminado de Corsair combina un diseño robusto en aluminio con teclas mecánicas de alto rendimiento."
-    },
-
-    {
       "nombre": "Audífonos In-Ear Bluetooth",
       "marca": "Sony",
       "estado": "Usado",
@@ -114,18 +101,5 @@
       "foto": "imgDonaciones/Reloj.jpeg",
       "url": "BuscarFormulario.php",
       "descripcion": "El Reloj Analógico Deportivo de Garmin combina un diseño elegante con funcionalidad avanzada."
-    },
-
-    {
-      "nombre": "Proyector Full HD",
-      "marca": "Epson",
-      "estado": "Nuevo",
-      "tamaño": "25 x 20 x 10 cm",
-      "peso": "2.5 kg",
-      "material": "Plástico y Metal",
-      "color": "Blanco",
-      "foto": "imgDonaciones/Proyector.jpg",
-      "url": "BuscarFormulario.php",
-      "descripcion": "El Proyector Full HD de Epson ofrece imágenes nítidas y colores vibrantes en una resolución de alta definición."
     }
   ]
