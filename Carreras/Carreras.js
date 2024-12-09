@@ -146,16 +146,16 @@ function aplicarFiltros() {
     if (orden !== 'ninguno') {
         switch (orden) {
             case 'ranking':
-                productosFiltrados.sort((a, b) => a.ranking - b.ranking); // Ajusta el campo de ranking si es necesario
+                productosFiltrados.sort((a, b) => a.ranking - b.ranking); 
                 break;
             case 'ubicacion':
-                productosFiltrados.sort((a, b) => a.ubicacion.localeCompare(b.ubicacion)); // Asegúrate de que el campo 'ubicacion' esté definido
+                productosFiltrados.sort((a, b) => a.ubicacion.localeCompare(b.ubicacion)); 
                 break;
             case 'costo':
-                productosFiltrados.sort((a, b) => a.costo - b.costo); // Suponiendo que el costo esté definido numéricamente
+                productosFiltrados.sort((a, b) => a.costo - b.costo); 
                 break;
             case 'duracion':
-                productosFiltrados.sort((a, b) => a.duracion - b.duracion); // Si 'duracion' es numérico
+                productosFiltrados.sort((a, b) => a.duracion - b.duracion); 
                 break;
         }
     }
