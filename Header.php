@@ -98,9 +98,8 @@ function setActiveClass($page) {
 }
 
 ?>
+<!-------------------------------------------------------------------------------------------------------------------------------------- -->
 
-
-<!-- Aquí empieza el contenido del header propiamente dicho -->
 <section id="header"> 
     <a href="<?php echo $base_path; ?>index.php">
         <img src="<?php echo $base_path; ?>img/Logo2.jpg" class="sin-borde imgResponsive" alt="logo" title="Logo" width="250">
@@ -168,6 +167,7 @@ function setActiveClass($page) {
     .custom-dropdown {
         position: relative;
         margin-left: 20px;
+        
     }
 
     .custom-dropdown-toggle {
@@ -191,18 +191,18 @@ function setActiveClass($page) {
     }
 
     .custom-dropdown-menu {
-        display: none;
-        position: absolute;
-        top: 100%;
-        left: 0;
-        background: #fff;
-        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-        padding: 10px;
-        border-radius: 5px;
-        z-index: 1000;
-        list-style: none;
-        min-width: 200px;
-    }
+    display: none;
+    position: absolute; 
+    top: 100%; 
+    left: 0;
+    background: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    border-radius: 5px;
+    z-index: 1000;
+    list-style: none;
+    min-width: 200px;
+}
 
     .custom-dropdown-menu.show {
         display: block;
@@ -298,4 +298,16 @@ function setActiveClass($page) {
             }
         });
     });
+</script>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+    const burgerMenu = document.getElementById('burger-menu');
+    const navbar = document.getElementById('navbar');
+
+    burgerMenu.addEventListener('click', function () {
+        navbar.classList.toggle('show');
+    });
+});
+
 </script>
