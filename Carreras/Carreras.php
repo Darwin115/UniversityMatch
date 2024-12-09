@@ -245,8 +245,6 @@
     </div>
   </div>
 <!-- Fin modal -->
-
-
   
   <!--<Pie de la página.-->
   <?php include '../Footer.php'; ?>
