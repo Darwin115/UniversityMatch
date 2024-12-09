@@ -16,11 +16,7 @@ if (strpos($_SERVER['REQUEST_URI'], 'Formularios') !== false) {
     $base_path = '../';
 } elseif (strpos($_SERVER['REQUEST_URI'], 'AplicarITA') !== false) {
     $base_path = '../../';
-} elseif (strpos($_SERVER['REQUEST_URI'], 'IMGS_ITA') !== false) {
-    $base_path = '../../';
-} elseif (strpos($_SERVER['REQUEST_URI'], 'IMGS_UNID') !== false) {
-    $base_path = '../../';
-} elseif (strpos($_SERVER['REQUEST_URI'], 'IMGS_UP') !== false) {
+} elseif (strpos($_SERVER['REQUEST_URI'], 'IMGS_ITA') !== false) { 
     $base_path = '../../';
 } elseif (strpos($_SERVER['REQUEST_URI'], 'Info_ITA') !== false) {
     $base_path = '../../';
@@ -32,7 +28,27 @@ if (strpos($_SERVER['REQUEST_URI'], 'Formularios') !== false) {
     $base_path = '../../';
 } elseif (strpos($_SERVER['REQUEST_URI'], 'Vista_UNID') !== false) {
     $base_path = '../../';
+} elseif (strpos($_SERVER['REQUEST_URI'], 'Info_UNID') !== false) {
+    $base_path = '../../';
+} elseif (strpos($_SERVER['REQUEST_URI'], 'MatriculaUNID') !== false) {
+    $base_path = '../../';
+} elseif (strpos($_SERVER['REQUEST_URI'], 'PlanUNID') !== false) {
+    $base_path = '../';
+} elseif (strpos($_SERVER['REQUEST_URI'], 'AplicarUNID') !== false) {
+    $base_path = '../../';
+} elseif (strpos($_SERVER['REQUEST_URI'], 'IMGS_UNID') !== false) {
+    $base_path = '../../';
 } elseif (strpos($_SERVER['REQUEST_URI'], 'Vista_UP') !== false) {
+    $base_path = '../../';
+} elseif (strpos($_SERVER['REQUEST_URI'], 'Info_UP') !== false) {
+    $base_path = '../../';
+} elseif (strpos($_SERVER['REQUEST_URI'], 'MatriculaUP') !== false) {
+    $base_path = '../../';
+} elseif (strpos($_SERVER['REQUEST_URI'], 'PlanUP') !== false) {
+    $base_path = '../';
+} elseif (strpos($_SERVER['REQUEST_URI'], 'AplicarUP') !== false) {
+    $base_path = '../../';
+} elseif (strpos($_SERVER['REQUEST_URI'], 'IMGS_UP') !== false) {
     $base_path = '../../';
 } elseif (strpos($_SERVER['REQUEST_URI'], 'IELECTRI') !== false) {
     $base_path = '../../';
@@ -68,6 +84,12 @@ if (strpos($_SERVER['REQUEST_URI'], 'Formularios') !== false) {
     $base_path = '../';
 } elseif (strpos($_SERVER['REQUEST_URI'], 'Perfil') !== false) {
     $base_path = '../';
+} elseif (strpos($_SERVER['REQUEST_URI'], 'ILI') !== false) {
+    $base_path = '../';
+} if (strpos($_SERVER['REQUEST_URI'], 'ISIMA1') !== false) {
+    $base_path = '../';
+}  elseif (strpos($_SERVER['REQUEST_URI'], 'Ordenes') !== false) {
+    $base_path = '../';
 }
 
 // Función para activar clases en el menú
@@ -76,9 +98,8 @@ function setActiveClass($page) {
 }
 
 ?>
+<!-------------------------------------------------------------------------------------------------------------------------------------- -->
 
-
-<!-- Aquí empieza el contenido del header propiamente dicho -->
 <section id="header"> 
     <a href="<?php echo $base_path; ?>index.php">
         <img src="<?php echo $base_path; ?>img/Logo2.jpg" class="sin-borde imgResponsive" alt="logo" title="Logo" width="250">
@@ -112,6 +133,7 @@ function setActiveClass($page) {
                 <li><a href="<?php echo $base_path; ?>Registro/registro.php" class="custom-dropdown-item"><span class="icon pencil-icon"></span> Registro</a></li>
                 <li><a href="<?php echo $base_path; ?>Contacto/contacto.php" class="custom-dropdown-item"><span class="icon mail-icon"></span> Contacto</a></li>
                 <li><a href="<?php echo $base_path; ?>Conocenos/Conocenos.php" class="custom-dropdown-item"><span class="icon community-icon"></span> Conócenos</a></li>
+                <li><a href="<?php echo $base_path; ?>Ordenes/Ordenes.php" class="custom-dropdown-item"><span class="icon orders-icon"></span> Órdenes de Donaciones</a></li>
                 <li><hr class="custom-dropdown-divider"></li>
                 <li><a href="#" class="custom-dropdown-item"><span class="icon logout-icon"></span> Cerrar sesión</a></li>
             </ul>
@@ -145,6 +167,7 @@ function setActiveClass($page) {
     .custom-dropdown {
         position: relative;
         margin-left: 20px;
+        
     }
 
     .custom-dropdown-toggle {
@@ -168,18 +191,18 @@ function setActiveClass($page) {
     }
 
     .custom-dropdown-menu {
-        display: none;
-        position: absolute;
-        top: 100%;
-        left: 0;
-        background: #fff;
-        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-        padding: 10px;
-        border-radius: 5px;
-        z-index: 1000;
-        list-style: none;
-        min-width: 200px;
-    }
+    display: none;
+    position: absolute; 
+    top: 100%; 
+    left: 0;
+    background: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    border-radius: 5px;
+    z-index: 1000;
+    list-style: none;
+    min-width: 200px;
+}
 
     .custom-dropdown-menu.show {
         display: block;
@@ -243,6 +266,19 @@ function setActiveClass($page) {
         mask-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16v16H4z"></path><path d="M22 4L12 14 2 4"></path></svg>');
         -webkit-mask-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16v16H4z"></path><path d="M22 4L12 14 2 4"></path></svg>');
     }
+
+    .orders-icon {
+    mask-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 16V8a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2z"/><path d="M3 8l9 6 9-6"/><path d="M12 13l-3-3m6 0l-3 3"/></svg>');
+    -webkit-mask-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 16V8a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2z"/><path d="M3 8l9 6 9-6"/><path d="M12 13l-3-3m6 0l-3 3"/></svg>');
+    mask-size: cover;
+    -webkit-mask-size: cover;
+    background-color: black;
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+}
+
+
 </style>
 
 <!-- JavaScript para controlar el menú desplegable -->
@@ -262,4 +298,16 @@ function setActiveClass($page) {
             }
         });
     });
+</script>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+    const burgerMenu = document.getElementById('burger-menu');
+    const navbar = document.getElementById('navbar');
+
+    burgerMenu.addEventListener('click', function () {
+        navbar.classList.toggle('show');
+    });
+});
+
 </script>

@@ -6,6 +6,26 @@ document.querySelector('#buscar').addEventListener('click', function () {
     buscarProductos(filtro);
 });
 
+document.querySelector('#categoria').addEventListener('change', function () {
+    const categoriaSeleccionada = this.value;
+    aplicarFiltros();
+});
+
+document.querySelector('#duracion').addEventListener('change', function () {
+    const duracionSeleccionada = this.value;
+    aplicarFiltros();
+});
+
+document.querySelector('#costo').addEventListener('change', function () {
+    const costoSeleccionado = this.value;
+    aplicarFiltros();
+});
+
+document.querySelector('#orden').addEventListener('change', function () {
+    const ordenSeleccionado = this.value;
+    aplicarFiltros();
+});
+
 traerDatos();
 
 function traerDatos() {
@@ -51,12 +71,25 @@ function mostrarProductos(productos) {
 }
 
 function mostrarModal(producto) {
-    const { nombre, descripcion, imagen } = producto;
+    const { nombre, descripcion, imagen, mision, vision, objetivos } = producto;
 
     // Asignar el contenido del modal
     document.getElementById('modalNombre').innerText = nombre;
     document.getElementById('modalDescripcion').innerText = descripcion;
     document.getElementById('modalImagen').src = imagen;
+    
+    // Aquí debes asignar texto, no src
+    document.getElementById('modalMision').innerText = mision;
+    document.getElementById('modalVision').innerText = vision;
+
+    // Mostrar los objetivos en una lista
+    const objetivosList = document.getElementById('modalObjetivos');
+    objetivosList.innerHTML = ''; // Limpiar la lista de objetivos anterior
+    objetivos.forEach(objetivo => {
+        const li = document.createElement('li');
+        li.innerText = objetivo;
+        objetivosList.appendChild(li);
+    });
 
     // Mostrar el modal y el fondo desenfocado
     document.getElementById('myModal').style.display = 'block';
@@ -66,13 +99,6 @@ function mostrarModal(producto) {
     document.body.style.overflow = 'hidden';
 }
 
-document.querySelector('.close').addEventListener('click', () => {
-    document.getElementById('myModal').style.display = 'none';
-    document.getElementById('backgroundBlur').classList.remove('active');
-
-    // Reactivar scroll en el body
-    document.body.style.overflow = 'auto';
-});
 
 window.addEventListener('click', (event) => {
     const modal = document.getElementById('myModal');
@@ -93,18 +119,46 @@ function buscarProductos(filtro) {
     mostrarProductos(productosFiltrados);
 }
 
-function filtrarPorCategoria(categoria) {
-    const productosFiltrados = datos.filter(producto =>
-        producto[categoria] === "si"
-    );
+function aplicarFiltros() {
+    const categoria = document.getElementById('categoria').value;
+    const duracion = document.getElementById('duracion').value;
+    const costo = document.getElementById('costo').value;
+    const orden = document.getElementById('orden').value;
+
+    let productosFiltrados = datos;
+
+    // Filtro por categoría
+    if (categoria !== 'ninguno') {
+        productosFiltrados = productosFiltrados.filter(producto => producto.categoria === categoria);
+    }
+
+    // Filtro por duración
+    if (duracion !== 'ninguno') {
+        productosFiltrados = productosFiltrados.filter(producto => producto.duracion === duracion);
+    }
+
+    // Filtro por costo
+    if (costo !== 'ninguno') {
+        productosFiltrados = productosFiltrados.filter(producto => producto.costo === costo);
+    }
+
+    // Ordenar los productos
+    if (orden !== 'ninguno') {
+        switch (orden) {
+            case 'ranking':
+                productosFiltrados.sort((a, b) => a.ranking - b.ranking); // Ajusta el campo de ranking si es necesario
+                break;
+            case 'ubicacion':
+                productosFiltrados.sort((a, b) => a.ubicacion.localeCompare(b.ubicacion)); // Asegúrate de que el campo 'ubicacion' esté definido
+                break;
+            case 'costo':
+                productosFiltrados.sort((a, b) => a.costo - b.costo); // Suponiendo que el costo esté definido numéricamente
+                break;
+            case 'duracion':
+                productosFiltrados.sort((a, b) => a.duracion - b.duracion); // Si 'duracion' es numérico
+                break;
+        }
+    }
+
     mostrarProductos(productosFiltrados);
 }
-
-document.getElementById('filtrar').addEventListener('change', function () {
-    const categoriaSeleccionada = this.value;
-    if (categoriaSeleccionada !== 'ninguno') {
-        filtrarPorCategoria(categoriaSeleccionada);
-    } else {
-        mostrarProductos(datos);
-    }
-});

@@ -15,11 +15,13 @@ if (strpos($_SERVER['REQUEST_URI'], 'Favoritos') !== false) {
             <div class="productos">
                 <div class="filters-container">
                     <select id="filtrar">
-                        <option value="ninguno">Filtrar por categoría</option>
-                        <option value="soc">Ciencias Sociales</option>
-                        <option value="bio">Ciencias Biológicas</option>
-                        <option value="fm">Ciencias Físico-Matemáticas</option>
-                        <option value="hum">Arte y Humanidades</option>
+                        <option value="">Seleccione una opción</option>
+                        <option value="ropa">Ropa</option>
+                        <option value="muebles">Muebles</option>
+                        <option value="electronicos">Electrónicos</option>
+                        <option value="juguetes">Juguetes</option>
+                        <option value="libros">Libros</option>
+                        <option value="otros">Otros (especificar)</option>
                     </select>
                     <input type="text" id="filtro" placeholder="Buscar por nombre">
                     <button id="buscar">Buscar</button>

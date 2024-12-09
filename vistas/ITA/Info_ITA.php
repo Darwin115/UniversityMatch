@@ -66,18 +66,6 @@
     </div>
   </section>
 
-  <section id="inMapa">
-    <h2>Mapa del Instituto Tecnológico de Aguascalientes</h2>
-    <section id="inMapaImg">
-        <div class="infoMapa">
-            <img src="../../img/uniPics/ITA/PLANO.jpeg" alt="">
-        </div>
-        <div class="infoMapa">
-            <img src="../../img/uniPics/ITA/INFORMACION.jpeg" alt="">
-        </div>
-    </section>
-  </section>
-
   <section id="prodetailsMascota">
     <div class="info">
         <h2>Mascota del Instituto Tecnológico de Aguascalientes</h2>
@@ -93,56 +81,6 @@
   <!--<Pie de la página.-->
   <?php include '../../Footer.php'; ?>
   <!--Fin pie de la página.-->
-
-  <!--<Accesibilidad-->
-  <div class="accessibility" title="Accesibilidad" id="accessibility" onclick="abrirAcce()">
-    <img src="../../img/utileria/accessibility.png" alt="">
-
-  </div>
-  <div class="BoxAccesibility" id="BoxAccesibility">
-    <p>Lector de texto</p>
-    <div class="centrado">
-      <button class="buttonLec" onclick="reiniciarLectura()"><i class="fas fa-play"></i> </button>
-      <button class="buttonLec" onclick="toggleSpeech()"><i class="fas fa-stop"></i> </button>
-    </div>
-  </div>
-    
-  <script>
-  var speechSynthesisInstance;
-  var textoUniversidad = "Este es el catálogo de universidades, aquí podrás encontrar todas las universidades que ofrecen la carrera ideal para tí. Para ello, puedes utilizar el filtrado por categoría para revisar solo las universidades de tu interés o bien, si ya tienes claro a qué institución vas a entrar y deseas conocer más sobre ella, puedes utilizar el buscador";
-  function iniciarLectura() {
-    if ('speechSynthesis' in window) {
-      speechSynthesisInstance = new SpeechSynthesisUtterance(textoUniversidad);
-      window.speechSynthesis.speak(speechSynthesisInstance);
-    } else {
-      console.log('Tu navegador no soporta la síntesis de voz.');
-    }
-  }
-  function pausarLectura() {
-    if (speechSynthesisInstance) {
-      window.speechSynthesis.pause();
-    }
-  }
-  function continuarLectura() {
-    if (speechSynthesisInstance) {
-      window.speechSynthesis.resume();
-    }
-  }
-  function reiniciarLectura() {
-    if (speechSynthesisInstance) {
-      window.speechSynthesis.cancel();
-      iniciarLectura();
-    }
-  }
-  function toggleSpeech() {
-    if (speechSynthesisInstance && window.speechSynthesis.speaking) {
-      pausarLectura();
-    } else {
-      continuarLectura();
-    }
-  }
-  </script>
-  <!--<Fin accesibilidad-->
 
 <script>
   var MainImg = document.getElementById("ImgPrinc");

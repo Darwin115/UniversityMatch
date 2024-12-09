@@ -10,7 +10,10 @@
         "soc": "si",
         "bio": "no",
         "fm": "si",
-        "hum": "no"
+        "hum": "no",
+        "nivel": "publica",
+        "modalidad": "presencial",
+        "ranking": 25
     },
     {
         "nombre": "Universidad Panamericana",
@@ -18,12 +21,15 @@
         "foto": "../img/uniLogos/UP.jpg",
         "direccion": "Av. Jose María Escriva de Balaguer 101, Rústicos Calpulli, 20290, Aguascalientes, México",
         "telefono": "449 910 6200",
-        "url": "../vistas/Vista_UP.php",
-        "vista": "../vistas/Vista_UP.php",
+        "url": "../vistas/UP/Vista_UP.php",
+        "vista": "../vistas/UP/Vista_UP.php",
         "soc": "si",
         "bio": "si",
         "fm": "no",
-        "hum": "no"
+        "hum": "no",
+        "nivel": "privada",
+        "modalidad": "mixto",
+        "ranking": 10
     },
     {
         "nombre": "Universidad Interamericana para el Desarrollo",
@@ -31,12 +37,15 @@
         "foto": "../img/uniLogos/UNID.png",
         "direccion": "Av. Convención de 1914 Pte. 1204, Panorama, 20040 Aguascalientes, Ags",
         "telefono": "449 994 1108",
-        "url": "../vistas/Vista_UNID.php",
-        "vista": "../vistas/Vista_UNID.php",
+        "url": "../vistas/UNID/Vista_UNID.php",
+        "vista": "../vistas/UNID/Vista_UNID.php",
         "soc": "si",
         "bio": "si",
         "fm": "si",
-        "hum": "si"
+        "hum": "si",
+        "nivel": "privada",
+        "modalidad": "online",
+        "ranking": 15
     },
     {
         "nombre": "Instituto Tecnológico de Monterrey",
@@ -49,7 +58,10 @@
         "soc": "no",
         "bio": "no",
         "fm": "si",
-        "hum": "si"
+        "hum": "si",
+        "nivel": "privada",
+        "modalidad": "presencial",
+        "ranking": 5
     },
     {
         "nombre": "Universidad Valle de México",
@@ -62,7 +74,10 @@
         "soc": "no",
         "bio": "si",
         "fm": "si",
-        "hum": "si"
+        "hum": "si",
+        "nivel": "privada",
+        "modalidad": "mixto",
+        "ranking": 8
     },
     {
         "nombre": "Universidad del Desarrollo Profesional",
@@ -75,7 +90,10 @@
         "soc": "si",
         "bio": "si",
         "fm": "si",
-        "hum": "si"
+        "hum": "si",
+        "nivel": "privada",
+        "modalidad": "online",
+        "ranking": 18
     },
     {
         "nombre": "Universidad Autónoma de Durango",
@@ -88,7 +106,10 @@
         "soc": "si",
         "bio": "si",
         "fm": "no",
-        "hum": "si"
+        "hum": "si",
+        "nivel": "privada",
+        "modalidad": "mixto",
+        "ranking": 20
     },
     {
         "nombre": "Universidad de Estudios Avanzados",
@@ -101,7 +122,10 @@
         "soc": "si",
         "bio": "si",
         "fm": "no",
-        "hum": "si"
+        "hum": "si",
+        "nivel": "privada",
+        "modalidad": "presencial",
+        "ranking": 12
     },
     {
         "nombre": "Universidad Cuauhtémoc",
@@ -114,7 +138,10 @@
         "soc": "si",
         "bio": "si",
         "fm": "si",
-        "hum": "si"
+        "hum": "si",
+        "nivel": "privada",
+        "modalidad": "online",
+        "ranking": 22
     },
     {
         "nombre": "Universidad Pontificia de México",
@@ -127,22 +154,27 @@
         "soc": "si",
         "bio": "no",
         "fm": "no",
-        "hum": "si"
+        "hum": "si",
+        "nivel": "privada",
+        "modalidad": "presencial",
+        "ranking": 9
     },
     {
         "nombre": "Universidad La Concordia",
         "acronimo": "ULC",
         "foto": "../img/uniLogos/ULC.jpg",
-        "direccion": "Av. Tecnológico # 109, Ejido Ojocaliente,  Aguascalientes, Aguascalientes; C.P. 20190",
+        "direccion": "Av. Tecnológico # 109, Ejido Ojocaliente, Aguascalientes, Aguascalientes; C.P. 20190",
         "telefono": "800 112 5428",
         "url": "https://www.universidadlaconcordia.edu.mx/",
         "vista": "",
         "soc": "si",
         "bio": "si",
         "fm": "si",
-        "hum": "si"
+        "hum": "si",
+        "nivel": "privada",
+        "modalidad": "mixto",
+        "ranking": 16
     },
-
     {
         "nombre": "Universidad Villasunción",
         "acronimo": "UVAS",
@@ -154,7 +186,10 @@
         "soc": "si",
         "bio": "si",
         "fm": "si",
-        "hum": "si"
+        "hum": "si",
+        "nivel": "privada",
+        "modalidad": "online",
+        "ranking": 17
     },
     {
         "nombre": "Escuela Bancaria y Comercial",
@@ -167,7 +202,10 @@
         "soc": "si",
         "bio": "no",
         "fm": "no",
-        "hum": "no"
+        "hum": "no",
+        "nivel": "privada",
+        "modalidad": "presencial",
+        "ranking": 30
     },
     {
         "nombre": "Colegio Nacional de Educación Profesional",
@@ -180,7 +218,10 @@
         "soc": "si",
         "bio": "si",
         "fm": "si",
-        "hum": "no"
+        "hum": "no",
+        "nivel": "publica",
+        "modalidad": "online",
+        "ranking": 50
     },
     {
         "nombre": "Universidad Autónoma de Aguascalientes",
@@ -193,7 +234,26 @@
         "soc": "si",
         "bio": "si",
         "fm": "si",
-        "hum": "si"
+        "hum": "si",
+        "nivel": "publica",
+        "modalidad": "presencial",
+        "ranking": 3
+    },
+    {
+        "nombre": "Universidad Tecnológica de Aguascalientes",
+        "acronimo": "UTA",
+        "foto": "../img/uniLogos/UTA.jpg",
+        "direccion": "Av. Aguascalientes Norte 3400, Fracc. Valle Sur, Aguascalientes",
+        "telefono": "449 910 3000",
+        "url": "https://www.uta.edu.mx/",
+        "vista": "",
+        "soc": "no",
+        "bio": "no",
+        "fm": "no",
+        "hum": "no",
+        "nivel": "publica",
+        "modalidad": "mixto",
+        "ranking": 6
     },
     {
         "nombre": "Universidad Pedagógica Nacional",
@@ -206,7 +266,10 @@
         "soc": "si",
         "bio": "no",
         "fm": "no",
-        "hum": "si"
+        "hum": "si",
+        "nivel": "publica",
+        "modalidad": "mixto",
+        "ranking": 6
     },
     {
         "nombre": "Universidad Politécnica de Aguascalientes",
@@ -219,7 +282,10 @@
         "soc": "si",
         "bio": "no",
         "fm": "si",
-        "hum": "no"
+        "hum": "no",
+        "nivel": "publica",
+        "modalidad": "mixto",
+        "ranking": 6
     },
     {
         "nombre": "Centro de Investigación y Docencia Económicas",
@@ -232,7 +298,10 @@
         "soc": "si",
         "bio": "no",
         "fm": "no",
-        "hum": "no"
+        "hum": "no",
+        "nivel": "privada",
+        "modalidad": "presencial",
+        "ranking": 6
     },
     {
         "nombre": "Centro de Investigación en Matemáticas",
@@ -245,20 +314,10 @@
         "soc": "no",
         "bio": "no",
         "fm": "si",
-        "hum": "no"
-    },
-    {
-        "nombre": "Universidad Tecnológica de Aguascalientes",
-        "acronimo": "UTAGS",
-        "foto": "../img/uniLogos/UTA.jpg",
-        "direccion": "Blvd. Juan Pablo II No. 1302 Ex hacienda la Cantera, 20200 Aguascalientes, Ags.",
-        "telefono": "449 910 5000",
-        "url": "http://www.utags.edu.mx/",
-        "vista": "",
-        "soc": "si",
-        "bio": "si",
-        "fm": "si",
-        "hum": "no"
+        "hum": "no",
+        "nivel": "publica",
+        "modalidad": "presencial",
+        "ranking": 6
     },
     {
         "nombre": "Universidad de las Artes",
@@ -271,7 +330,10 @@
         "soc": "si",
         "bio": "si",
         "fm": "si",
-        "hum": "no"
+        "hum": "no",
+        "nivel": "publica",
+        "modalidad": "mixto",
+        "ranking": 6
     },
     {
         "nombre": "Universidad Nissan",
@@ -284,6 +346,10 @@
         "soc": "si",
         "bio": "si",
         "fm": "si",
-        "hum": "no"
+        "hum": "no",
+        "nivel": "privada",
+        "modalidad": "presencial",
+        "ranking": 6
     }
 ]
+
