@@ -88,7 +88,9 @@ if (strpos($_SERVER['REQUEST_URI'], 'Formularios') !== false) {
     $base_path = '../';
 } if (strpos($_SERVER['REQUEST_URI'], 'ISIMA1') !== false) {
     $base_path = '../';
-} 
+}  elseif (strpos($_SERVER['REQUEST_URI'], 'Ordenes') !== false) {
+    $base_path = '../';
+}
 
 // Función para activar clases en el menú
 function setActiveClass($page) {
@@ -132,6 +134,7 @@ function setActiveClass($page) {
                 <li><a href="<?php echo $base_path; ?>Registro/registro.php" class="custom-dropdown-item"><span class="icon pencil-icon"></span> Registro</a></li>
                 <li><a href="<?php echo $base_path; ?>Contacto/contacto.php" class="custom-dropdown-item"><span class="icon mail-icon"></span> Contacto</a></li>
                 <li><a href="<?php echo $base_path; ?>Conocenos/Conocenos.php" class="custom-dropdown-item"><span class="icon community-icon"></span> Conócenos</a></li>
+                <li><a href="<?php echo $base_path; ?>Ordenes/Ordenes.php" class="custom-dropdown-item"><span class="icon orders-icon"></span> Órdenes de Donaciones</a></li>
                 <li><hr class="custom-dropdown-divider"></li>
                 <li><a href="#" class="custom-dropdown-item"><span class="icon logout-icon"></span> Cerrar sesión</a></li>
             </ul>
@@ -263,6 +266,19 @@ function setActiveClass($page) {
         mask-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16v16H4z"></path><path d="M22 4L12 14 2 4"></path></svg>');
         -webkit-mask-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16v16H4z"></path><path d="M22 4L12 14 2 4"></path></svg>');
     }
+
+    .orders-icon {
+    mask-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 16V8a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2z"/><path d="M3 8l9 6 9-6"/><path d="M12 13l-3-3m6 0l-3 3"/></svg>');
+    -webkit-mask-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 16V8a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2z"/><path d="M3 8l9 6 9-6"/><path d="M12 13l-3-3m6 0l-3 3"/></svg>');
+    mask-size: cover;
+    -webkit-mask-size: cover;
+    background-color: black;
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+}
+
+
 </style>
 
 <!-- JavaScript para controlar el menú desplegable -->
