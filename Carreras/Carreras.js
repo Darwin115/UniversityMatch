@@ -159,6 +159,5 @@ function aplicarFiltros() {
                 break;
         }
     }
-
     mostrarProductos(productosFiltrados);
 }
